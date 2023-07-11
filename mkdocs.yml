@@ -3,5 +3,5 @@ site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home: index.md
     - About: about.md
-    - New: new.md
+    - To do: todo.md
 theme: readthedocs
