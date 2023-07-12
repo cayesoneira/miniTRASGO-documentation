@@ -14,8 +14,6 @@
         <link rel="prev" href="../about/">
       
       
-        <link rel="next" href="../stuff/">
-      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
@@ -199,6 +197,36 @@
   
   
     <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        Hardware and design
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        Software
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         About
       </a>
@@ -227,21 +255,6 @@
         To do
       </a>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../stuff/" class="md-nav__link">
-        More stuff
-      </a>
     </li>
   
 
@@ -281,19 +294,26 @@
 
 <h1 id="to-do-list">To do list:</h1>
 <ul>
-<li>Find the plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.</li>
+<li>Find the voltage plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.</li>
 <li>See how temperature, humidity, pressure affect the detector.</li>
 <li>Study the gas flow: if it is equal, if it decreases with time, which is the optimal value of flux (to save gas if possible).</li>
 <li>Document all data and software.</li>
 <li>See if an autocalibration software exists; else, write it. It should use three layers to calibrate the fourth for every layer.</li>
 <li>Write a visual interface for controlling the voltage, seeing the temperature, etc.</li>
-<li>Investigate why some strips appear larger.</li>
-<li>See if it is interesting that some strips are wider than others.</li>
-<li>Avoid if possible the relé for the future</li>
+<li>See if it is interesting that some strips are wider than others in terms of resolution.</li>
+<li>See if it is interesting that the strips are crossed every layer, and even if it is interesting that they are of different shapes (just like the Coimbra RPC).</li>
+<li>Avoid if possible the relé for the future.</li>
 <li>Check the Alberto's power supply. If it works we will not need to change dramatically the architexture for future mingos.</li>
-<li>Calibrate mingo</li>
-<li>See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, <em>sometimes the detector has a general offset</em>. We still do not know where it comes from.</li>
+<li>Calibrate mingo offset on time difference to obtain a realistic position of the event.</li>
 <li>Try to guess some physics we could learn from mingo.</li>
+<li>Recalculate the velocity of propagation of the signal on the strip</li>
+<li></li>
+</ul>
+<h1 id="to-understand">To understand:</h1>
+<ul>
+<li>The wide strip does get more counts in the first layer (upper one): is this ok? why? <em>Could it be that because of being at the edge the fact of being wider does not five advantage?</em></li>
+<li>Investigate why some strips appear larger.</li>
+<li>See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, <em>sometimes the detector has a general offset</em>. We still do not know where it comes from.</li>
 <li></li>
 </ul>
 

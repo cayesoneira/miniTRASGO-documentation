@@ -11,7 +11,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/stuff/</loc>
+         <loc>https://cayesoneira.github.io/miniTRASGO/control/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/hardware/</loc>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/software/</loc>
          <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
