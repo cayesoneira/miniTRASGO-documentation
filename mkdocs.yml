@@ -5,4 +5,5 @@ nav:
     - About: about.md
     - To do: todo.md
     - More stuff: stuff.md
-theme: readthedocs
+theme:
+  name: material
