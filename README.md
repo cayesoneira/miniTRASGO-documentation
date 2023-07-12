@@ -9,9 +9,6 @@ It is enough to clone the repository and build the page locally with 'mkdocs': t
     
     git clone https://github.com/cayesoneira/miniTRASGO.git
     cd miniTRASGO/
-    echo "Username: cayesoneira"
-    echo "Password: ghp_AzAM7F6V7BoLXjy6EStNLUHK7CHHf71tjYL"
-    echo "Password (fine grained token): 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"
     mkdocs gh-deploy
     cd ..
     rm -rf miniTRASGO
