@@ -1,2 +1,12 @@
 # To do list:
-- This stuff was just aded at 10:20.
+- Find the plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.
+- See how temperature, humidity, pressure affect the detector.
+- Study the gas flow: if it is equal, if it decreases with time, which is the optimal value of flux (to save gas if possible).
+- Document all data and software.
+- See if an autocalibration software exists; else, write it. It should use three layers to calibrate the fourth for every layer.
+- Write a visual interface for controlling the voltage, seeing the temperature, etc.
+- Investigate why some strips appear larger.
+- See if it is interesting that some strips are wider than others.
+- Avoid if possible the relé for the future
+- Check the Alberto's power supply. If it works we will not need to change dramatically the architexture for future mingos.
+- 
