@@ -23,6 +23,7 @@
 - The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for
 - Calculate the geometrical acceptance to check the differences in number in counts between layers.
 - We can use planes 2 and 3 to estimate the voltage plateau because it is the best efficiency estimation.
+- Modify to not use password to access the mingo PC.
 - 
 
 # To understand:
