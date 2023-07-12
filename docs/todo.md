@@ -12,10 +12,32 @@
 - Calibrate mingo offset on time difference to obtain a realistic position of the event.
 - Try to guess some physics we could learn from mingo.
 - Recalculate the velocity of propagation of the signal on the strip
+- Calculate the real active area, which is the area of the paint, to see what is the nominal large of the strips.
+- Asignar nombres a las capas y ver dónde están los canales.
+- Sometimes there are streamers: descargas bastante grandes que no llegan a ser chispas pero que se ven en los diagramas de carga sobre la superficie. Appear as a second peak in the charge spectrum histogram.
+- En última instancia la forma de conocer a qué canal se corresponde cada strip es desconectar uno de los canales y ver después cuál deja de aparecer en el pdf.
+- Create a code to reject in the efficiecy calculations those muons that do not pass through the forth layer (the first or the forth) because it passes throught the other three and we know that given that angle it goes outside of the detector.
+- Change the pdf generation to include absolutely all the plots, specially the control plots. **We can use the excel from which the pdf is generated: there we can indicate what new plots we want (the variables must exist, of course)**.
+- Update the code to measure once in a while automatically (*self-trigger*) to adquire all the events that the detector is measuring, not only muon coincidences, to characterize noise and health of the detector, etc. The thing is that a lot of events are occuring in the detector: streams coming from the electric system itself, gammas, electrons, etc.
+- Correct the efficiency to be able to remeasure the voltage plateau.
+- The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for
+- Calculate the geometrical acceptance to check the differences in number in counts between layers.
+- We can use planes 2 and 3 to estimate the voltage plateau because it is the best efficiency estimation.
 - 
 
 # To understand:
-- The wide strip does get more counts in the first layer (upper one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
-- Investigate why some strips appear larger.
+- The wide strip does not get more counts in the first layer (lower one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
+- Investigate why some strips appear larger than they are once applying the propagation velocity to get from time to distance. Maybe because the propagation velocity is different in some strips? Check for the plateau voltage and repeat the test.
 - See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, *sometimes the detector has a general offset*. We still do not know where it comes from.
+- We suspect that layer 2 (second lower) has changed the name of the channel for some strips (maybe 1 and 2) because there is a strip with 1.3 times the counts of the rest of the strips. The wide strip is 1.5 wider than the narrow ones. **The same happens to the third layer**.
+- La eficiencia
+- El plano 1 (pág. 3 del pdf), en el mapa de eficiencia, no permite ver strips, sino que se ve una *patata caliente*: hay muchos puntos eficientes fuera del área del detector, que debería ser cuadrada. Esto no se puede explicar, en principio, mediante una coincidencia casual de un muón que no tiene nada que ver con el muón que pasa por los otros tres strips y llega al de abajo.
+- In general the thinner strips have not all the same counts, when they should. Only the thicker strip should have more counts (a 50\% more).
+- One of the strips of the layer 1 has far less counts than what it should. Probably an electronic issue.
 - 
+
+## Layer by layer (complete with the upper):
+- Layer 1 (lower): wider strip does not get more counts.
+- Layer 2 (second lower): heavyside
+- Layer 3 (second upper): we should have 100\% efficiency 
+- Layer 4 (uppermost): 
