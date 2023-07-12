@@ -2,8 +2,9 @@ site_name: miniTRASGO
 site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home: index.md
+    - Hardware and design: hardware.md
+    - Software: software.md
     - About: about.md
     - To do: todo.md
-    - More stuff: stuff.md
 theme:
   name: material
