@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/</loc>
-         <lastmod>2023-07-11</lastmod>
+         <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/about/</loc>
-         <lastmod>2023-07-11</lastmod>
+         <lastmod>2023-07-12</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/stuff/</loc>
+         <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/todo/</loc>
-         <lastmod>2023-07-11</lastmod>
+         <lastmod>2023-07-12</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
