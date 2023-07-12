@@ -9,4 +9,7 @@
 - See if it is interesting that some strips are wider than others.
 - Avoid if possible the relé for the future
 - Check the Alberto's power supply. If it works we will not need to change dramatically the architexture for future mingos.
+- Calibrate mingo
+- See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, *sometimes the detector has a general offset*. We still do not know where it comes from.
+- Try to guess some physics we could learn from mingo.
 - 
