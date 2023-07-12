@@ -1,1 +1,1 @@
-Heey x2
+'CTRL + C' to stop the DAQ process.
