@@ -12,4 +12,4 @@
 - Calibrate mingo
 - See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, *sometimes the detector has a general offset*. We still do not know where it comes from.
 - Try to guess some physics we could learn from mingo.
-- 
+- See why some strips appear larger.
