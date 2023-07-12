@@ -4,6 +4,7 @@ nav:
     - Home: index.md
     - Hardware and design: hardware.md
     - Software: software.md
+    - Control: control.md
     - About: about.md
     - To do: todo.md
 theme:
