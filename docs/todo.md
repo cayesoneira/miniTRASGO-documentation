@@ -32,11 +32,10 @@
 - Investigate why some strips appear larger than they are once applying the propagation velocity to get from time to distance. Maybe because the propagation velocity is different in some strips? Check for the plateau voltage and repeat the test.
 - See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, *sometimes the detector has a general offset*. We still do not know where it comes from.
 - We suspect that layer 2 (second lower) has changed the name of the channel for some strips (maybe 1 and 2) because there is a strip with 1.3 times the counts of the rest of the strips. The wide strip is 1.5 wider than the narrow ones. **The same happens to the third layer**.
-- La eficiencia
-- El plano 1 (pág. 3 del pdf), en el mapa de eficiencia, no permite ver strips, sino que se ve una *patata caliente*: hay muchos puntos eficientes fuera del área del detector, que debería ser cuadrada. Esto no se puede explicar, en principio, mediante una coincidencia casual de un muón que no tiene nada que ver con el muón que pasa por los otros tres strips y llega al de abajo.
+- El plano 1 (pág. 3 del pdf), en el mapa de eficiencia, no permite ver strips, sino que se ve una *patata caliente*: hay muchos puntos eficientes fuera del área del detector, que debería ser cuadrada. Esto **no** se puede explicar, en principio, mediante una coincidencia casual de un muón que no tiene nada que ver con el muón que pasa por los otros tres strips y llega al de abajo. Same with the 4th layer.
 - In general the thinner strips have not all the same counts, when they should. Only the thicker strip should have more counts (a 50\% more).
 - One of the strips of the layer 1 has far less counts than what it should. Probably an electronic issue.
-- 
+- **See if the gaps in the correlation diagram in charge and time are due to the strip or to the electronics**.
 
 ## Layer by layer (complete with the upper):
 - Layer 1 (lower): wider strip does not get more counts.
