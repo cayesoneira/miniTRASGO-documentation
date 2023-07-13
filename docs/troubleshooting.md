@@ -6,3 +6,8 @@ Alberto noticed it had to be with the calibration values of the TDC, solving not
 
 ## The correlation pattern has a cloud of negative values
 This was caused because the **TRB/TDC???? (I do not know what is more precise)** was calculating the times properly but, for some reason, was confusing the leading with trailing edge of the digital signal. The error was corrected just by changing a posteriori one value with the other. We changed the TRB in July 13th, 2023 to make sure the problem was with this component, and in fact it was. We kept the new TRB for simplicity and we are trying to contact the manufacturer company to discuss the issue.
+
+## The correlation pattern has a lot of values over the axes
+This could be explained in several ways:
+- In many cases only one of both sides (front or back) of the strip is measuring. We should test the electronics with the polimeter to checck if it is working.
+- The channels are mixed up between the front and back of different strips, which breaks the correlation pattern. Just reconnect the coaxial cables (**see the technical name of that cable**) that go from the strip to the daughterboard (DB) in the correct channels.
