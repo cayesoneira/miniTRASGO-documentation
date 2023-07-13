@@ -57,6 +57,7 @@ In `tmux attach -t 0`:
 ## The content of the computer:
 /
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
+- 
 - /media
     - /externalDisk
         - /hlds: here the trigger data files are stored.
