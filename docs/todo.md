@@ -30,6 +30,7 @@
 - My way (Caye) to calibrate the offset of the strip: fit a y = a + b*x line to the correlation cloud in times, then the a must be the center offset for every strip.
 - Calculate the zero of the charge is a actually difficult algorithm, but very interesting one to create.
 - Create a tmux window for the HV.
+- What is the criteria to choose one of the charge values between the front and back?
 - 
 
 > Blocked quote
@@ -45,7 +46,11 @@
 - **See if the gaps in the correlation diagram in charge and time are due to the strip or to the electronics**.
 - These gaps and the difference in slope are actually the reasons why some of the strips appear larger.
 - The voltages applied diverge with time one from the other. It does not seem like a problem, but we do not know why.
-- 
+- The layers measure different mean rates, and it is a behavior that it has been seen in other RPC detectors here at Coimbra: it was always associated with the age of the detector, since older RPCs measure generally less in self-trigger (we say that they have less noise; **we should check also if they measure only less noise or just less measures in general**), but for this detector everything was built roughly at the same time. It could be that some layers affect the others. The thing is that, being the Trigger Multiplexer 0 is the lower layer and the Trigger Multiplexer 3 the upper layer, the values are like follow:
+
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de0d5deb-82ae-4d08-94d7-6ff27f1e3ffc)
+- ... as we see the **second upper layer** has the highest ratio, which does not make much sense. **We should measure with the detector put upside down to see if this is physical or if it is a detector-related effect**.
+
 
 ## The current plan:
 - We have a problem with the correlation plots: some of the points are displaced with gaps and in a different-than-1 slope which
