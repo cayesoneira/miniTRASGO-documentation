@@ -1,4 +1,4 @@
-# To do list:
+## To do list:
 - Find the voltage plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.
 - See how temperature, humidity, pressure affect the detector.
 - Study the gas flow: if it is equal, if it decreases with time, which is the optimal value of flux (to save gas if possible).
@@ -26,7 +26,7 @@
 - Modify to not use password to access the mingo PC.
 - 
 
-# To understand:
+## To understand:
 - The wide strip does not get more counts in the first layer (lower one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
 - Investigate why some strips appear larger than they are once applying the propagation velocity to get from time to distance. Maybe because the propagation velocity is different in some strips? Check for the plateau voltage and repeat the test.
 - See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, *sometimes the detector has a general offset*. We still do not know where it comes from.
