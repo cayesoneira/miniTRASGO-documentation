@@ -11,6 +11,9 @@ nav:
     - Variables and diagrams: variables.md
 theme:
   name: material
+  features:
+    - navigation.tabs
+
   palette: 
 
     # Palette toggle for light mode
