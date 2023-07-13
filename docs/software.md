@@ -18,9 +18,33 @@ So the line to enter any session is:
   
 To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside these sessions and how to operate with it.
 
+---
+
 ## Session 0:
+- 0:Main01
+- 1:DAQControl
+- 2:DABC (why this name???)
+- 3:Thresholds
+- 4:HLDs
+- 5:Control
+- 6:Var
 
 ## Session 1:
+- 0:Main01
+- 1:Dcs
+- 2:CopyFiles
+- 3:Unpacker01
+- 4:Unpacker02
+- 5:Unpacker03
+- 6:Ana
+- 7:Report
+- 8:Control
+- 9:LogCritical
+- 10:LogNet
+- 11:LogSystem
+- 12:Var
+
+---
 
 ## Measuring 101:
 In `tmux attach -t 0`:
@@ -28,23 +52,30 @@ In `tmux attach -t 0`:
 2. In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`
 3. In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`  
 
-## The content of the computer:
-/home/rpcuser
-- /bin
-    - /HV
-        - hv: used to ramp up the High Voltage.
-    - /flowmeter
-        - GetData
-        - GetFlow
-- /gate ???
-- /hlds (empty???)
-- /linux
-- /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
-    -/done: all the full log files will be put here.
-- ./lst.sh: is a ls WTF?
-- /mnt: EMPTY
-- /perl5: ???
-- /pythonscripts: only has one .py and I do not think it is very important.
-- /trbsoft: Trigger and Readout Board software
+---
 
+## The content of the computer:
+/
+- bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
+- /media
+    - /externalDisk
+        - /hlds: here the trigger data files are stored.
+- /home: everything interesting is inside this directory but the trigger data files.
+    - /rpcuser
+        - /bin
+            - /HV
+                - hv: used to ramp up the High Voltage.
+            - /flowmeter
+                - GetData
+                - GetFlow
+        - /gate ???
+        - /hlds (empty???)
+        - /linux
+        - /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
+            -/done: all the full log files will be put here.
+        - /mnt: EMPTY
+        - /perl5: ???
+        - /pythonscripts: only has one .py and I do not think it is very important.
+        - /trbsoft: Trigger and Readout Board software
+     
 `CTRL + C` to stop the DAQ process.
