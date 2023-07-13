@@ -8,8 +8,8 @@ The TRASGO team decided to build a `tmux` multiplexer to develop a series of ope
 
     tmux ls
 It will give as output:
-- `0: 7 windows (created Tue Jul 11 15:06:22 2023) (attached)` --> utilized for measurement operations.
-- `1: 13 windows (created Tue Jul 11 15:06:22 2023) (attached)` -> utilized for data treatment.
+- `0: 7 windows (created Tue Jul 11 15:06:22 2023) (attached)` &rarr utilized for measurement operations.
+- `1: 13 windows (created Tue Jul 11 15:06:22 2023) (attached)`: utilized for data treatment.
 - `webserver: 1 windows (created Tue Jul 11 15:12:07 2023)` -> gives info on the trigger activity; not interactive.
 
 So the line to enter any session is:
