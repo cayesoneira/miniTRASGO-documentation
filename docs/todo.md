@@ -36,6 +36,8 @@
 - In general the thinner strips have not all the same counts, when they should. Only the thicker strip should have more counts (a 50\% more).
 - One of the strips of the layer 1 has far less counts than what it should. Probably an electronic issue.
 - **See if the gaps in the correlation diagram in charge and time are due to the strip or to the electronics**.
+- These gaps and the difference in slope are actually the reasons why some of the strips appear larger.
+- 
 
 ## Layer by layer (complete with the upper):
 - Layer 1 (lower): wider strip does not get more counts.
