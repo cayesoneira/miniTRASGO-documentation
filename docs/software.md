@@ -60,8 +60,8 @@ In the ??? window, `cd ~/bin/HV` and execute the executable `hv` with the follow
 
 Examples:
 
-    ./hv -b 0 -I 1 -V 5.5 -on
-
+    ./hv -b 0 -I 1 -V 5.5 -on 
+<!-- tsk -->
     ./hv -b 0 -off
 
 ### Starting the DAQ
@@ -77,7 +77,6 @@ In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRu
 ## The content of the computer
 /
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
-- 
 - /media
     - /externalDisk
         - /hlds: here the trigger data files are stored.
@@ -89,11 +88,13 @@ In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRu
             - /flowmeter
                 - GetData
                 - GetFlow
-        - /gate ???
+        - /gate
+            - /system
+                - /devices: includes all the data coming from every component of the mingo system.
         - /hlds (empty???)
         - /linux
         - /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
-            -/done: all the full log files will be put here.
+            -/done: all the full log files will be put here. **Is this info then stores in the /gate/system/devices???**.
         - /mnt: EMPTY
         - /perl5: ???
         - /pythonscripts: only has one .py and I do not think it is very important.
