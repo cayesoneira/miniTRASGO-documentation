@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#operating-the-minitrasgo" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -216,9 +221,66 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Software
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#operating-the-minitrasgo" class="md-nav__link">
+    Operating the miniTRASGO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-0" class="md-nav__link">
+    Session 0:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-1" class="md-nav__link">
+    Session 1:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-101" class="md-nav__link">
+    Measuring 101:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-content-of-the-computer" class="md-nav__link">
+    The content of the computer:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -287,6 +349,49 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#operating-the-minitrasgo" class="md-nav__link">
+    Operating the miniTRASGO:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-0" class="md-nav__link">
+    Session 0:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-1" class="md-nav__link">
+    Session 1:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-101" class="md-nav__link">
+    Measuring 101:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-content-of-the-computer" class="md-nav__link">
+    The content of the computer:
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -302,7 +407,44 @@
 
   <h1>Software</h1>
 
-<p>'CTRL + C' to stop the DAQ process.</p>
+<h2 id="operating-the-minitrasgo">Operating the miniTRASGO:</h2>
+<p>Connecting to the miniTRASGO PC is mandatory to execute some key operations such as starting the voltage, the DAQ (Data Adquisition System), etc. To do so, while in the same network, a ssh connection can be establisehd from the terminal:</p>
+<pre><code>ssh -X rpcuser@192.168.3.216
+</code></pre>
+<p>It will ask for a password, which is currently private (ask us) because it is the same for many devices at LIP Coimbra. Once we write it we will be inside the miniTRASGO computer. To leave the ssh connection just write <code>exit</code>.</p>
+<p>The TRASGO team decided to build a <code>tmux</code> multiplexer to develop a series of operations in a multiple, permanently open shell. Everything could be done through the main terminal session, but one at a time, and our computer has to be connected. This way we separate visually diffetent executions, as well as we can execute in the background the measuring operations. Any activity on the multiplexer will be shown in real time to every user conncected to a <code>tmux</code> session. We can access it through the terminal inside the miniTRASGO computer. First we see the <code>tmux</code> sessions avaliable:</p>
+<pre><code>tmux ls
+</code></pre>
+<p>It will give as output:
+- <code>0: 7 windows (created Tue Jul 11 15:06:22 2023) (attached)</code>: utilized for measurement operations.
+- <code>1: 13 windows (created Tue Jul 11 15:06:22 2023) (attached)</code>: utilized for data treatment.
+- <code>webserver: 1 windows (created Tue Jul 11 15:12:07 2023)</code>: gives info on the trigger activity; not interactive.</p>
+<p>So the line to enter any session is:</p>
+<pre><code>tmux attach -t &lt;session name: 0, 1 or webserver&gt;
+</code></pre>
+<p>To leave the <code>tmux</code> session just press <code>CTRL + B, D</code>. Let's see what is inside these sessions and how to operate with it.</p>
+<h2 id="session-0">Session 0:</h2>
+<h2 id="session-1">Session 1:</h2>
+<h2 id="measuring-101">Measuring 101:</h2>
+<h2 id="the-content-of-the-computer">The content of the computer:</h2>
+<p>/home/rpcuser
+    - /bin
+        - /HV
+            - hv: used to ramp up the High Voltage.
+        - /flowmeter
+            - GetData
+            - GetFlow
+    - /gate ???
+    - /hlds (empty???)
+    - /linux
+    - /logs: includes all the info taken by the high voltage and <em>climate</em> sensors. <strong>What is that rates_ file??</strong>. All the current data is here.
+        -/done: all the full log files will be put here.
+    - ./lst.sh: is a ls WTF?
+    - /mnt: EMPTY
+    - /perl5: ???
+    - /pythonscripts: only has one .py and I do not think it is very important.
+    - /trbsoft: Trigger and Readout Board software</p>
+<p><code>CTRL + C</code> to stop the DAQ process.</p>
 
 
 
