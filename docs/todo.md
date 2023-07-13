@@ -51,6 +51,14 @@
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de0d5deb-82ae-4d08-94d7-6ff27f1e3ffc)
 - ... as we see the **second upper layer** has the highest ratio, which does not make much sense. **We should measure with the detector put upside down to see if this is physical or if it is a detector-related effect**.
 
+## Questions that Alberto probably can answer
+- What is the criteria to choose of the two charges to make the charge diagram?
+- How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram.
+- Can we obtain physical information of the charge diagram?
+- If there are several charges in the same layer, strip and event we choose the bigger one?
+- Why is the XY charge diagram uniform if the XY counts diagram is not? (We know you explained this before but...)
+- The charge diagrams in the PDF are the same but with different scales?
+- 
 
 ## The current plan:
 - We have a problem with the correlation plots: some of the points are displaced with gaps and in a different-than-1 slope which
