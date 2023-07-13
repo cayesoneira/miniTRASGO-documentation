@@ -48,9 +48,29 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 
 ## Measuring 101:
 In `tmux attach -t 0`:
-1. In the ??? window, we go to ~/bin/HV and execute `hv -b <bus: we set 0> -I <Ilim value: usually 1> -V <Vset value: in kV> -on`
-2. In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`
-3. In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`  
+
+### High Voltage control
+In the ??? window, `cd ~/bin/HV` and execute the executable `hv` with the following arguments:
+
+- `-b <bus>` : Bus number
+- `-I <Ilim>` : Current limiter (μA)
+- `-V <Vset>`: High voltage value (kV)
+- `-on` : Turn HV ON
+- `-off` : Turn HV OFF
+
+Examples:
+
+    ./hv -b 0 -I 1 -V 5.5 -on
+
+    ./hv -b 0 -off
+
+### Starting the DAQ
+
+In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`
+
+### Startig a Run
+
+In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`  
 
 ---
 
