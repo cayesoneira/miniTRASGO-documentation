@@ -26,6 +26,7 @@
 - Modify to not use password to access the mingo PC.
 - 
 
+
 ## To understand:
 - The wide strip does not get more counts in the first layer (lower one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
 - Investigate why some strips appear larger than they are once applying the propagation velocity to get from time to distance. Maybe because the propagation velocity is different in some strips? Check for the plateau voltage and repeat the test.
