@@ -11,3 +11,5 @@ nav:
     - Variables and diagrams: variables.md
 theme:
   name: material
+  palette:
+    scheme: slate
