@@ -65,6 +65,7 @@
 
 ## Questions that Alberto probably can answer
 - How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram.
+- What are those edges and accepted points in the rate vs. time diagram? 
 - 
 
 ## The current plan:
