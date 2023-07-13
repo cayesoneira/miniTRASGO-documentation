@@ -14,6 +14,8 @@
         <link rel="prev" href="../about/">
       
       
+        <link rel="next" href="../troubleshooting/">
+      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
@@ -301,6 +303,20 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#questions-that-alberto-probably-can-answer" class="md-nav__link">
+    Questions that Alberto probably can answer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-current-plan" class="md-nav__link">
+    The current plan:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#layer-by-layer-complete-with-the-upper" class="md-nav__link">
     Layer by layer (complete with the upper):
   </a>
@@ -311,6 +327,36 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
+        Variables and diagrams
+      </a>
     </li>
   
 
@@ -349,6 +395,20 @@
         <li class="md-nav__item">
   <a href="#to-understand" class="md-nav__link">
     To understand:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#questions-that-alberto-probably-can-answer" class="md-nav__link">
+    Questions that Alberto probably can answer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-current-plan" class="md-nav__link">
+    The current plan:
   </a>
   
 </li>
@@ -398,25 +458,53 @@
 <li>En última instancia la forma de conocer a qué canal se corresponde cada strip es desconectar uno de los canales y ver después cuál deja de aparecer en el pdf.</li>
 <li>Create a code to reject in the efficiecy calculations those muons that do not pass through the forth layer (the first or the forth) because it passes throught the other three and we know that given that angle it goes outside of the detector.</li>
 <li>Change the pdf generation to include absolutely all the plots, specially the control plots. <strong>We can use the excel from which the pdf is generated: there we can indicate what new plots we want (the variables must exist, of course)</strong>.</li>
+<li>Add to the correlation plots a calculation on regression or directly in correlation to see when we are operating in normality.</li>
 <li>Update the code to measure once in a while automatically (<em>self-trigger</em>) to adquire all the events that the detector is measuring, not only muon coincidences, to characterize noise and health of the detector, etc. The thing is that a lot of events are occuring in the detector: streams coming from the electric system itself, gammas, electrons, etc.</li>
 <li>Correct the efficiency to be able to remeasure the voltage plateau.</li>
 <li>The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for</li>
 <li>Calculate the geometrical acceptance to check the differences in number in counts between layers.</li>
 <li>We can use planes 2 and 3 to estimate the voltage plateau because it is the best efficiency estimation.</li>
 <li>Modify to not use password to access the mingo PC.</li>
+<li>TDCs have to be calibrated. Apparently temperature plays a role when we want resolutions of 10 ps because it can change the size of some hardware component in the TDC, but since we need 100 ps or so temperature will not be important. Probably all this problem in the correlations can be solved just by calibrating correctly the TDC, since Alberto noticed there are numbers that do not have appropriate values (but until now we just did not pay attention to it).</li>
+<li>Remember: the width of the front-back correlation in time gives the total width of the strip.</li>
+<li>My way (Caye) to calibrate the offset of the strip: fit a y = a + b*x line to the correlation cloud in times, then the a must be the center offset for every strip.</li>
+<li>Calculate the zero of the charge is a actually difficult algorithm, but very interesting one to create.</li>
+<li>Create a tmux window for the HV.</li>
+<li>What is the criteria to choose one of the charge values between the front and back?</li>
 <li></li>
 </ul>
+<blockquote>
+<p>Blocked quote</p>
+</blockquote>
 <h2 id="to-understand">To understand:</h2>
 <ul>
 <li>The wide strip does not get more counts in the first layer (lower one): is this ok? why? <em>Could it be that because of being at the edge the fact of being wider does not five advantage?</em></li>
 <li>Investigate why some strips appear larger than they are once applying the propagation velocity to get from time to distance. Maybe because the propagation velocity is different in some strips? Check for the plateau voltage and repeat the test.</li>
 <li>See why some random maxima in temperature are correlated with maxima at the muon detection. In words of Alberto, <em>sometimes the detector has a general offset</em>. We still do not know where it comes from.</li>
 <li>We suspect that layer 2 (second lower) has changed the name of the channel for some strips (maybe 1 and 2) because there is a strip with 1.3 times the counts of the rest of the strips. The wide strip is 1.5 wider than the narrow ones. <strong>The same happens to the third layer</strong>.</li>
-<li>La eficiencia</li>
-<li>El plano 1 (pág. 3 del pdf), en el mapa de eficiencia, no permite ver strips, sino que se ve una <em>patata caliente</em>: hay muchos puntos eficientes fuera del área del detector, que debería ser cuadrada. Esto no se puede explicar, en principio, mediante una coincidencia casual de un muón que no tiene nada que ver con el muón que pasa por los otros tres strips y llega al de abajo.</li>
+<li>El plano 1 (pág. 3 del pdf), en el mapa de eficiencia, no permite ver strips, sino que se ve una <em>patata caliente</em>: hay muchos puntos eficientes fuera del área del detector, que debería ser cuadrada. Esto <strong>no</strong> se puede explicar, en principio, mediante una coincidencia casual de un muón que no tiene nada que ver con el muón que pasa por los otros tres strips y llega al de abajo. Same with the 4th layer.</li>
 <li>In general the thinner strips have not all the same counts, when they should. Only the thicker strip should have more counts (a 50\% more).</li>
 <li>One of the strips of the layer 1 has far less counts than what it should. Probably an electronic issue.</li>
+<li><strong>See if the gaps in the correlation diagram in charge and time are due to the strip or to the electronics</strong>.</li>
+<li>These gaps and the difference in slope are actually the reasons why some of the strips appear larger.</li>
+<li>The voltages applied diverge with time one from the other. It does not seem like a problem, but we do not know why.</li>
+<li>The layers measure different mean rates, and it is a behavior that it has been seen in other RPC detectors here at Coimbra: it was always associated with the age of the detector, since older RPCs measure generally less in self-trigger (we say that they have less noise; <strong>we should check also if they measure only less noise or just less measures in general</strong>), but for this detector everything was built roughly at the same time. It could be that some layers affect the others. The thing is that, being the Trigger Multiplexer 0 is the lower layer and the Trigger Multiplexer 3 the upper layer, the values are like follow:</li>
+</ul>
+<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/de0d5deb-82ae-4d08-94d7-6ff27f1e3ffc" />
+- ... as we see the <strong>second upper layer</strong> has the highest ratio, which does not make much sense. <strong>We should measure with the detector put upside down to see if this is physical or if it is a detector-related effect</strong>.</p>
+<h2 id="questions-that-alberto-probably-can-answer">Questions that Alberto probably can answer</h2>
+<ul>
+<li>What is the criteria to choose of the two charges to make the charge diagram?</li>
+<li>How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram.</li>
+<li>Can we obtain physical information of the charge diagram?</li>
+<li>If there are several charges in the same layer, strip and event we choose the bigger one?</li>
+<li>Why is the XY charge diagram uniform if the XY counts diagram is not? (We know you explained this before but...)</li>
+<li>The charge diagrams in the PDF are the same but with different scales?</li>
 <li></li>
+</ul>
+<h2 id="the-current-plan">The current plan:</h2>
+<ul>
+<li>We have a problem with the correlation plots: some of the points are displaced with gaps and in a different-than-1 slope which</li>
 </ul>
 <h2 id="layer-by-layer-complete-with-the-upper">Layer by layer (complete with the upper):</h2>
 <ul>

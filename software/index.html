@@ -252,14 +252,14 @@
       
         <li class="md-nav__item">
   <a href="#session-0" class="md-nav__link">
-    Session 0:
+    Session 0
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#session-1" class="md-nav__link">
-    Session 1:
+    Session 1
   </a>
   
 </li>
@@ -269,11 +269,38 @@
     Measuring 101:
   </a>
   
+    <nav class="md-nav" aria-label="Measuring 101:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-voltage-control" class="md-nav__link">
+    High Voltage control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-the-daq" class="md-nav__link">
+    Starting the DAQ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startig-a-run" class="md-nav__link">
+    Startig a Run
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#the-content-of-the-computer" class="md-nav__link">
-    The content of the computer:
+    The content of the computer
   </a>
   
 </li>
@@ -331,6 +358,36 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../variables/" class="md-nav__link">
+        Variables and diagrams
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -364,14 +421,14 @@
       
         <li class="md-nav__item">
   <a href="#session-0" class="md-nav__link">
-    Session 0:
+    Session 0
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#session-1" class="md-nav__link">
-    Session 1:
+    Session 1
   </a>
   
 </li>
@@ -381,11 +438,38 @@
     Measuring 101:
   </a>
   
+    <nav class="md-nav" aria-label="Measuring 101:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-voltage-control" class="md-nav__link">
+    High Voltage control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#starting-the-daq" class="md-nav__link">
+    Starting the DAQ
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startig-a-run" class="md-nav__link">
+    Startig a Run
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#the-content-of-the-computer" class="md-nav__link">
-    The content of the computer:
+    The content of the computer
   </a>
   
 </li>
@@ -424,7 +508,7 @@
 </code></pre>
 <p>To leave the <code>tmux</code> session just press <code>CTRL + B, D</code>. Let's see what is inside these sessions and how to operate with it.</p>
 <hr />
-<h2 id="session-0">Session 0:</h2>
+<h2 id="session-0">Session 0</h2>
 <ul>
 <li>0:Main01</li>
 <li>1:DAQControl</li>
@@ -434,7 +518,7 @@
 <li>5:Control</li>
 <li>6:Var</li>
 </ul>
-<h2 id="session-1">Session 1:</h2>
+<h2 id="session-1">Session 1</h2>
 <ul>
 <li>0:Main01</li>
 <li>1:Dcs</li>
@@ -452,15 +536,30 @@
 </ul>
 <hr />
 <h2 id="measuring-101">Measuring 101:</h2>
-<p>In <code>tmux attach -t 0</code>:
-1. In the ??? window, we go to ~/bin/HV and execute <code>hv -b &lt;bus: we set 0&gt; -I &lt;Ilim value: usually 1&gt; -V &lt;Vset value: in kV&gt; -on</code>
-2. In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code>
-3. In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>  </p>
+<p>In <code>tmux attach -t 0</code>:</p>
+<h3 id="high-voltage-control">High Voltage control</h3>
+<p>In the ??? window, <code>cd ~/bin/HV</code> and execute the executable <code>hv</code> with the following arguments:</p>
+<ul>
+<li><code>-b &lt;bus&gt;</code> : Bus number</li>
+<li><code>-I &lt;Ilim&gt;</code> : Current limiter (μA)</li>
+<li><code>-V &lt;Vset&gt;</code>: High voltage value (kV)</li>
+<li><code>-on</code> : Turn HV ON</li>
+<li><code>-off</code> : Turn HV OFF</li>
+</ul>
+<p>Examples:</p>
+<pre><code>./hv -b 0 -I 1 -V 5.5 -on
+</code></pre>
+<!-- tsk -->
+<pre><code>./hv -b 0 -off
+</code></pre>
+<h3 id="starting-the-daq">Starting the DAQ</h3>
+<p>In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code></p>
+<h3 id="startig-a-run">Startig a Run</h3>
+<p>In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>  </p>
 <hr />
-<h2 id="the-content-of-the-computer">The content of the computer:</h2>
+<h2 id="the-content-of-the-computer">The content of the computer</h2>
 <p>/
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
-- 
 - /media
     - /externalDisk
         - /hlds: here the trigger data files are stored.
@@ -472,11 +571,13 @@
             - /flowmeter
                 - GetData
                 - GetFlow
-        - /gate ???
+        - /gate
+            - /system
+                - /devices: includes all the data coming from every component of the mingo system.
         - /hlds (empty???)
         - /linux
         - /logs: includes all the info taken by the high voltage and <em>climate</em> sensors. <strong>What is that rates_ file??</strong>. All the current data is here.
-            -/done: all the full log files will be put here.
+            -/done: all the full log files will be put here. <strong>Is this info then stores in the /gate/system/devices???</strong>.
         - /mnt: EMPTY
         - /perl5: ???
         - /pythonscripts: only has one .py and I do not think it is very important.
