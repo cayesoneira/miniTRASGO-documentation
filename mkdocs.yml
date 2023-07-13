@@ -2,13 +2,15 @@ site_name: miniTRASGO
 site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home: index.md
-    - Hardware and design: hardware.md
-    - Software: software.md
-    - Control: control.md
-    - About: about.md
-    - To do: todo.md
+    - Getting started:
+        - Hardware and design: hardware.md
+        - Software: software.md
+        - Variables and diagrams: variables.md
+    - Tasks and control:
+        - Control: control.md
+        - To do: todo.md
     - Troubleshooting: troubleshooting.md
-    - Variables and diagrams: variables.md
+    - About: about.md
 theme:
   name: material
   features:
