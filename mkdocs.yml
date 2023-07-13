@@ -7,5 +7,7 @@ nav:
     - Control: control.md
     - About: about.md
     - To do: todo.md
+    - Troubleshooting: troubleshooting.md
+    - Variables and diagrams: variables.md
 theme:
   name: material
