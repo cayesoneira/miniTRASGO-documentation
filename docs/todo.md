@@ -18,14 +18,21 @@
 - En última instancia la forma de conocer a qué canal se corresponde cada strip es desconectar uno de los canales y ver después cuál deja de aparecer en el pdf.
 - Create a code to reject in the efficiecy calculations those muons that do not pass through the forth layer (the first or the forth) because it passes throught the other three and we know that given that angle it goes outside of the detector.
 - Change the pdf generation to include absolutely all the plots, specially the control plots. **We can use the excel from which the pdf is generated: there we can indicate what new plots we want (the variables must exist, of course)**.
+- Add to the correlation plots a calculation on regression or directly in correlation to see when we are operating in normality.
 - Update the code to measure once in a while automatically (*self-trigger*) to adquire all the events that the detector is measuring, not only muon coincidences, to characterize noise and health of the detector, etc. The thing is that a lot of events are occuring in the detector: streams coming from the electric system itself, gammas, electrons, etc.
 - Correct the efficiency to be able to remeasure the voltage plateau.
 - The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for
 - Calculate the geometrical acceptance to check the differences in number in counts between layers.
 - We can use planes 2 and 3 to estimate the voltage plateau because it is the best efficiency estimation.
 - Modify to not use password to access the mingo PC.
+- TDCs have to be calibrated. Apparently temperature plays a role when we want resolutions of 10 ps because it can change the size of some hardware component in the TDC, but since we need 100 ps or so temperature will not be important. Probably all this problem in the correlations can be solved just by calibrating correctly the TDC, since Alberto noticed there are numbers that do not have appropriate values (but until now we just did not pay attention to it).
+- Remember: the width of the front-back correlation in time gives the total width of the strip.
+- My way (Caye) to calibrate the offset of the strip: fit a y = a + b*x line to the correlation cloud in times, then the a must be the center offset for every strip.
+- Calculate the zero of the charge is a actually difficult algorithm, but very interesting one to create.
+- Create a tmux window for the HV.
 - 
 
+> Blocked quote
 
 ## To understand:
 - The wide strip does not get more counts in the first layer (lower one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
@@ -37,7 +44,11 @@
 - One of the strips of the layer 1 has far less counts than what it should. Probably an electronic issue.
 - **See if the gaps in the correlation diagram in charge and time are due to the strip or to the electronics**.
 - These gaps and the difference in slope are actually the reasons why some of the strips appear larger.
+- The voltages applied diverge with time one from the other. It does not seem like a problem, but we do not know why.
 - 
+
+## The current plan:
+- We have a problem with the correlation plots: some of the points are displaced with gaps and in a different-than-1 slope which
 
 ## Layer by layer (complete with the upper):
 - Layer 1 (lower): wider strip does not get more counts.
