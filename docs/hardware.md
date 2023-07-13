@@ -15,6 +15,8 @@ TRB3sc-based DAQ
 
 - Why are the layers called T1, T2, etc???
 
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8)
+
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/8e34e594-e490-4610-9654-66b07d65f65d)
