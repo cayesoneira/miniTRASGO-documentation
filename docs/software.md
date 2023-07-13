@@ -20,7 +20,7 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 
 ---
 
-## Session 0:
+## Session 0
 - 0:Main01
 - 1:DAQControl
 - 2:DABC (why this name???)
@@ -29,7 +29,7 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 - 5:Control
 - 6:Var
 
-## Session 1:
+## Session 1
 - 0:Main01
 - 1:Dcs
 - 2:CopyFiles
@@ -74,7 +74,7 @@ In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRu
 
 ---
 
-## The content of the computer:
+## The content of the computer
 /
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
 - 
