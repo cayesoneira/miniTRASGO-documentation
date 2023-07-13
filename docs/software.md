@@ -23,25 +23,28 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 ## Session 1:
 
 ## Measuring 101:
-
+In `tmux attach -t 0`:
+1. In the ??? window, we go to ~/bin/HV and execute `hv -b <bus: we set 0> -I <Ilim value: usually 1> -V <Vset value: in kV> -on`
+2. In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`
+3. In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`  
 
 ## The content of the computer:
 /home/rpcuser
-    - /bin
-        - /HV
-            - hv: used to ramp up the High Voltage.
-        - /flowmeter
-            - GetData
-            - GetFlow
-    - /gate ???
-    - /hlds (empty???)
-    - /linux
-    - /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
-        -/done: all the full log files will be put here.
-    - ./lst.sh: is a ls WTF?
-    - /mnt: EMPTY
-    - /perl5: ???
-    - /pythonscripts: only has one .py and I do not think it is very important.
-    - /trbsoft: Trigger and Readout Board software
+- /bin
+    - /HV
+        - hv: used to ramp up the High Voltage.
+    - /flowmeter
+        - GetData
+        - GetFlow
+- /gate ???
+- /hlds (empty???)
+- /linux
+- /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
+    -/done: all the full log files will be put here.
+- ./lst.sh: is a ls WTF?
+- /mnt: EMPTY
+- /perl5: ???
+- /pythonscripts: only has one .py and I do not think it is very important.
+- /trbsoft: Trigger and Readout Board software
 
 `CTRL + C` to stop the DAQ process.
