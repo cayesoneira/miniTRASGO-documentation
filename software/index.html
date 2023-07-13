@@ -423,27 +423,63 @@
 <pre><code>tmux attach -t &lt;session name: 0, 1 or webserver&gt;
 </code></pre>
 <p>To leave the <code>tmux</code> session just press <code>CTRL + B, D</code>. Let's see what is inside these sessions and how to operate with it.</p>
+<hr />
 <h2 id="session-0">Session 0:</h2>
+<ul>
+<li>0:Main01</li>
+<li>1:DAQControl</li>
+<li>2:DABC (why this name???)</li>
+<li>3:Thresholds</li>
+<li>4:HLDs</li>
+<li>5:Control</li>
+<li>6:Var</li>
+</ul>
 <h2 id="session-1">Session 1:</h2>
+<ul>
+<li>0:Main01</li>
+<li>1:Dcs</li>
+<li>2:CopyFiles</li>
+<li>3:Unpacker01</li>
+<li>4:Unpacker02</li>
+<li>5:Unpacker03</li>
+<li>6:Ana</li>
+<li>7:Report</li>
+<li>8:Control</li>
+<li>9:LogCritical</li>
+<li>10:LogNet</li>
+<li>11:LogSystem</li>
+<li>12:Var</li>
+</ul>
+<hr />
 <h2 id="measuring-101">Measuring 101:</h2>
+<p>In <code>tmux attach -t 0</code>:
+1. In the ??? window, we go to ~/bin/HV and execute <code>hv -b &lt;bus: we set 0&gt; -I &lt;Ilim value: usually 1&gt; -V &lt;Vset value: in kV&gt; -on</code>
+2. In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code>
+3. In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>  </p>
+<hr />
 <h2 id="the-content-of-the-computer">The content of the computer:</h2>
-<p>/home/rpcuser
-    - /bin
-        - /HV
-            - hv: used to ramp up the High Voltage.
-        - /flowmeter
-            - GetData
-            - GetFlow
-    - /gate ???
-    - /hlds (empty???)
-    - /linux
-    - /logs: includes all the info taken by the high voltage and <em>climate</em> sensors. <strong>What is that rates_ file??</strong>. All the current data is here.
-        -/done: all the full log files will be put here.
-    - ./lst.sh: is a ls WTF?
-    - /mnt: EMPTY
-    - /perl5: ???
-    - /pythonscripts: only has one .py and I do not think it is very important.
-    - /trbsoft: Trigger and Readout Board software</p>
+<p>/
+- bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
+- /media
+    - /externalDisk
+        - /hlds: here the trigger data files are stored.
+- /home: everything interesting is inside this directory but the trigger data files.
+    - /rpcuser
+        - /bin
+            - /HV
+                - hv: used to ramp up the High Voltage.
+            - /flowmeter
+                - GetData
+                - GetFlow
+        - /gate ???
+        - /hlds (empty???)
+        - /linux
+        - /logs: includes all the info taken by the high voltage and <em>climate</em> sensors. <strong>What is that rates_ file??</strong>. All the current data is here.
+            -/done: all the full log files will be put here.
+        - /mnt: EMPTY
+        - /perl5: ???
+        - /pythonscripts: only has one .py and I do not think it is very important.
+        - /trbsoft: Trigger and Readout Board software</p>
 <p><code>CTRL + C</code> to stop the DAQ process.</p>
 
 
