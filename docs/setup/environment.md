@@ -16,29 +16,21 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 
 ---
 
-## Session 0
-- 0:Main01
-- 1:DAQControl
-- 2:DABC (why this name???)
-- 3:Thresholds
-- 4:HLDs
-- 5:Control
-- 6:Var
-
-## Session 1
-- 0:Main01
-- 1:Dcs
-- 2:CopyFiles
-- 3:Unpacker01
-- 4:Unpacker02
-- 5:Unpacker03
-- 6:Ana
-- 7:Report
-- 8:Control
-- 9:LogCritical
-- 10:LogNet
-- 11:LogSystem
-- 12:Var
+|   Session 0  |   Session 1   |
+|:------------:|:-------------:|
+|   0:Main01   |    0:Main01   |
+| 1:DAQControl |     1:Dcs     |
+| 2:DABC       | 2:CopyFiles   |
+| 3:Thresholds | 3:Unpacker01  |
+| 4:HLDs       | 4:Unpacker02  |
+| 5:Control    | 5:Unpacker03  |
+| 6:Var        | 6:Ana         |
+|              | 7:Report      |
+|              | 8:Control     |
+|              | 9:LogCritical |
+|              | 10:LogNet     |
+|              | 11:LogSystem  |
+|              | 12:Var        |
 
 ---
 
