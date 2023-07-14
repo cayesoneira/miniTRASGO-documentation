@@ -16,7 +16,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/frequent/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/hardware/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/motivation/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -27,6 +37,11 @@
     </url>
     <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/objectives/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/publications/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -47,6 +62,31 @@
     </url>
     <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/variables/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/help/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/home/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/howto/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/setup/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/tasks/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
