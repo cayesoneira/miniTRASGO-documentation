@@ -64,15 +64,23 @@ Examples:
 <!-- tsk -->
     ./hv -b 0 -off
 
+To see the information on HV and intensity in real time just type:
+
+    watch -n 1 ./hv -b 0
+
 ### Starting the DAQ
 
-In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`
+In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`. This starts the data adquisition system, but does not save amy content into files. To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through `192.168.3.216:1234`.
 
 ### Startig a Run
 
-In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`  
+In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`. Now the data is collected into `.hld` filesin binary encoding.
 
 ---
+
+## Retrieving the data
+- Apparently `daq_anal` is the software used to convert `.hld` to hexadecimal. We'll see.
+
 
 ## The content of the computer
 /
