@@ -74,6 +74,8 @@ In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./s
 
 This starts the data adquisition system, but does not save any content into files.
 
+Press `CTRL + C` to stop the DAQ process.
+
 ### Trigger Control
 
 To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through `192.168.3.216:1234`.
@@ -82,7 +84,7 @@ To choose the trigger we want the system to consider we can go to the Central Tr
 
 In the 2.DABC window, we do `cd ~/trbsoft/userscripts/trb` and execute `./startRun.sh`.
 
-Now the data is collected into binary `.hld` files, saved at `/media/externalDisk\hlds\`.
+Now the data is collected into binary `.hld` files, saved at `/media/externalDisk/hlds/`.
 
 ---
 
@@ -97,11 +99,11 @@ Now the data is collected into binary `.hld` files, saved at `/media/externalDis
 - /media
     - /externalDisk
         - /hlds: here the trigger data files are stored.
-- /home: everything interesting is inside this directory but the trigger data files.
+- /home: everything interesting is inside this directory except the trigger data files.
     - /rpcuser
         - /bin
             - /HV
-                - hv: used to ramp up the High Voltage.
+                - hv: used to control the High Voltage.
             - /flowmeter
                 - GetData
                 - GetFlow
@@ -117,4 +119,3 @@ Now the data is collected into binary `.hld` files, saved at `/media/externalDis
         - /pythonscripts: only has one .py and I do not think it is very important.
         - /trbsoft: Trigger and Readout Board software
      
-`CTRL + C` to stop the DAQ process.
