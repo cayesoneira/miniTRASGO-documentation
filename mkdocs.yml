@@ -9,6 +9,7 @@ nav:
     - Tasks and control:
         - Control: control.md
         - To do: todo.md
+        - Objectives: objectives.md
     - Troubleshooting: troubleshooting.md
     - About: about.md
     - Notes: notes.md
