@@ -15,7 +15,7 @@ nav:
         - Variables and diagrams: variables.md
     - Tasks, notes and objectives:
         - tasks/index.md
-        - To do: todo.md
+        - Tasks: todo.md
         - Notes: notes.md
         - Objectives: objectives.md
     - Help
