@@ -3,6 +3,7 @@ site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home:
         - home/index.md
+        - Motivation: motivation.md
         - About: about.md
         - Publications: publications.md
     - Setup:
