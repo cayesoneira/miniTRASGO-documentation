@@ -3,27 +3,27 @@ site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home:
         - home/index.md
-        - Motivation: motivation.md
-        - About: about.md
-        - Publications: publications.md
-    - Setup:
+        - Motivation: home/motivation.md
+        - About: home/about.md
+        - Publications: home/publications.md
+    - Detector Setup:
         - setup/index.md
-        - Hardware and design: hardware.md
-        - Software Environment: environment.md
+        - Hardware and design: setup/hardware.md
+        - Software Environment: setup/environment.md
     - Operation:
         - operation/index.md
-        - Software: software.md
-        - Monitoring: monitoring.md
-        - Data and Analysis: analysis.md
-        - Variables and diagram: variables.md
+        - Software: operation/software.md
+        - Monitoring: operation/monitoring.md
+        - Data and Analysis: operation/analysis.md
+        - Variables and diagram: operation/variables.md
     - Tasks, notes and objectives:
         - tasks/index.md
-        - Objectives: objectives.md
-        - Tasks: todo.md
-        - Notes: notes.md
+        - Tasks: tasks/todo.md
+        - Notes: tasks/notes.md
+        - Objectives: tasks/objectives.md
     - Help:
         - help/index.md
-        - Troubleshooting: troubleshooting.md
+        - Troubleshooting: help/troubleshooting.md
         - FAQ: frequent.md
 theme:
   name: material
