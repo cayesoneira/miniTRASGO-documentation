@@ -4,7 +4,7 @@ Raw data is located at `/media/externalDisk/hlds/`
 
 You can transfer any file from miniTRASGO to your local machine using `scp`:
 
-    scp <user>@<remote machine>:<remote file> <local directory>.
+    scp <user>@<remote machine>:<remote file> <local directory>
   
   For example:
 
