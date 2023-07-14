@@ -6,7 +6,7 @@
   - Two gaps of 1mm each filled with gas Freon (R134a).
   - Top and bottom glass panes covered with semiconducting paint on the inside.
   - High voltage applied between the paint layers (positive / negative).
-  - 4 metal strips cover each RPC on top:
+  - 4 metal strips cover each RPC on top (fig. 3):
     - Asymmetrical widths.
     - 2 outputs: front and back.
 - Discrimination electronics on one corner
@@ -14,21 +14,22 @@
 - High voltage power supply box between detectors 2 and 3.
 - Independent Freon gas tank, injected with calibrated holes + flow-monitors in the output (mutom like) + common bubbler.
 
-![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
-
+<img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8">
 _Figure 1_
 
-<img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8">
-
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
 _Figure 2_
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/8e34e594-e490-4610-9654-66b07d65f65d)
+_Figure 3_
 
 ## Electronics
 
-(MB: motherboard; DB: daighterboard; FEE: front-end electronics, from the HADES GSI experiment )
+General diagram: see fig. 5.
 
-- Eight DABC discrimination boards:
+(MB: motherboard; DB: daighterboard; FEE: front-end electronics)
+
+- Eight DABC discrimination DB (fig. 4) + control MB:
   - 4 input channels
   - Input: analog signal from the detector strips.
   - Output: square signal. Length proportional to charge deposited.
@@ -57,5 +58,7 @@ _Figure 2_
 - Watchdog: ensures the electronics are turned on continuously.
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8)
+_Figure 4_
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/4e68e317-f61a-411e-9682-ca7ce42bb6d9)
+_Figure 5_
