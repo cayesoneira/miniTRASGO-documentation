@@ -31,7 +31,8 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.indexes
-
+  logo: assets/logo.png
+  favicon: images/favicon.png
   palette: 
 
     # Palette toggle for light mode
