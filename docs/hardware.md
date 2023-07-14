@@ -1,25 +1,60 @@
 ## Geometry of the telescope
 
-- Dimensions: 35cm x 35 xm x 45 cm
-- 30x30 cm (active area) 2x1mm Gap RPC
-- 4 + 4 timing ch/plane => 32 ch, 1 MB/minGo
-- 1 HV PS supply all RPC.
-- Coax cables from RPC to MB, located fixed to the common structure.
-- Gas injected with calibrated holes + flow-monitors in the output (mutom like) + common bubbler.
-- Couple of T and P sensors (STRATOS like). 
-- Why are the layers called T1, T2, etc???
+- 4 parallel square RPC detectors (fig. 1):
+  - Active area: 30x30 cm
+  - Three 2 mm thick glass panes separated by 1 mm thick nylon monofilaments (fig. 2).
+  - Two gaps of 1mm each filled with gas Freon (R134a).
+  - Top and bottom glass panes covered with semiconducting paint on the inside.
+  - High voltage applied between the paint layers (positive / negative).
+  - 4 metal strips cover each RPC on top:
+    - Asymmetrical widths.
+    - 2 outputs: front and back.
+- Discrimination electronics on one corner
+- Trigger, DAQ, Control and Monitoring electronics in box between detectors 1 and 2.
+- High voltage power supply box between detectors 2 and 3.
+- Independent Freon gas tank, injected with calibrated holes + flow-monitors in the output (mutom like) + common bubbler.
+
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
+
+_Figure 1_
 
 <img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8">
 
-![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
+_Figure 2_
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/8e34e594-e490-4610-9654-66b07d65f65d)
 
 ## Electronics
 
-(MB: motherboard; DB: daighterboard; FEE: front-end electronics, from the HADES GSI experiment; Gas: Freon R134a )
+(MB: motherboard; DB: daighterboard; FEE: front-end electronics, from the HADES GSI experiment )
 
-- 1 TRB3sc readout + odroidC2. (watchDog + relay + USB(RJ45)+I2C 3 ways)
+- Eight DABC discrimination boards:
+  - 4 input channels
+  - Input: analog signal from the detector strips.
+  - Output: square signal. Length proportional to charge deposited.
+  - Developed for the HADES detector (GSI).
+- TRB3sc board:
+  - 32 TDCs
+  - Inputs: square signals from the DABC boards.
+  - Outputs: digital timestamp and length of each square signal.
+- ODroid Single Board Computer (SBC): General control and LAN communication.
+- Solid State Drive (SSD): Data storage.
+- High Voltage power supply:
+  - Common for all detectors.
+  - Software controlled.
+  - Positive and negative voltages.
+  - I2C protocol.
+- Enviroment sensors:
+  - One inside the electronics box, one outside.
+  - Temperature, atmospheric pressure, humidity.
+  - I2C protocol.
+- Flow meters:
+  - Gas flow monitoring.
+  - I2C protocol.
+- Low voltage power supply for the electronics:
+  - Input: 48 V
+  - Outputs: 12 V, 30? V
+- Watchdog: ensures the electronics are turned on continuously.
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8)
 
