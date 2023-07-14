@@ -2,12 +2,12 @@ site_name: miniTRASGO
 site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
     - Home: index.md
-    - Getting started:
+    - The telescope:
         - Hardware and design: hardware.md
         - Software: software.md
         - Variables and diagrams: variables.md
-    - Tasks and control:
-        - Control: control.md
+    - Tasks and monitoring:
+        - Monitoring: control.md
         - To do: todo.md
         - Objectives: objectives.md
     - Troubleshooting: troubleshooting.md
