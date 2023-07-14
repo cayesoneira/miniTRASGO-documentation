@@ -6,67 +6,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/about/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/control/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/frequent/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/hardware/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/motivation/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/notes/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/objectives/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/publications/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/software/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/todo/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/troubleshooting/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/variables/</loc>
-         <lastmod>2023-07-14</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/help/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/help/frequent/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/help/troubleshooting/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -76,7 +26,42 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cayesoneira.github.io/miniTRASGO/howto/</loc>
+         <loc>https://cayesoneira.github.io/miniTRASGO/home/about/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/home/motivation/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/home/publications/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/operation/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/operation/analysis/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/operation/monitoring/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/operation/software/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/operation/variables/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -86,7 +71,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/setup/environement/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/setup/hardware/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://cayesoneira.github.io/miniTRASGO/tasks/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/tasks/notes/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/tasks/objectives/</loc>
+         <lastmod>2023-07-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cayesoneira.github.io/miniTRASGO/tasks/todo/</loc>
          <lastmod>2023-07-14</lastmod>
          <changefreq>daily</changefreq>
     </url>

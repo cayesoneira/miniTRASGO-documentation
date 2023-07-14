@@ -8,27 +8,27 @@
       
       
       
-        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/hardware/">
+        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/operation/monitoring/">
       
       
-        <link rel="prev" href="../setup/">
+        <link rel="prev" href="../software/">
       
       
-        <link rel="next" href="../software/">
+        <link rel="next" href="../analysis/">
       
-      <link rel="icon" href="../images/favicon.png">
+      <link rel="icon" href="../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>Hardware and design - miniTRASGO</title>
+        <title>Monitoring - miniTRASGO</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -44,7 +44,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#geometry-of-the-telescope" class="md-skip">
+        <a href="#monitoring-indicators" class="md-skip">
           Skip to content
         </a>
       
@@ -87,9 +87,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="miniTRASGO" class="md-header__button md-logo" aria-label="miniTRASGO" data-md-component="logo">
+    <a href="../.." title="miniTRASGO" class="md-header__button md-logo" aria-label="miniTRASGO" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hardware and design
+              Monitoring
             
           </span>
         </div>
@@ -197,8 +197,24 @@
   
   
     <li class="md-tabs__item">
-      <a href="../home/" class="md-tabs__link">
+      <a href="../../home/" class="md-tabs__link">
         Home
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../setup/" class="md-tabs__link">
+        Detector Setup
       </a>
     </li>
   
@@ -215,8 +231,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../setup/" class="md-tabs__link md-tabs__link--active">
-        Setup
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Operation
       </a>
     </li>
   
@@ -231,23 +247,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../howto/" class="md-tabs__link">
-        How to use
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../tasks/" class="md-tabs__link">
+      <a href="../../tasks/" class="md-tabs__link">
         Tasks, notes and objectives
       </a>
     </li>
@@ -263,7 +263,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../help/" class="md-tabs__link">
+      <a href="../../help/" class="md-tabs__link">
         Help
       </a>
     </li>
@@ -291,9 +291,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="miniTRASGO" class="md-nav__button md-logo" aria-label="miniTRASGO" data-md-component="logo">
+    <a href="../.." title="miniTRASGO" class="md-nav__button md-logo" aria-label="miniTRASGO" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     miniTRASGO
@@ -335,7 +335,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../home/">Home</a>
+          <a href="../../home/">Home</a>
           
             <label for="__nav_1">
               <span class="md-nav__icon md-icon"></span>
@@ -358,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../motivation/" class="md-nav__link">
+      <a href="../../home/motivation/" class="md-nav__link">
         Motivation
       </a>
     </li>
@@ -372,7 +372,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../home/about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -386,135 +386,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../publications/" class="md-nav__link">
+      <a href="../../home/publications/" class="md-nav__link">
         Publications
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-      
-      
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
-      
-      
-        
-          
-            
-          
-        
-          
-        
-          
-        
-      
-      
-        
-        
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../setup/">Setup</a>
-          
-            <label for="__nav_2">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
-          
-        </div>
-      
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-        <label class="md-nav__title" for="__nav_2">
-          <span class="md-nav__icon md-icon"></span>
-          Setup
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-          
-            
-              
-  
-  
-    
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Hardware and design
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        Hardware and design
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#geometry-of-the-telescope" class="md-nav__link">
-    Geometry of the telescope
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#electronics" class="md-nav__link">
-    Electronics
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../software/" class="md-nav__link">
-        Software
       </a>
     </li>
   
@@ -542,7 +415,7 @@
       
         
       
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
       
       
         
@@ -559,18 +432,18 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../howto/">How to use</a>
+          <a href="../../setup/">Detector Setup</a>
           
-            <label for="__nav_3">
+            <label for="__nav_2">
               <span class="md-nav__icon md-icon"></span>
             </label>
           
         </div>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_3">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          How to use
+          Detector Setup
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -582,8 +455,178 @@
   
   
     <li class="md-nav__item">
-      <a href="../control/" class="md-nav__link">
+      <a href="../../setup/hardware/" class="md-nav__link">
+        Hardware and design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/environment.md" class="md-nav__link">
+        Software Environment
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Operation</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Operation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../software/" class="md-nav__link">
+        Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Monitoring
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Monitoring
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-hardware-monitoring" class="md-nav__link">
+    Visual hardware monitoring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign" class="md-nav__link">
+    - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-based-monitoring" class="md-nav__link">
+    Data-based monitoring
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        Data and Analysis
       </a>
     </li>
   
@@ -597,7 +640,7 @@
   
     <li class="md-nav__item">
       <a href="../variables/" class="md-nav__link">
-        Variables and diagrams
+        Variables and diagram
       </a>
     </li>
   
@@ -644,7 +687,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../tasks/">Tasks, notes and objectives</a>
+          <a href="../../tasks/">Tasks, notes and objectives</a>
           
             <label for="__nav_4">
               <span class="md-nav__icon md-icon"></span>
@@ -667,7 +710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../todo/" class="md-nav__link">
+      <a href="../../tasks/todo/" class="md-nav__link">
         Tasks
       </a>
     </li>
@@ -681,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../notes/" class="md-nav__link">
+      <a href="../../tasks/notes/" class="md-nav__link">
         Notes
       </a>
     </li>
@@ -695,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../objectives/" class="md-nav__link">
+      <a href="../../tasks/objectives/" class="md-nav__link">
         Objectives
       </a>
     </li>
@@ -741,7 +784,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../help/">Help</a>
+          <a href="../../help/">Help</a>
           
             <label for="__nav_5">
               <span class="md-nav__icon md-icon"></span>
@@ -764,7 +807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/" class="md-nav__link">
+      <a href="../../help/troubleshooting/" class="md-nav__link">
         Troubleshooting
       </a>
     </li>
@@ -778,8 +821,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../frequent/" class="md-nav__link">
-        Frequent Q&A
+      <a href="../../frequent.md" class="md-nav__link">
+        FAQ
       </a>
     </li>
   
@@ -809,6 +852,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -817,15 +862,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#geometry-of-the-telescope" class="md-nav__link">
-    Geometry of the telescope
+  <a href="#visual-hardware-monitoring" class="md-nav__link">
+    Visual hardware monitoring
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#electronics" class="md-nav__link">
-    Electronics
+  <a href="#-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign" class="md-nav__link">
+    - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-based-monitoring" class="md-nav__link">
+    Data-based monitoring
   </a>
   
 </li>
@@ -845,29 +897,20 @@
                   
 
 
-  <h1>Hardware and design</h1>
-
-<h2 id="geometry-of-the-telescope">Geometry of the telescope</h2>
+<h1 id="monitoring-indicators">Monitoring indicators:</h1>
+<h2 id="visual-hardware-monitoring">Visual hardware monitoring</h2>
+<h2 id="-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign">- mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.</h2>
+<h2 id="data-based-monitoring">Data-based monitoring</h2>
 <ul>
-<li>Dimensions: 35cm x 35 xm x 45 cm</li>
-<li>30x30 cm (active area) 2x1mm Gap RPC</li>
-<li>4 + 4 timing ch/plane =&gt; 32 ch, 1 MB/minGo</li>
-<li>1 HV PS supply all RPC.</li>
-<li>Coax cables from RPC to MB, located fixed to the common structure.</li>
-<li>Gas injected with calibrated holes + flow-monitors in the output (mutom like) + common bubbler.</li>
-<li>Couple of T and P sensors (STRATOS like). </li>
-<li>Why are the layers called T1, T2, etc???</li>
+<li>The correlation between the charge measured back and forth in the same strip has to be close to 1 (a plot helps to visualize) because the charge is not lost throughout the strip. This allows us to check if the back and front channels are well connected and also if the events are collected properly. Points over the axes will indicate that one side is measuring, the other not.</li>
+<li>The charge, once calibrated to have its first ramp up in the histogram in 0, has to keep like this, and has to be unimodal and both back and forth charges have to be simiral in shape. (This control condition is similar to that before).</li>
+<li>La uniformidad de la distribución espacial de la carga entre distintos strips de la misma layer es un criterio de control.</li>
+<li>The correlation between times measured back and forth, seen in a plot, can give hints on problems. We could see gaps and different angles to 45 degrees. The thicker the dispersion, the larger the strip. And a slope different to 45 degrees indicates that there is some kind of scalating acting on the large of the strip. One of the clocks might be slower? In fact we have seen gaps: <strong>the solution passed from the fact that the calibration values of the TDC/TRB where wrongly set (see Troubleshooting)</strong>.</li>
+<li>In summary: back and forth charge and time correlation diagrams are useful to see if everything is fine.</li>
+<li>The information from the self-trigger: the automatic measure of all the events from the detector. Counts per layer and strip and side. We should see how to turn this into an interesting graphic representation.</li>
+<li>The current is the most important parameter to know if a RPC has a serious problem.</li>
+<li></li>
 </ul>
-<p><img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8"></p>
-<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9" /></p>
-<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/8e34e594-e490-4610-9654-66b07d65f65d" /></p>
-<h2 id="electronics">Electronics</h2>
-<p>(MB: motherboard; DB: daighterboard; FEE: front-end electronics, from the HADES GSI experiment; Gas: Freon R134a )</p>
-<ul>
-<li>1 TRB3sc readout + odroidC2. (watchDog + relay + USB(RJ45)+I2C 3 ways)</li>
-</ul>
-<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8" /></p>
-<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/4e68e317-f61a-411e-9682-ca7ce42bb6d9" /></p>
 
 
 
@@ -910,10 +953,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>
