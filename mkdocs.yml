@@ -9,20 +9,21 @@ nav:
     - Setup:
         - setup/index.md
         - Hardware and design: hardware.md
+        - Software Environment: environment.md
+    - Operation:
+        - operation/index.md
         - Software: software.md
-    - How to use:
-        - howto/index.md
         - Monitoring: control.md
-        - Variables and diagrams: variables.md
+        - Variables and diagram: variables.md
     - Tasks, notes and objectives:
         - tasks/index.md
+        - Objectives: objectives.md
         - Tasks: todo.md
         - Notes: notes.md
-        - Objectives: objectives.md
     - Help:
         - help/index.md
         - Troubleshooting: troubleshooting.md
-        - Frequent Q&A: frequent.md
+        - FAQ: frequent.md
 theme:
   name: material
   features:
