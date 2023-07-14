@@ -8,16 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/setup/environement/">
+        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/setup/environment/">
       
       
+        <link rel="prev" href="../hardware/">
+      
+      
+        <link rel="next" href="../../operation/">
       
       <link rel="icon" href="../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>Environement - miniTRASGO</title>
+        <title>Software Environment - miniTRASGO</title>
       
     
     
@@ -101,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Environement
+              Software Environment
             
           </span>
         </div>
@@ -203,13 +207,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../" class="md-tabs__link">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
         Detector Setup
       </a>
     </li>
@@ -400,16 +406,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
       
       
         
@@ -434,7 +440,7 @@
           
         </div>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Detector Setup
@@ -461,11 +467,69 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../environment.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Software Environment
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Software Environment
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#terminal-sessions" class="md-nav__link">
+    Terminal sessions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-0" class="md-nav__link">
+    Session 0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#session-1" class="md-nav__link">
+    Session 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#folder-structure" class="md-nav__link">
+    Folder structure
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -841,7 +905,7 @@
                   
 
 
-  <h1>Environement</h1>
+  <h1>Software Environment</h1>
 
 <h2 id="terminal-sessions">Terminal sessions</h2>
 <p>The TRASGO team decided to build a <code>tmux</code> multiplexer to develop a series of operations in a multiple, permanently open shell. Everything could be done through the main terminal session, but one at a time, and our computer has to be connected. This way we separate visually diffetent executions, as well as we can execute in the background the measuring operations. Any activity on the multiplexer will be shown in real time to every user conncected to a <code>tmux</code> session. We can access it through the terminal inside the miniTRASGO computer. First we see the <code>tmux</code> sessions avaliable:</p>

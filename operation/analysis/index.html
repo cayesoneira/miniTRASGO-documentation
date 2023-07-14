@@ -469,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setup/environment.md" class="md-nav__link">
+      <a href="../../setup/environment/" class="md-nav__link">
         Software Environment
       </a>
     </li>
@@ -905,9 +905,11 @@
 <p>Converts binary data in the .hld files to into .mat files readable with Matlab or Octave, which contain:</p>
 <ul>
 <li>Ebtime : vector NEvents x 1 : Event builder time, global time with second precision.</li>
-<li>For RPC l={1,2,3,4} and strip side s={F,B}:</li>
+<li>For RPC l={1,2,3,4} and strip side s={F,B}:<ul>
 <li>Ql_s : matrix NEvents x 4 : Charge</li>
 <li>Tl_s : matrix NEvents x 4 : Timestamp</li>
+</ul>
+</li>
 <li>TRBs : struct 1 x 1 : Deprecated</li>
 <li>triggerType : vector NEvents x 1 : Trigger type (1 = muon, 2 = self trigger)</li>
 </ul>
