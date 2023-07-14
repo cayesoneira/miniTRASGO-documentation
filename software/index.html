@@ -435,15 +435,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#starting-the-daq" class="md-nav__link">
-    Starting the DAQ
+  <a href="#daq-control" class="md-nav__link">
+    DAQ Control
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#startig-a-run" class="md-nav__link">
-    Startig a Run
+  <a href="#trigger-control" class="md-nav__link">
+    Trigger Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-control" class="md-nav__link">
+    Run control
   </a>
   
 </li>
@@ -681,15 +688,22 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#starting-the-daq" class="md-nav__link">
-    Starting the DAQ
+  <a href="#daq-control" class="md-nav__link">
+    DAQ Control
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#startig-a-run" class="md-nav__link">
-    Startig a Run
+  <a href="#trigger-control" class="md-nav__link">
+    Trigger Control
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-control" class="md-nav__link">
+    Run control
   </a>
   
 </li>
@@ -777,7 +791,7 @@
 <h2 id="measuring-101">Measuring 101:</h2>
 <p>In <code>tmux attach -t 0</code>:</p>
 <h3 id="high-voltage-control">High Voltage control</h3>
-<p>In the ??? window, <code>cd ~/bin/HV</code> and execute the executable <code>hv</code> with the following arguments:</p>
+<p>At any window, do <code>cd ~/bin/HV</code> and execute <code>./hv</code> with the following arguments:</p>
 <ul>
 <li><code>-b &lt;bus&gt;</code> : Bus number</li>
 <li><code>-I &lt;Ilim&gt;</code> : Current limiter (μA)</li>
@@ -794,10 +808,15 @@
 <p>To see the information on HV and intensity in real time just type:</p>
 <pre><code>watch -n 1 ./hv -b 0
 </code></pre>
-<h3 id="starting-the-daq">Starting the DAQ</h3>
-<p>In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code>. This starts the data adquisition system, but does not save amy content into files. To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through <code>192.168.3.216:1234</code>.</p>
-<h3 id="startig-a-run">Startig a Run</h3>
-<p>In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>. Now the data is collected into <code>.hld</code> filesin binary encoding.</p>
+<h3 id="daq-control">DAQ Control</h3>
+<p>In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code>.</p>
+<p>This starts the data adquisition system, but does not save any content into files.</p>
+<h3 id="trigger-control">Trigger Control</h3>
+<p>To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through <code>192.168.3.216:1234</code>.</p>
+<h3 id="run-control">Run control</h3>
+<p>In the 2.DABC window, we do <code>cd ~/trbsoft/userscripts/trb</code> and execute <code>./startRun.sh</code>.</p>
+<p>Now the data is collected into binary <code>.hld</code> files, saved at <code>/media/externalDisk/hlds/</code>.</p>
+<p>Press <code>CTRL + C</code> to stop the run.</p>
 <hr />
 <h2 id="retrieving-the-data">Retrieving the data</h2>
 <ul>
@@ -809,11 +828,11 @@
 - /media
     - /externalDisk
         - /hlds: here the trigger data files are stored.
-- /home: everything interesting is inside this directory but the trigger data files.
+- /home: everything interesting is inside this directory except the trigger data files.
     - /rpcuser
         - /bin
             - /HV
-                - hv: used to ramp up the High Voltage.
+                - hv: used to control the High Voltage.
             - /flowmeter
                 - GetData
                 - GetFlow
@@ -828,7 +847,6 @@
         - /perl5: ???
         - /pythonscripts: only has one .py and I do not think it is very important.
         - /trbsoft: Trigger and Readout Board software</p>
-<p><code>CTRL + C</code> to stop the DAQ process.</p>
 
 
 
