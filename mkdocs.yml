@@ -19,7 +19,7 @@ nav:
         - Tasks: todo.md
         - Notes: notes.md
         - Objectives: objectives.md
-    - Help
+    - Help:
         - help/index.md
         - Troubleshooting: troubleshooting.md
         - Frequent QA: frequent.md
