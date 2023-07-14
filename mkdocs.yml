@@ -22,7 +22,7 @@ nav:
     - Help:
         - help/index.md
         - Troubleshooting: troubleshooting.md
-        - Frequent QA: frequent.md
+        - Frequent Q&A: frequent.md
 theme:
   name: material
   features:
