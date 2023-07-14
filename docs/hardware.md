@@ -14,14 +14,17 @@
 - High voltage power supply box between detectors 2 and 3.
 - Independent Freon gas tank, injected with calibrated holes + flow-monitors in the output (mutom like) + common bubbler.
 
-<img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8">
+![image](https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8)
 _Figure 1_
+
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/3c83d2de-22cb-4d7d-b89d-8f52a7710ed9)
 _Figure 2_
 
+
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/8e34e594-e490-4610-9654-66b07d65f65d)
 _Figure 3_
+
 
 ## Electronics
 
@@ -59,6 +62,7 @@ General diagram: see fig. 5.
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8)
 _Figure 4_
+
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/4e68e317-f61a-411e-9682-ca7ce42bb6d9)
 _Figure 5_
