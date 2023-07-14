@@ -74,7 +74,6 @@ In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./s
 
 This starts the data adquisition system, but does not save any content into files.
 
-Press `CTRL + C` to stop the DAQ process.
 
 ### Trigger Control
 
@@ -85,6 +84,8 @@ To choose the trigger we want the system to consider we can go to the Central Tr
 In the 2.DABC window, we do `cd ~/trbsoft/userscripts/trb` and execute `./startRun.sh`.
 
 Now the data is collected into binary `.hld` files, saved at `/media/externalDisk/hlds/`.
+
+Press `CTRL + C` to stop the run.
 
 ---
 
