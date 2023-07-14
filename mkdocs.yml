@@ -1,18 +1,27 @@
 site_name: miniTRASGO
 site_url: https://cayesoneira.github.io/miniTRASGO/
 nav:
-    - Home: index.md
-    - The telescope:
+    - Home:
+        - home/index.md
+        - About: about.md
+        - Publications: publications.md
+    - Setup:
+        - setup/index.md
         - Hardware and design: hardware.md
         - Software: software.md
-        - Variables and diagrams: variables.md
-    - Tasks and monitoring:
+    - How to use:
+        - howto/index.md
         - Monitoring: control.md
+        - Variables and diagrams: variables.md
+    - Tasks, notes and objectives:
+        - tasks/index.md
         - To do: todo.md
+        - Notes: notes.md
         - Objectives: objectives.md
-    - Troubleshooting: troubleshooting.md
-    - About: about.md
-    - Notes: notes.md
+    - Help
+        - help/index.md
+        - Troubleshooting: troubleshooting.md
+        - Frequent Q&A: frequent.md
 theme:
   name: material
   features:
@@ -20,6 +29,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
 
   palette: 
 
