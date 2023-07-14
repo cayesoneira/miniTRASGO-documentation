@@ -1,4 +1,5 @@
 ## To do list:
+- See the hole in the gasless mingo-like RPC: it does not measure in an important region.
 - Find the voltage plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.
 - See how temperature, humidity, pressure affect the detector.
 - Study the gas flow: if it is equal, if it decreases with time, which is the optimal value of flux (to save gas if possible).
@@ -32,9 +33,17 @@
 - Create a tmux window for the HV.
 - What is the criteria to choose one of the charge values between the front and back?
 - Heatmap in the celestial sphere
-- If the luminosity is high then the charge can be prop to the energy
+- If the luminosity is high then the charge can be prop to the energy, but maybe at that range the mingo is blind (it saturates).
+- Add to the web-based CTS information about the logs.
+- Do some geometric study.
+- My time offset calibration method.
 
 > Blocked quote
+
+## Crazy, future ideas
+- Muon tomography with mingo.
+- 
+
 
 ## To understand:
 - The wide strip does not get more counts in the first layer (lower one): is this ok? why? *Could it be that because of being at the edge the fact of being wider does not five advantage?*
@@ -51,7 +60,7 @@
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de0d5deb-82ae-4d08-94d7-6ff27f1e3ffc)
 - ... as we see the **second upper layer** has the highest ratio, which does not make much sense. **We should measure with the detector put upside down to see if this is physical or if it is a detector-related effect**.
-- 
+- In July 14th, 2023 night run we see good XY position maps, but not good charge diagrams.
 
 
 
@@ -61,12 +70,15 @@
 - If there are several charges in the same layer, strip and event we choose the bigger one? YES, this makes sense when there is a huge particle that leaves charge in several strips next to each other: we could say then that the particle was most likely in the strip where it left the most charge. Hans wants to do multiparticle detection, but it is complex...
 - Why is the XY charge diagram uniform if the XY counts diagram is not? (We know you explained this before but...) It is the mean charge of a series of events, so it should be uniform.
 - The charge diagrams in the PDF are the same but with different scales? YES
+- A streamer is a *descarga* that is not a spark, but it involves really a lot of charge. It is caused by the common functioning of the RPC, not due to a more energetic particle (but if there is a very energetic particle, yes, it could generate a streamer, so it is necessary but not sufficient condition). They are not desired, but are unavoidable when rising up the HV. We consider that if around a 1% or 2% of the events are streamers we are set in a good point. More than that could motivate to lower down the HV a little bit.
+- How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram. We take the charge spectra and just see a bump on the right side: currently our method is set a boundary from which we consider the values streamers. The charge spectra is not touched, but we do two different XY diagrams: one is the charge and other is the streamer, each one with the events that are on each side of that boundary we just defined previously. WE COULD FIT TWO CURVES INSTEAD OF SETTING A SIMPLE BOUNDARY: ONE TO THE USUAL CHARGE SPECTRA AND ONE TO THE BUMP TO DECIDE WHEN TO CONSIDER A POINT A STREAMER.
 - 
 
 ## Questions that Alberto probably can answer
-- How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram.
+
 - What are those edges and accepted points in the rate vs. time diagram? 
-- 
+- Multiplicidad de los eventos?
+- Consideraciones Este-Oeste, etc.
 
 ## The current plan:
 - Measure at several HVs to see the plateau and check the hardware functioning.
