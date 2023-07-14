@@ -40,14 +40,14 @@ General diagram: see fig. 5.
 
 - Eight DABC discrimination DB (fig. 4) + control MB:
   - 4 input channels
-  - Input: analog signal from the detector strips.
-  - Output: square signal. Length proportional to charge deposited.
+  - Input: analog signal from the detector strips (MMCX connectors).
+  - Output: square signal. Length proportional to charge deposited (32 pin connector).
   - Developed for the HADES detector (GSI).
 - TRB3sc board:
   - Trigger selection and signal digitization.
   - 32 TDCs
-  - Inputs: square signals from the DABC boards.
-  - Outputs: digital timestamp and length of each square signal.
+  - Inputs: square signals from the DABC boards (2x 16 pin connectors).
+  - Outputs: digital timestamp and length of each square signal (USB).
 - ODroid Single Board Computer (SBC): General control and LAN communication.
 - Solid State Drive (SSD): Data storage.
 - High Voltage power supply:
