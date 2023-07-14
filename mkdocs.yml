@@ -17,6 +17,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.top
 
   palette: 
 
