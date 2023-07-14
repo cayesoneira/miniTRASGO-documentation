@@ -50,7 +50,7 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 In `tmux attach -t 0`:
 
 ### High Voltage control
-In the ??? window, `cd ~/bin/HV` and execute the executable `hv` with the following arguments:
+At any window, do `cd ~/bin/HV` and execute `./hv` with the following arguments:
 
 - `-b <bus>` : Bus number
 - `-I <Ilim>` : Current limiter (μA)
@@ -68,17 +68,26 @@ To see the information on HV and intensity in real time just type:
 
     watch -n 1 ./hv -b 0
 
-### Starting the DAQ
+### DAQ Control
 
-In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`. This starts the data adquisition system, but does not save amy content into files. To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through `192.168.3.216:1234`.
+In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`.
 
-### Startig a Run
+This starts the data adquisition system, but does not save any content into files.
 
-In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute `./startRun.sh`. Now the data is collected into `.hld` filesin binary encoding.
+### Trigger Control
+
+To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through `192.168.3.216:1234`.
+
+### Run control
+
+In the 2.DABC window, we do `cd ~/trbsoft/userscripts/trb` and execute `./startRun.sh`.
+
+Now the data is collected into binary `.hld` files, saved at `/media/externalDisk\hlds\`.
 
 ---
 
 ## Retrieving the data
+
 - Apparently `daq_anal` is the software used to convert `.hld` to hexadecimal. We'll see.
 
 
