@@ -13,7 +13,8 @@ nav:
     - Operation:
         - operation/index.md
         - Software: software.md
-        - Monitoring: control.md
+        - Monitoring: monitoring.md
+        - Data and Analysis: analysis.md
         - Variables and diagram: variables.md
     - Tasks, notes and objectives:
         - tasks/index.md
