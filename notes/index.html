@@ -8,20 +8,18 @@
       
       
       
-        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/troubleshooting/">
+        <link rel="canonical" href="https://cayesoneira.github.io/miniTRASGO/notes/">
       
       
-        <link rel="prev" href="../objectives/">
+        <link rel="prev" href="../about/">
       
-      
-        <link rel="next" href="../about/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
     
     
       
-        <title>Troubleshooting - miniTRASGO</title>
+        <title>Notes - miniTRASGO</title>
       
     
     
@@ -73,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#the-strips-appear-larger-than-they-are" class="md-skip">
+        <a href="#just-a-page-to-use-as-a-notebook" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Troubleshooting
+              Notes
             
           </span>
         </div>
@@ -236,12 +234,10 @@
         
   
   
-    
-  
 
 
   <li class="md-tabs__item">
-    <a href="./" class="md-tabs__link md-tabs__link--active">
+    <a href="../troubleshooting/" class="md-tabs__link">
       Troubleshooting
     </a>
   </li>
@@ -262,10 +258,12 @@
         
   
   
+    
+  
 
 
   <li class="md-tabs__item">
-    <a href="../notes/" class="md-tabs__link">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
       Notes
     </a>
   </li>
@@ -482,62 +480,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Troubleshooting
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
         Troubleshooting
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-strips-appear-larger-than-they-are" class="md-nav__link">
-    The strips appear larger than they are
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-correlation-pattern-has-a-cloud-of-negative-values" class="md-nav__link">
-    The correlation pattern has a cloud of negative values
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-correlation-pattern-has-a-lot-of-values-over-the-axes" class="md-nav__link">
-    The correlation pattern has a lot of values over the axes
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -563,11 +510,21 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../notes/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Notes
       </a>
+      
     </li>
   
 
@@ -589,35 +546,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-strips-appear-larger-than-they-are" class="md-nav__link">
-    The strips appear larger than they are
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-correlation-pattern-has-a-cloud-of-negative-values" class="md-nav__link">
-    The correlation pattern has a cloud of negative values
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-correlation-pattern-has-a-lot-of-values-over-the-axes" class="md-nav__link">
-    The correlation pattern has a lot of values over the axes
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -632,17 +562,46 @@
                   
 
 
-  <h1>Troubleshooting</h1>
-
-<h2 id="the-strips-appear-larger-than-they-are">The strips appear larger than they are</h2>
-<p>When seeing the XY diagram it might be that some strips appear larger. We checked the correlation in times and charges between front (F) and back (B) to see that there is no perfecet correlation, but a slope slightly different to 45 degrees and some regular gaps in the cloud of points.</p>
-<p>Alberto noticed it had to be with the calibration values of the TDC, solving not only the mingo problem but the RPC issue that was sometimes observed at HADES. Those values where seen to be <em>out of the usual</em> some time ago, but never played a mayor role until we changed the TRB in July 13th, 2023: both TRBs had this issue, but with the new one this was the only, isolated problem, so we could study it in detail.</p>
-<h2 id="the-correlation-pattern-has-a-cloud-of-negative-values">The correlation pattern has a cloud of negative values</h2>
-<p>This was caused because the <strong>TRB/TDC???? (I do not know what is more precise)</strong> was calculating the times properly but, for some reason, was confusing the leading with trailing edge of the digital signal. The error was corrected just by changing a posteriori one value with the other. We changed the TRB in July 13th, 2023 to make sure the problem was with this component, and in fact it was. We kept the new TRB for simplicity and we are trying to contact the manufacturer company to discuss the issue.</p>
-<h2 id="the-correlation-pattern-has-a-lot-of-values-over-the-axes">The correlation pattern has a lot of values over the axes</h2>
-<p>This could be explained in several ways:
-- In many cases only one of both sides (front or back) of the strip is measuring. We should test the electronics with the polimeter to checck if it is working.
-- The channels are mixed up between the front and back of different strips, which breaks the correlation pattern. Just reconnect the coaxial cables (<strong>see the technical name of that cable</strong>) that go from the strip to the daughterboard (DB) in the correct channels.</p>
+<h1 id="just-a-page-to-use-as-a-notebook">Just a page to use as a notebook</h1>
+<p>We will add here some notes that will eventually be included in a proper page of the documentation. This is essentialy a jumble of concepts and ideas.</p>
+<ul>
+<li>Some RPCs at Coimbra are sais to be <em>gasless</em>: this means that it has ionizing gas, of course, but that it is a closed cage that does not need to be refilled in a constant gas flux. Some voices claim that the gas properties might be lost in high particle flux regime due to creation of free radicals, etc. but the fact is that for now (July 14th, 2023) they have used a really big RPC (more than 1 m * 1 m) for Cosmic Ray detection and no efficienty loss is seen. Maybe in very high luminosity (e.g. at CERN) the gas actually will lose properties.</li>
+<li>The thicker the gap, the higher the efficiency, since there is more distance for the avalanche to grow and become noticeable. The problem: bigger gaps require larger times for the ions to be collected (microseconds to travel a 1-2 mm gap), and also, since there is more charge involved in the processes, more charge could acumulate on the glass layers with no time to get automatically <em>dispersed/evacuated</em> through the surface, and hence reaching the initial state, so there would be a nominal electric field affected by these charges that would be smaller than the one desired. In other words: great time precision requires thinner gaps. This motivated the idea of the multiple gap in an attemp to reach the efficiency of a thick gap without losing other properties. Actually minGO has 2 gaps that would allow to reach the 90% in efficiency.</li>
+<li>Of course RPCs are detectors for charged particles.</li>
+<li>One of the plates must necessarily be resistive (also both could be), and approximately 10^12 ohms/cm to stop undesired avalanches that would create sparks that could kill the electronics. A resistivity that is too big would not allow any detection at all. The resistivity comes from the glass, the conductivity (to establish the field) comes from the paint (an acrilic, artistic, painter, paint: for some reason the manufacturer gives the resistivity as technical specification).</li>
+<li>The gas that miniTRASGO uses is F134a, aka freon, usually found in refrigerator units. The name is 1,1,1,2 Tetrafluoroetano and it does not hurt the Ozone layer, but it is a greenhouse effect gas. The new european(?) laws discourage its use and require special protocols for its treatment, which is making the refrigerator manufacturers to stop its use and therefore creating a surpluss that is making it cheaper for us to buy.</li>
+</ul>
+<p><img alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/93153458/1238032e-7baf-4882-804f-d5526154e978" /></p>
+<ul>
+<li>To calculate the necessary HV one needs to know the temperature of the room. From it, the density of the gas can be calculated and these RPC detectors must work in a certain regime of the Townsend ratio: E/rho (electric field applied/gas density), in particular around 240 Towsends for miniTRASGO. This means that the HV is chosen accordingly with the density of the gas, and hence with the temperature.</li>
+<li>The multiplication in charge in RPCs is usually 10^6.</li>
+<li>One if the fundamental parameters of RPC detectors is the Townsend first parameter: alpha = 1/lambda.</li>
+<li>There are two types of RPCs: those with 1-2 mm gaps, that are useful only for triggering and have around 1 ns of time resolution (minGO is one of those) and those called timing RPCs that have 50 ps of time resolution: these are more complicated because require gas mixing and very high electric fields, which make them delicate detectors.</li>
+<li>How long does it take for a muon to cross miniTRASGO?</li>
+<li>Simulating the building is interesting (as we saw in the TRASGO meeting at USC).</li>
+<li>The space-charge effect is something to take into account: 20 yr ago they ignored it and calculations were essentially wrong. This effect is just the electric field produced inside the gap by the ions themselves and its change on the nominal electric field introduced between the plates.</li>
+<li>Some muon tomography could be done with mingo, since it has 4 planes. Study this.</li>
+<li>All the software for RPCs in Coimbra is made for HADES, so it is fairly complicated.</li>
+<li>The time values given by the detector are negative because the trigger is always after the measurements: the buffer stores everything for a while, then we decide to keep it or not.</li>
+<li><code>daq_anal</code> is apparently the software that takes the <code>.hld</code> and writes it in hexa from binary.</li>
+<li>What does <code>.hld</code> stand for?</li>
+<li>The charge is given in ns becasue it is calculated as a width in times by the mother and doughterboards.</li>
+<li>In principle the discriminator signal is a constant value function. We could change it up and down to let more or less events happen (higher discrimination values will limit the amount of events considered) but in principle no other function but a constant can be given to the discriminator.</li>
+<li>No fear with misconnecting cables in mingo BUT WITH THOSE TWO IDENTICAL ONES, that we should paint or so.</li>
+<li>The internal clock of the mingo PC is set in UTC (Coordinated Universal Time).</li>
+<li>ASCIS is a chip that carries out the same function as the DB and MB (red electronics): amplifying, turning into digital, etc.</li>
+<li>If the TRB changes an IP has to be given to it from mingo PC, which is a process <em>that a computer engineer would do in 30 ms</em>. We will not take notes on how to do it since it only has to be done in very special ocasions.</li>
+<li>trbnetd is a daemon that allows communication with the TRB.</li>
+<li>From the ssh connection to mingo PC we can execute <code>sudo reboot</code> to restart the mingo PC.</li>
+<li>fpga is the neuralgic center of the TRB.</li>
+<li><code>watch -n &lt;number of seconds&gt; &lt;command&gt;</code> will repeat the same command given any n seconds.</li>
+<li>The text part of the output of the <code>startDAQ</code> that are of the form <code>0xc001 32 3/8 54e03</code> are just confirming the communication with everyone of the channels (therefore there are 32 orders like that).</li>
+<li>The plateau should be around 5.5 kV.</li>
+<li>The DCS says <code>Copying from remote location</code> because it is conncecting to itself.</li>
+<li>The charge also has to be calibrated: it has to ramp up from 0. There are a lot of different algorithms to get this value, none of them is foolproof, infallible.</li>
+<li>Any event would drop the same amount of charge in the gap: a few electrons. The thing is that the HV turns this into approximately the same big charge that will be measured independently of the energy of the original particle. In the best case (<em>if we dream</em>) we could, in high multiplicity events, try to collect multiples of that charge that usually a single particle deposits. If we could get this total charge and we divide by the usual value of the charge deposited by any lonely particle we could just get the number of particles that participated in that event. WE COULD DO THIS, TAKING PROFIT ON THE FACT THAT WE HAVE TWO SIDED DETECTED STRIPS, SETTING ONE OF THE SIDES OF THE DETECTOR TO HAVE A VERY BIG DINAMIC RANGE SO IT CAN MEASURE A LOT OF CHARGE, NOT ONLY THE USUAL CHARGE DEPOSITED BY A LONELY PARTICLE (the other side would measure as usual). ACTUALLY HANS' IDEA IS TO SET A LEAD LAYER ABOVE THE DETECTOR AND, STUDYING THE MULTIPLICITY OF THE ELECTRONS AND SECONDARY PARTICLES GENERATED IN THE LEAD THAT WILL ENTER MINGO, DOING AS WE JUST SAID, GUESS THE ENERGY OF THE ORIGINAL PARTICLE THAT HIT THE LEAD.</li>
+<li></li>
+</ul>
 
 
 

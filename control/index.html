@@ -259,6 +259,18 @@
   </li>
 
       
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../notes/" class="md-tabs__link">
+      Notes
+    </a>
+  </li>
+
+      
     </ul>
   </div>
 </nav>
@@ -431,9 +443,54 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Control
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Control
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-hardware-control" class="md-nav__link">
+    Visual hardware control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign" class="md-nav__link">
+    - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-based-control" class="md-nav__link">
+    Data-based control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -448,6 +505,20 @@
     <li class="md-nav__item">
       <a href="../todo/" class="md-nav__link">
         To do
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objectives/" class="md-nav__link">
+        Objectives
       </a>
     </li>
   
@@ -490,6 +561,21 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -510,6 +596,35 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-hardware-control" class="md-nav__link">
+    Visual hardware control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign" class="md-nav__link">
+    - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-based-control" class="md-nav__link">
+    Data-based control
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -524,13 +639,17 @@
 
 
 <h1 id="control-indicators">Control indicators:</h1>
+<h2 id="visual-hardware-control">Visual hardware control</h2>
+<h2 id="-mingo-pc-has-a-blue-blinking-light-in-the-downside-whose-blink-rate-depends-on-the-cpu-load-a-normal-use-requires-a-blinking-rate-if-it-is-stopped-bad-sign">- mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.</h2>
+<h2 id="data-based-control">Data-based control</h2>
 <ul>
-<li>The correlation between the charge measured back and forth in the same strip has to be close to 1 (a plot helps to visualize). This allows us to check if the back and front channels are well connected and also if the events are collected properly. Points over the axes will indicate that one side is measuring, the other not.</li>
+<li>The correlation between the charge measured back and forth in the same strip has to be close to 1 (a plot helps to visualize) because the charge is not lost throughout the strip. This allows us to check if the back and front channels are well connected and also if the events are collected properly. Points over the axes will indicate that one side is measuring, the other not.</li>
 <li>The charge, once calibrated to have its first ramp up in the histogram in 0, has to keep like this, and has to be unimodal and both back and forth charges have to be simiral in shape. (This control condition is similar to that before).</li>
 <li>La uniformidad de la distribución espacial de la carga entre distintos strips de la misma layer es un criterio de control.</li>
 <li>The correlation between times measured back and forth, seen in a plot, can give hints on problems. We could see gaps and different angles to 45 degrees. The thicker the dispersion, the larger the strip. And a slope different to 45 degrees indicates that there is some kind of scalating acting on the large of the strip. One of the clocks might be slower? In fact we have seen gaps: <strong>the solution passed from the fact that the calibration values of the TDC/TRB where wrongly set (see Troubleshooting)</strong>.</li>
 <li>In summary: back and forth charge and time correlation diagrams are useful to see if everything is fine.</li>
 <li>The information from the self-trigger: the automatic measure of all the events from the detector. Counts per layer and strip and side. We should see how to turn this into an interesting graphic representation.</li>
+<li>The current is the most important parameter to know if a RPC has a serious problem.</li>
 <li></li>
 </ul>
 
@@ -544,6 +663,11 @@
           
           
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
         
       </main>
       
@@ -570,7 +694,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>

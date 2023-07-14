@@ -259,6 +259,18 @@
   </li>
 
       
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../notes/" class="md-tabs__link">
+      Notes
+    </a>
+  </li>
+
+      
     </ul>
   </div>
 </nav>
@@ -442,6 +454,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#retrieving-the-data" class="md-nav__link">
+    Retrieving the data
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#the-content-of-the-computer" class="md-nav__link">
     The content of the computer
   </a>
@@ -536,6 +555,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../objectives/" class="md-nav__link">
+        Objectives
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -567,6 +600,21 @@
     <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/" class="md-nav__link">
+        Notes
       </a>
     </li>
   
@@ -648,6 +696,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retrieving-the-data" class="md-nav__link">
+    Retrieving the data
+  </a>
   
 </li>
       
@@ -736,11 +791,18 @@
 <!-- tsk -->
 <pre><code>./hv -b 0 -off
 </code></pre>
+<p>To see the information on HV and intensity in real time just type:</p>
+<pre><code>watch -n 1 ./hv -b 0
+</code></pre>
 <h3 id="starting-the-daq">Starting the DAQ</h3>
-<p>In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code></p>
+<p>In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startDAQ</code>. This starts the data adquisition system, but does not save amy content into files. To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through <code>192.168.3.216:1234</code>.</p>
 <h3 id="startig-a-run">Startig a Run</h3>
-<p>In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>  </p>
+<p>In the 2.DABC window, we go to ~/trbsoft/userscripts/trb$ and execute <code>./startRun.sh</code>. Now the data is collected into <code>.hld</code> filesin binary encoding.</p>
 <hr />
+<h2 id="retrieving-the-data">Retrieving the data</h2>
+<ul>
+<li>Apparently <code>daq_anal</code> is the software used to convert <code>.hld</code> to hexadecimal. We'll see.</li>
+</ul>
 <h2 id="the-content-of-the-computer">The content of the computer</h2>
 <p>/
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
@@ -779,6 +841,11 @@
           
         </div>
         
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
       </main>
       
         <footer class="md-footer">
@@ -804,7 +871,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
