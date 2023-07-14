@@ -44,6 +44,7 @@ General diagram: see fig. 5.
   - Output: square signal. Length proportional to charge deposited.
   - Developed for the HADES detector (GSI).
 - TRB3sc board:
+  - Trigger selection and signal digitization.
   - 32 TDCs
   - Inputs: square signals from the DABC boards.
   - Outputs: digital timestamp and length of each square signal.
