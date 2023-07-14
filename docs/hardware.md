@@ -1,8 +1,15 @@
+<img width="902" alt="image" src="https://github.com/cayesoneira/miniTRASGO/assets/21690353/0b2716cf-5745-44cd-9137-250d9f6d70d8">
+
 MB: motherboard
+
 DB: daighterboard
+
 FEE: front-end electronics. Comes from the HADES GSI experiment.
+
 Gas: Freon R134a ()
+
 Dimensions: 35cm x 35 xm x 45 cm
+
 TRB3sc-based DAQ
 
 - 30x30 cm (active area) 2x1mm Gap RPC
