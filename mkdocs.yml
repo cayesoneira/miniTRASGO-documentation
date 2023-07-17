@@ -16,7 +16,6 @@ nav:
         - operation/index.md
         - Software: operation/software.md
         - Monitoring: operation/monitoring.md
-        - Data and Analysis: operation/analysis.md
         - Variables and diagram: operation/variables.md
     - Data and Analysis:
         - data/index.md
