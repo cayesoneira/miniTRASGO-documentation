@@ -40,4 +40,4 @@ Information about the charge deposited by the event is coded into the length of 
 From the raw data we can obtain information about the location (X,Y) of each event within the RPC active area:
 
 - X : Strip number. Since we do not know exactly where along the width of the strip the event took place, we add or subtract a random number proportional to our expected resolution in Y (~ 1 cm) 
-- Y : $\Delta t \cdot v_p$ : Time difference $\Delta t$ of the timestamps `Tn_F`,`Tn_B` of the front and back signal, multiplied by the propagation velocity $v_p$ of the signal within the strip. Has to be calibrated to take into account the length of the cables and other components which can introduce an offset to $\Delta t$.
+- Y : \(\Delta t \cdot v_p\) : Time difference \(\Delta t\) of the timestamps `Tn_F`,`Tn_B` of the front and back signal, multiplied by the propagation velocity \(v_p\) of the signal within the strip. Has to be calibrated to take into account the length of the cables and other components which can introduce an offset to \(\Delta t\).
