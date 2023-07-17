@@ -39,32 +39,32 @@ General diagram: see fig. 5.
 (MB: motherboard; DB: daighterboard; FEE: front-end electronics)
 
 - Eight DABC discrimination DB (fig. 4) + control MB:
-  - 4 input channels
-  - Input: analog signal from the detector strips (MMCX connectors).
-  - Output: square signal. Length proportional to charge deposited (32 pin connector).
-  - Developed for the HADES detector (GSI).
+    - 4 input channels
+    - Input: analog signal from the detector strips (MMCX connectors).
+    - Output: square signal. Length proportional to charge deposited (32 pin connector).
+    - Developed for the HADES detector (GSI).
 - TRB3sc board:
-  - Trigger selection and signal digitization.
-  - 32 TDCs
-  - Inputs: square signals from the DABC boards (2x 16 pin connectors).
-  - Outputs: digital timestamp and length of each square signal (USB).
+    - Trigger selection and signal digitization.
+    - 32 TDCs
+    - Inputs: square signals from the DABC boards (2x 16 pin connectors).
+    - Outputs: digital timestamp and length of each square signal (USB).
 - ODroid Single Board Computer (SBC): General control and LAN communication.
 - Solid State Drive (SSD): Data storage.
 - High Voltage power supply:
-  - Common for all detectors.
-  - Software controlled.
-  - Positive and negative voltages.
-  - I2C protocol.
+    - Common for all detectors.
+    - Software controlled.
+    - Positive and negative voltages.
+    - I2C protocol.
 - Enviroment sensors:
-  - One inside the electronics box, one outside.
-  - Temperature, atmospheric pressure, humidity.
-  - I2C protocol.
+    - One inside the electronics box, one outside.
+    - Temperature, atmospheric pressure, humidity.
+    - I2C protocol.
 - Flow meters:
-  - Gas flow monitoring.
-  - I2C protocol.
+    - Gas flow monitoring.
+    - I2C protocol.
 - Low voltage power supply for the electronics:
-  - Input: 48 V
-  - Outputs: 12 V, 30? V
+    - Input: 48 V
+    - Outputs: 12 V, 30? V
 - Watchdog: ensures the electronics are turned on continuously.
 
 ---
