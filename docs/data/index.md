@@ -10,45 +10,4 @@ You can transfer any file from miniTRASGO to your local machine using `scp`:
 
     scp rpcuser@192.168.3.216:gate/system/devices/RCP01/data/dcData/data/2023-07-13-EffMap.mat ~/
 
-## Unpacker
-
-Converts binary data in the .hld files to into .mat files readable with Matlab or Octave, which contain:
-
-- Ebtime : vector NEvents x 1 : Event builder time, global time with second precision.
-- For RPC l={1,2,3,4} and strip side s={F,B}:
-    - Ql_s : matrix NEvents x 4 : Charge
-    - Tl_s : matrix NEvents x 4 : Timestamp
-- TRBs : struct 1 x 1 : Deprecated
-- triggerType : vector NEvents x 1 : Trigger type (1 = muon, 2 = self trigger)
-
-The system automatically unpacks the data once per day and saves it to
-
-    ~/gate/system/devices/mingo01/data/ana/TT1
-
-## Pre-Analysis
-
-The system also creates and calculates a series of quatities once per day and saves them to `~/gate/system/devices/mingo01/data/dcData/data`:
-
-- `<date>_Eff.mat` : Efficiency over time
-- `<date>_EffMap.mat` : Efficiency map :
-    - `dateRegularFormat` : Scalar :
-    - `variable1` :
-    - `variable2` :
-    - `variable3` :
-- `<date>_Flow.mat` :
-- `<date>_Q.mat` : 
-- `<date>_QMapMean.mat` : 
-- `<date>_QMean.mat` : 
-- `<date>_QMeanNoST.mat` : 
-- `<date>_QMedian.mat` : 
-- `<date>_QMedianNoST.mat` : 
-- `<date>_Rate.mat` :
-- `<date>_STMap.mat` :
-- `<date>_Str.mat` :
-- `<date>_xyMap.mat` :
-  
-and
-  
-    ~/gate/system/devices/RPC01/data/dcData/data
-
 
