@@ -9,8 +9,9 @@ nav:
         - Publications: home/publications.md
     - Detector Setup:
         - setup/index.md
-        - Hardware and design: setup/hardware.md
+        - Hardware and Design: setup/hardware.md
         - Software Environment: setup/environment.md
+        - Raw Data Structure: setup/data.md
     - Operation:
         - operation/index.md
         - Software: operation/software.md
