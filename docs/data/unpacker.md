@@ -1,5 +1,3 @@
-## Unpacker
-
 Converts binary data in the .hld files to into .mat files readable with Matlab or Octave, which contain:
 
 - Ebtime : vector NEvents x 1 : Event builder time, global time with second precision.
