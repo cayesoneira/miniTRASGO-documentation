@@ -57,7 +57,9 @@ theme:
 
 plugins:
   - search
-# To have LaTeX equations display properly
+# To have LaTeX equations display properly.
+# You need to install another package:
+# $ pip3 install python-markdown-math
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 markdown_extensions:
