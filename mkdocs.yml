@@ -25,7 +25,7 @@ nav:
     - Help:
         - help/index.md
         - Troubleshooting: help/troubleshooting.md
-        - FAQ: frequent.md
+        - FAQ: help/frequent.md
 theme:
   name: material
   features:
