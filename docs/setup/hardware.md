@@ -1,14 +1,14 @@
 ## Geometry of the telescope
 
 - 4 parallel square RPC detectors (fig. 1):
-  - Active area: 30x30 cm
-  - Three 2 mm thick glass panes separated by 1 mm thick nylon monofilaments (fig. 2).
-  - Two gaps of 1mm each filled with gas Freon (R134a).
-  - Top and bottom glass panes covered with semiconducting paint on the inside.
-  - High voltage applied between the paint layers (positive / negative).
-  - 4 metal strips cover each RPC on top (fig. 3):
-    - Asymmetrical widths.
-    - 2 outputs: front and back.
+    - Active area: 30x30 cm
+    - Three 2 mm thick glass panes separated by 1 mm thick nylon monofilaments (fig. 2).
+    - Two gaps of 1mm each filled with gas Freon (R134a).
+    - Top and bottom glass panes covered with semiconducting paint on the inside.
+    - High voltage applied between the paint layers (positive / negative).
+    - 4 metal strips cover each RPC on top (fig. 3):
+        - Asymmetrical widths.
+        - 2 outputs: front and back.
 - Discrimination electronics on one corner
 - Trigger, DAQ, Control and Monitoring electronics in box between detectors 1 and 2.
 - High voltage power supply box between detectors 2 and 3.
