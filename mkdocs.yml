@@ -18,9 +18,9 @@ nav:
         - Variables and diagram: operation/variables.md
     - Data and Analysis:
         - data/index.md
-        - Raw Data: rawData.md
-        - Unpacker: unpacker.md
-        - Pre-Analysis: pre-analysis.md
+        - Raw Data: data/rawData.md
+        - Unpacker: data/unpacker.md
+        - Pre-Analysis: data/pre-analysis.md
     - Tasks, notes and objectives:
         - tasks/index.md
         - Tasks: tasks/todo.md
