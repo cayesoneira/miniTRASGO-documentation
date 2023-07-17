@@ -1,5 +1,3 @@
-## Pre-Analysis
-
 The system also creates and calculates a series of quatities once per day and saves them to `~/gate/system/devices/mingo01/data/dcData/data`:
 
 - `<date>_Eff.mat` : Efficiency over time
