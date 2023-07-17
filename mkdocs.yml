@@ -18,6 +18,11 @@ nav:
         - Monitoring: operation/monitoring.md
         - Data and Analysis: operation/analysis.md
         - Variables and diagram: operation/variables.md
+    - Data and Analysis:
+        - data/index.md
+        - Raw Data: rawData.md
+        - Unpacker: unpacker.md
+        - Pre-Analysis: pre-analysis.md
     - Tasks, notes and objectives:
         - tasks/index.md
         - Tasks: tasks/todo.md
