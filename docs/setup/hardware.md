@@ -67,13 +67,15 @@ General diagram: see fig. 5.
   - Outputs: 12 V, 30? V
 - Watchdog: ensures the electronics are turned on continuously.
 
+---
+
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/95f912cf-b274-4cfb-8519-419436ef5dd8)
 
 _Figure 4_
 
 ---
 
-![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/4e68e317-f61a-411e-9682-ca7ce42bb6d9)
+![image](https://github.com/cayesoneira/miniTRASGO/assets/21690353/86c4fdca-18d2-4233-8ca4-95511cd59bbe)
 
 _Figure 5_
 
