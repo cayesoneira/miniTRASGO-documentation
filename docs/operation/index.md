@@ -1,1 +1,1 @@
-Heyye
+The miniTRASGO sends a daily report in pdf format with several figures of interest. It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from the **last day(??????)**.
