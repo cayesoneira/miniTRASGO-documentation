@@ -1,1 +1,1 @@
-The miniTRASGO sends a daily report in pdf format with several figures of interest. It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from the **last day(??????)**.
+The miniTRASGO sends a daily report in pdf format with several figures of interest. It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from the **last day**, as it was set on July 18th, 2023: it sends a report at 8:30, but with the information from 23:30 to 00:00 of the following day.
