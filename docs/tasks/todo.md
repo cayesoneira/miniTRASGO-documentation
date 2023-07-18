@@ -1,3 +1,6 @@
+## Key milestones:
+- Crear un datastream razonable que todo el mundo pueda entender: es decir, tratar de evitar el .hld, que es un formato no muy física-friendly. **Si queremos que miniTRASGO se use, necesitamos que los datos estén en una forma accesible. Y nada mejor para esto que tratar de definir un objetivo físico, por ejemplo, la tasa, y a partir de ahí ir construyendo de acuerdo a la necesidad**.
+
 ## To do list:
 - See the hole in the gasless mingo-like RPC: it does not measure in an important region.
 - Find the voltage plateau: study the behaviour of the efficiency with the high voltage (HV). We are around 5.5 kV.
@@ -47,7 +50,13 @@
 - **The layers are situated at different distances to each other, BUT THE EFFICIENCY ANALYSIS DOES NOT TAKE THIS INTO ACCOUNT. Therefore, the efficienty numbers are wrong.**
 - Calibrate the AU (Arbitrary Units) to get from it the position information, the time information, the charge information,etc. check specially if the charge behaviour is linear with the time difference.
 - THE EFFICIENCY IN THE EFF.MAT FILES IS MADE AS THIS: ONE POINT PER .HLD FILE. SO IT COULD BE POSSIBLE THAT THERE ARE SOME .HLDs THAT HAVE TWO DIFFERENT HVs, IF THE DAQ WAS NOT STOPPED WHEN CHANGING THE HV. We are not going to avoid some .hld's being smaller because of some mistakes or because we stop the run before it is full, but we do can ensure that each .hld is only calculating with each one of the values of the HV.
+- 1h approx could be enough when measuring the efficiency.
+- The difference in timeStamps in Qmean, Str, Eff.mat, etc can give a clue on the mean time it takes to fill a .hlod, since each mean .mat is created from an individual .hld.
+- To check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
+- ![image](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/04e027f9-11ed-45c9-aaa5-54365ed7d67b)
+- Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
 - 
+
 
 > Blocked quote
 
@@ -83,12 +92,6 @@
 - The charge diagrams in the PDF are the same but with different scales? YES
 - A streamer is a *descarga* that is not a spark, but it involves really a lot of charge. It is caused by the common functioning of the RPC, not due to a more energetic particle (but if there is a very energetic particle, yes, it could generate a streamer, so it is necessary but not sufficient condition). They are not desired, but are unavoidable when rising up the HV. We consider that if around a 1% or 2% of the events are streamers we are set in a good point. More than that could motivate to lower down the HV a little bit.
 - How to do the streamer map? Are those points removed from the standard charge diagram? Because we saw they could appear as a second peak in the charge diagram. We take the charge spectra and just see a bump on the right side: currently our method is set a boundary from which we consider the values streamers. The charge spectra is not touched, but we do two different XY diagrams: one is the charge and other is the streamer, each one with the events that are on each side of that boundary we just defined previously. WE COULD FIT TWO CURVES INSTEAD OF SETTING A SIMPLE BOUNDARY: ONE TO THE USUAL CHARGE SPECTRA AND ONE TO THE BUMP TO DECIDE WHEN TO CONSIDER A POINT A STREAMER.
-- 
-
-## Questions that Alberto probably can answer
-
-- What are those edges and accepted points in the rate vs. time diagram?
-- What is the time resolution inside a strip?
 - What is the velocity of the signal inside the strip?
 - Multiplicidad de los eventos? Just how many particles are involved in what we consider one event: the time window of a trigger.
 - Consideraciones Este-Oeste, etc: due to the magnetic field of Earth we can see some symmetry between East-West in the arrival of CR, which would mean that measuring with good resolution in that direction is not so releveant as having good resolution in the North-South direction. This is why miniTRASGO has its strips all parallel and not crossed: because if the direction of better resolution is that in what the strip is pointing then aligning parallel all the strips could, hipotetically, give a high resolution in that precise direction. We should still study if this actually improves the resolution, because maybe the crossing of the strips even allows a better determination of position: as we see in the figure, we have to check if we obtain the small area (improved resolution) or we get the red one (worsened resolution):
@@ -96,11 +99,9 @@
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de5d9c3d-ab24-4607-88cd-5caf9ea9cbf1)
 
 
-## The current plan:
-- Measure at several HVs to see the plateau and check the hardware functioning.
+## Questions that Alberto probably can answer
+- What are those edges and accepted points in the rate vs. time diagram?
+- What is the time resolution inside a strip?
 
-## Layer by layer (complete with the upper):
-- Layer 1 (lower): wider strip does not get more counts.
-- Layer 2 (second lower): heavyside
-- Layer 3 (second upper): we should have 100\% efficiency 
-- Layer 4 (uppermost): 
+
+
