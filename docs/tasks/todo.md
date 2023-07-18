@@ -42,6 +42,9 @@
 - Set milestones and distribute them.
 - Set a timetable (daily, each two days, weekly, etc.) to do several important control processes: calibrate efficiency (with three layers), calibrate self trigger, and finally, maybe, measure with two layers: how often and for how long each process needs to be developed is something that we need to see.
 - Decide the number of cells we are going to consider in the miniTRASGO to set a resolution value, but also to define some statistical stuff. If we determine, for exmaple, that the uncertainty in time is $\Delta t$, then the unertainty in positon is velocity of the signal in the strip*$\Delta t$ = position uncertainty: this means that we could effectively define 300 mm / position uncertainty cells in each strip, so the total number of pixels will be: 4 * 300 mm / (pos. uncertainty in each strip). So we could define how much is good statistics, i.e. how many count we need in the detector to have a minimum number of counts per pixel, which would define what are good statistics.
+- Maybe the efficiency should be posed not in terms of layer efficiency but in terms of strip or even pixel efficiency, since **each strip is as different as the others not only between**
+- Change layers to see if a certain behaviour is due to the geometry or to the layer itself.
+- **The layers are situated at different distances to each other, BUT THE EFFICIENCY ANALYSIS DOES NOT TAKE THIS INTO ACCOUNT. Therefore, the efficienty numbers are wrong.**
 - 
 
 > Blocked quote
@@ -82,7 +85,9 @@
 
 ## Questions that Alberto probably can answer
 
-- What are those edges and accepted points in the rate vs. time diagram? 
+- What are those edges and accepted points in the rate vs. time diagram?
+- What is the time resolution inside a strip?
+- What is the velocity of the signal inside the strip?
 - Multiplicidad de los eventos? Just how many particles are involved in what we consider one event: the time window of a trigger.
 - Consideraciones Este-Oeste, etc: due to the magnetic field of Earth we can see some symmetry between East-West in the arrival of CR, which would mean that measuring with good resolution in that direction is not so releveant as having good resolution in the North-South direction. This is why miniTRASGO has its strips all parallel and not crossed: because if the direction of better resolution is that in what the strip is pointing then aligning parallel all the strips could, hipotetically, give a high resolution in that precise direction. We should still study if this actually improves the resolution, because maybe the crossing of the strips even allows a better determination of position: as we see in the figure, we have to check if we obtain the small area (improved resolution) or we get the red one (worsened resolution):
 
