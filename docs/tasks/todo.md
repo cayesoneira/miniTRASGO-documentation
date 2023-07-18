@@ -37,6 +37,10 @@
 - Add to the web-based CTS information about the logs.
 - Do some geometric study.
 - My time offset calibration method.
+- Hans: eventually we should trigger with two planes.
+- It is not a bad idea to simulate the building.
+- Set milestones and distribute them.
+- 
 
 > Blocked quote
 
@@ -77,8 +81,11 @@
 ## Questions that Alberto probably can answer
 
 - What are those edges and accepted points in the rate vs. time diagram? 
-- Multiplicidad de los eventos?
-- Consideraciones Este-Oeste, etc.
+- Multiplicidad de los eventos? Just how many particles are involved in what we consider one event: the time window of a trigger.
+- Consideraciones Este-Oeste, etc: due to the magnetic field of Earth we can see some symmetry between East-West in the arrival of CR, which would mean that measuring with good resolution in that direction is not so releveant as having good resolution in the North-South direction. This is why miniTRASGO has its strips all parallel and not crossed: because if the direction of better resolution is that in what the strip is pointing then aligning parallel all the strips could, hipotetically, give a high resolution in that precise direction. We should still study if this actually improves the resolution, because maybe the crossing of the strips even allows a better determination of position: as we see in the figure, we have to check if we obtain the small area (improved resolution) or we get the red one (worsened resolution):
+
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de5d9c3d-ab24-4607-88cd-5caf9ea9cbf1)
+
 
 ## The current plan:
 - Measure at several HVs to see the plateau and check the hardware functioning.
