@@ -1,4 +1,4 @@
-# miniTRASGO
+# miniTRASGO documentation
 Documentation and usage guide for the miniTRASGO Cosmic Ray telescope
 
 ## To edit the documentation:
