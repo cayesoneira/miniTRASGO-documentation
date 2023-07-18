@@ -40,6 +40,8 @@
 - Hans: eventually we should trigger with two planes.
 - It is not a bad idea to simulate the building.
 - Set milestones and distribute them.
+- Set a timetable (daily, each two days, weekly, etc.) to do several important control processes: calibrate efficiency (with three layers), calibrate self trigger, and finally, maybe, measure with two layers: how often and for how long each process needs to be developed is something that we need to see.
+- Decide the number of cells we are going to consider in the miniTRASGO to set a resolution value, but also to define some statistical stuff. If we determine, for exmaple, that the uncertainty in time is $\Delta t$, then the unertainty in positon is velocity of the signal in the strip*$\Delta t$ = position uncertainty: this means that we could effectively define 300 mm / position uncertainty cells in each strip, so the total number of pixels will be: 4 * 300 mm / (pos. uncertainty in each strip). So we could define how much is good statistics, i.e. how many count we need in the detector to have a minimum number of counts per pixel, which would define what are good statistics.
 - 
 
 > Blocked quote
