@@ -45,7 +45,7 @@
 - Maybe the efficiency should be posed not in terms of layer efficiency but in terms of strip or even pixel efficiency, since **each strip is as different as the others not only between**
 - Change layers to see if a certain behaviour is due to the geometry or to the layer itself.
 - **The layers are situated at different distances to each other, BUT THE EFFICIENCY ANALYSIS DOES NOT TAKE THIS INTO ACCOUNT. Therefore, the efficienty numbers are wrong.**
-- 
+- Calibrate the AU (Arbitrary Units) to get from it the position information, the time information, the charge information,etc. check specially if the charge behaviour is linear with the time difference.
 
 > Blocked quote
 
