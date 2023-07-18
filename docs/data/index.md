@@ -2,7 +2,7 @@
 
 Raw data is located at `/media/externalDisk/hlds/`
 
-You can transfer any file from miniTRASGO to your local machine using `scp`:
+You can transfer any file from miniTRASGO to your local machine using `scp` from the local terminal, not the mingo one:
 
     scp <user>@<remote machine>:<remote file> <local directory>
   
