@@ -58,4 +58,9 @@ We will add here some notes that will eventually be included in a proper page of
 - En última instancia la forma de conocer a qué canal se corresponde cada strip es desconectar uno de los canales y ver después cuál deja de aparecer en el pdf.
 - The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for
 - If the luminosity is high then the charge can be prop to the energy, but maybe at that range the mingo is blind (it saturates).
-- 
+- THE EFFICIENCY IN THE EFF.MAT FILES IS MADE AS THIS: ONE POINT PER .HLD FILE. SO IT COULD BE POSSIBLE THAT THERE ARE SOME .HLDs THAT HAVE TWO DIFFERENT HVs, IF THE DAQ WAS NOT STOPPED WHEN CHANGING THE HV. We are not going to avoid some .hld's being smaller because of some mistakes or because we stop the run before it is full, but we do can ensure that each .hld is only calculating with each one of the values of the HV.
+- 1h approx could be enough when measuring the efficiency.
+- To check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
+-  ![image](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/04e027f9-11ed-45c9-aaa5-54365ed7d67b)
+-  Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
+-  
