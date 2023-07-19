@@ -46,7 +46,7 @@ General diagram: see fig. 5.
 - TRB3sc board:
     - Trigger selection and signal digitization.
     - 32 TDCs
-    - Inputs: square signals from the DABC boards (2x 16 pin connectors).
+    - Inputs: square LVDS (low voltage differential signal) from the DABC boards (2x 16 pin connectors).
     - Outputs: digital timestamp and length of each square signal (USB).
 - ODroid Single Board Computer (SBC): General control and LAN communication.
 - Solid State Drive (SSD): Data storage.
