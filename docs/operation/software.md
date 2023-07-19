@@ -39,6 +39,8 @@ In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./s
 
 This starts the data adquisition system, but does not save any content into files.
 
+## Threshold information
+On the `Thresholds` window there is a script called `./setThresholds.sh` which puts the threshold to -40 mV; the `./startDAQ` includes this line, but we have to be sure that nothing changes the thresholds automatically, since we are usually executing `./startRun.sh` and not `./startDAQ`, which is started once per system reboot.
 
 ## Trigger Control
 
