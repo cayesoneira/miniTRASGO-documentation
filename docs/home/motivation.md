@@ -2,8 +2,8 @@
 The fundamental question is the following: is it possible to measure high energy cosmic rays with only a few detectors?
 
 The TRASGO features:
+
 - High granularity tracking detectors (posibility to detect bundles).
-- Sensitive to bundles of particles.
 - ...
 - Electron enery distribution.
 
