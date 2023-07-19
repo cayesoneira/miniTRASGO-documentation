@@ -10,7 +10,10 @@ While connected, we can enter one of the terminal sessions currently running wit
     tmux attach -t 0
 
 > To erase a `tmux` window just type `CTRL+B, ???`, to create one just press `CTRL+B, C`. You can rename them with `tmux rename-window <new name>`.
-`
+
+## Desktop connection
+To connect to the desktop of the miniTRASGO computer just write in your local terminal the following: `vncviewer 192.168.3.216:0`; the IP has to be replaced by the one the device has assigned. Then just write the password that it is the same for every mingo related stuff.
+
 ## High Voltage control
 At any window, do `cd ~/bin/HV` and execute `./hv` with the following arguments:
 
