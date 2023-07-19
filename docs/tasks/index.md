@@ -7,6 +7,9 @@
 
 ## Trello board
 
+UNIDADES BASICAS DE TRASGO, etc: MeV, mm, ns
+OTRA COSA: Las placas de arriba para abajo, la 1 es lasuperior, la primera que recibe el muón; se denomina a la capa como T, en lugar de como RPC, es decir, la capa 1 es T1 (la superior), etc.
+EJE z hacia abajo, eje x en la dirección del strip, eje y en la transversal. Eventualmente querremos que la dirección del strip sea la N-S para conseguir más definición.
 URGENTE: comprobar el flujo minimo de gas que permite un funcionamiento normal del detector (para ahorrar un poco)
 
 [Our Trello Board](https://trello.com/b/6J0jlw95)
