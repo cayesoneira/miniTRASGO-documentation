@@ -21,12 +21,12 @@ nav:
         - Raw Data: data/rawData.md
         - Unpacker: data/unpacker.md
         - Pre-Analysis: data/pre-analysis.md
-    - Tasks, notes and objectives:
+    - Tasks, objectives and notes:
         - tasks/index.md
 #        - Tasks: tasks/todo.md
         - To understand: tasks/to-understand.md
-        - Notes: tasks/notes.md
         - Objectives: tasks/objectives.md
+        - Notes: tasks/notes.md
     - Help:
         - help/index.md
         - Troubleshooting: help/troubleshooting.md
