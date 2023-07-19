@@ -18,6 +18,7 @@
 ## Questions that Alberto answered
 - What is the criteria to choose of the two charges to make the charge diagram? Se hace la media.
 - Can we obtain physical information of the charge diagram? It is there because of control and because we can.
+- What are those edges and accepted points in the rate vs. time diagram? The *accepted* are the triggers that actually gave a measure that is registered on the file. The *edges* are those triggers that were *triggered* during the dead time of the detector, i.e. too close to other trigger so it cannot be registered into the files. The *asserted* is something we have to see.
 - If there are several charges in the same layer, strip and event we choose the bigger one? YES, this makes sense when there is a huge particle that leaves charge in several strips next to each other: we could say then that the particle was most likely in the strip where it left the most charge. Hans wants to do multiparticle detection, but it is complex...
 - Why is the XY charge diagram uniform if the XY counts diagram is not? (We know you explained this before but...) It is the mean charge of a series of events, so it should be uniform.
 - The charge diagrams in the PDF are the same but with different scales? YES
@@ -31,6 +32,6 @@
 
 
 ## Questions that Alberto probably can answer
-- What are those edges and accepted points in the rate vs. time diagram? The *accepted* are the triggers that actually gave a measure that is registered on the file. The *edges* are those triggers that were *triggered* during the dead time of the detector, i.e. too close to other trigger so it cannot be registered into the files. The *asserted* is something we have to see.
 - What is the time resolution inside a strip?
 - How to measure the velocity of the signal inside a strip?
+- How long does it take for a muon to cross miniTRASGO? 
