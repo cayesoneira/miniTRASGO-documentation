@@ -54,4 +54,8 @@ We will add here some notes that will eventually be included in a proper page of
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/a801a4f0-d95d-4898-8f6f-9655292cbbe9)
 
+- Sometimes there are streamers: descargas bastante grandes que no llegan a ser chispas pero que se ven en los diagramas de carga sobre la superficie. Appear as a second peak in the charge spectrum histogram.
+- En última instancia la forma de conocer a qué canal se corresponde cada strip es desconectar uno de los canales y ver después cuál deja de aparecer en el pdf.
+- The efficiency in several planes: 4: 0.6, 3: 0.8, 2: 0.8, 1: 0.4. All should have the same value, but for
+- If the luminosity is high then the charge can be prop to the energy, but maybe at that range the mingo is blind (it saturates).
 - 
