@@ -23,7 +23,8 @@ nav:
         - Pre-Analysis: data/pre-analysis.md
     - Tasks, notes and objectives:
         - tasks/index.md
-        - Tasks: tasks/todo.md
+#        - Tasks: tasks/todo.md
+        - To understand: tasks/to-understand.md
         - Notes: tasks/notes.md
         - Objectives: tasks/objectives.md
     - Help:
