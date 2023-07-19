@@ -1,10 +1,12 @@
 # Monitoring indicators:
 
 ## Visual hardware monitoring
+
 - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
 - 
 
 ## Data-based monitoring
+
 - The correlation between the charge measured back and forth in the same strip has to be close to 1 (a plot helps to visualize) because the charge is not lost throughout the strip. This allows us to check if the back and front channels are well connected and also if the events are collected properly. Points over the axes will indicate that one side is measuring, the other not.
 - The charge, once calibrated to have its first ramp up in the histogram in 0, has to keep like this, and has to be unimodal and both back and forth charges have to be simiral in shape. (This control condition is similar to that before).
 - La uniformidad de la distribución espacial de la carga entre distintos strips de la misma layer es un criterio de control.
