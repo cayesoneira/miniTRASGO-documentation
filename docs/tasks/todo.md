@@ -101,8 +101,9 @@
 
 
 ## Questions that Alberto probably can answer
-- What are those edges and accepted points in the rate vs. time diagram?
+- What are those edges and accepted points in the rate vs. time diagram? The *accepted* are the triggers that actually gave a measure that is registered on the file. The *edges* are those triggers that were *triggered* during the dead time of the detector, i.e. too close to other trigger so it cannot be registered into the files. The *asserted* is something we have to see.
 - What is the time resolution inside a strip?
+- How to measure the velocity of the signal inside a strip?
 
 
 
