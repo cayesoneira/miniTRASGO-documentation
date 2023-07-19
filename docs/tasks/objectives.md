@@ -16,3 +16,4 @@ Currently out objectives could be divided into realistic and more dreamy ones.
 - There could be a miniTRASGO in the cargo container that the IFIC is going to use for HENSA in Sierra Nevada, since they have some space there.
 - **Solar weather**. e.g. Detect Bartle's rotation (27 day long Sun cycle); AMS in ISS did detect this. It would be a success to do it from the ground.
 - Medida de clusters y sus propiedades (multiplicidad, tamaño, anchura temporal, estimación de su energía, etc.)
+- Modulación día-noche.
