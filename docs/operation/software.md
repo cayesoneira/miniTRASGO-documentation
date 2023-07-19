@@ -9,6 +9,8 @@ While connected, we can enter one of the terminal sessions currently running wit
 
     tmux attach -t 0
 
+> To erase a `tmux` window just type `CTRL+B, ???`, to create one just press `CTRL+B, C`. You can rename them with `tmux rename-window <new name>`.
+`
 ## High Voltage control
 At any window, do `cd ~/bin/HV` and execute `./hv` with the following arguments:
 
