@@ -59,3 +59,9 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
         - /perl5: ???
         - /pythonscripts: only has one .py and I do not think it is very important.
         - /trbsoft: Trigger and Readout Board software
+     
+## Look Up Tables (LUTs)
+Every device involved in the system has a LUT designated in order to explain how to read the files and also some alarm configured. For example the LookUpTableTRB.m has an alarm system which is the following:
+
+    {<0 or 1 if it is on/off>, <minimum value to triger the alarm>, <how many times has to occur to trigger the alarm>}
+    {<0 or 1 if it is on/off>, <maximum value to triger the alarm>, <how many times has to occur to trigger the alarm>}
