@@ -11,3 +11,8 @@ This was caused because the **TRB/TDC???? (I do not know what is more precise)**
 This could be explained in several ways:
 - In many cases only one of both sides (front or back) of the strip is measuring. We should test the electronics with the polimeter to checck if it is working.
 - The channels are mixed up between the front and back of different strips, which breaks the correlation pattern. Just reconnect the coaxial cables (**see the technical name of that cable**) that go from the strip to the daughterboard (DB) in the correct channels.
+
+## The `startRun.sh` keeps executing in the background
+You will have to list all the processes, in particular those that use the `dabc_exe` with `ps -ef | grep dabc` (if you `cat startRun.sh` it will say `dabc_exe EventBuilder_TRB399.xml`), and then
+
+    kill -9 <id_1> <id_2> <...>
