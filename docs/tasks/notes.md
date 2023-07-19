@@ -63,4 +63,28 @@ We will add here some notes that will eventually be included in a proper page of
 - To check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
 -  ![image](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/04e027f9-11ed-45c9-aaa5-54365ed7d67b)
 -  Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
--  
+
+## From Hans' presentation
+Algunos observables directos accesibles a un detector tipo MINGO:
+- Tasa de rayos cósmicos aislados
+- Tasas de distintas multiplicidades de rayos cósmicos
+- Tasa de muones
+- Tasa de electrones
+- Espectro de energía de electrones
+- Distribución angular de incidencia de muones
+- Distribución angular de incidencia de electrones
+- Distribución del tiempo de llegada entre rayos cósmicos
+- Distribución de tiempos entre eventos
+- Distribución de tiempos en grupos de partículas
+
+
+Observables indirectos:
+- Variaciones en la actividad solar y clima espacial
+- Variaciones atmosféricas
+- Variaciones en el campo magnético terrestre
+- Variaciones en la tasa total del fondo de rayos cósmicos
+
+
+Otras posibilidades:
+- Los detectores pueden disponerse fácilmente en red, sincronizados, para cubrir
+mayores superficies
