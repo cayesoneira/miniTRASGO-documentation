@@ -7,6 +7,8 @@
 
 ## Trello board
 
+URGENTE: comprobar el flujo minimo de gas que permite un funcionamiento normal del detector (para ahorrar un poco)
+
 [Our Trello Board](https://trello.com/b/6J0jlw95)
 
 <iframe src="https://trello.com/b/6J0jlw95.html" frameBorder="0" width="100%" height="600"></iframe>
