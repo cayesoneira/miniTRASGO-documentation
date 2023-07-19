@@ -6,8 +6,8 @@ TRASGO: TRAck reconStructinG bOx
 
 
 ## Participating groups
-- Warsaw, Poland.
-- Puebla, Mexico.
+- Warsaw University of Technology (WUT), Poland.
+- Benemérita Universidad Autónoma de Puebla (BUAP), Mexico.
 - Tunja, Colombia.
 - Madrid, Spain.
 - Valencia, Spain.
