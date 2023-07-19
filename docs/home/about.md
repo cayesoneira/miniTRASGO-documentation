@@ -1,8 +1,20 @@
-# About us
+## About the detector
+- It is a detector for charged particles.
+- Some RPCs at Coimbra are said to be *gasless*: this means that it has ionizing gas, of course, but that it is a closed cage that does not need to be refilled in a constant gas flux. Some voices claim that the gas properties might be lost in high particle flux regime due to creation of free radicals, etc. but the fact is that for now (July 14th, 2023) they have used a really big RPC (more than 1 m * 1 m) for Cosmic Ray detection and no efficienty loss is seen. Maybe in very high luminosity (e.g. at CERN) the gas actually will lose properties.
+- The thicker the gap, the higher the efficiency, since there is more distance for the avalanche to grow and become noticeable. The problem: bigger gaps require larger times for the ions to be collected (microseconds to travel a 1-2 mm gap), and also, since there is more charge involved in the processes, more charge could acumulate on the glass layers with no time to get automatically *dispersed/evacuated* through the surface, and hence reaching the initial state, so there would be a nominal electric field affected by these charges that would be smaller than the one desired. In other words: great time precision requires thinner gaps. This motivated the idea of the multiple gap in an attemp to reach the efficiency of a thick gap without losing other properties. Actually minGO has 2 gaps that would allow to reach the 90% in efficiency.
+- One of the plates must necessarily be resistive (also both could be), and approximately 10^12 ohms/cm to stop undesired avalanches that would create sparks that could kill the electronics. A resistivity that is too big would not allow any detection at all. The resistivity comes from the glass, the conductivity (to establish the field) comes from the paint (an acrilic, artistic, painter, paint: for some reason the manufacturer gives the resistivity as technical specification).
+- The gas that miniTRASGO uses is F134a, aka freon, usually found in refrigerator units. The name is 1,1,1,2-Tetrafluoroetano and it does not hurt the Ozone layer, but it is a greenhouse effect gas. The new european(?) laws discourage its use and require special protocols for its treatment, which is making the refrigerator manufacturers to stop its use and therefore creating a surpluss that is making it cheaper for us to buy.
+
 
 TRASGO: TRAck reconStructinG bOx
 
 ![The TRASGO family](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/f24e7f9d-92d5-482a-b9f9-9be5c0600c5f)
+
+
+## Some history
+The beginning of the TRASGO project (the -1 step, actually) comes from the HADES RPC ToF Wall, around the 2000's. LIP (Coimbra), GSI (Darmstad), IFIC (Valencia) and LabCAF (Santiago de Compostela) participated.
+
+## About us
 
 
 ## Participating groups
@@ -13,9 +25,6 @@ TRASGO: TRAck reconStructinG bOx
 - Valencia, Spain.
 - Santiago, Spain.
 - LIP Coimbra, Portugal.
-
-## Some history
-The beginning of the TRASGO project (the -1 step, actually) comes from the HADES RPC ToF Wall, around the 2000's. LIP (Coimbra), GSI (Darmstad), IFIC (Valencia) and LabCAF (Santiago de Compostela) participated.
 
 
 There have been already two TRASGO meetings and two TRAGALDABAS meetings.
