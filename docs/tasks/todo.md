@@ -1,5 +1,3 @@
-<!---
-
 ------- Old to do list -------
 
 ## To do list:
@@ -57,8 +55,6 @@
 - ![image](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/04e027f9-11ed-45c9-aaa5-54365ed7d67b)
 - Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
 - Change the matlab pdf legends and titles to be more clear about the layers.
-
--->
 
 
 
