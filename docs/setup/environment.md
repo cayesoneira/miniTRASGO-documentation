@@ -39,7 +39,7 @@ To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside t
 - bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
 - /media
     - /externalDisk
-        - /hlds: here the trigger data files are stored.
+        - /hlds: here the trigger data files are stored in a format that is non readeable by python, octave, etc.
 - /home: everything interesting is inside this directory except the trigger data files.
     - /rpcuser
         - /bin
