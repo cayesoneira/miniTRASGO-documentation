@@ -3,7 +3,6 @@
 ## Visual hardware monitoring
 
 - mingo PC has a blue blinking light in the downside whose blink rate depends on the CPU load. A normal use requires a blinking rate. If it is stopped, bad sign.
-- 
 
 ## Data-based monitoring
 
@@ -14,4 +13,8 @@
 - In summary: back and forth charge and time correlation diagrams are useful to see if everything is fine.
 - The information from the self-trigger: the automatic measure of all the events from the detector. Counts per layer and strip and side. We should see how to turn this into an interesting graphic representation.
 - The current is the most important parameter to know if a RPC has a serious problem.
-- 
+
+## Gas flow and HV
+
+There's a python script at `/home/rpcuser/pythonScripts/checkFlow.py` that checks the gas flow every hour, and if it reaches a certain lower threshold (currently set at 100), if turns off the HV.
+
