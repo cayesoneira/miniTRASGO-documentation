@@ -30,6 +30,8 @@
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/de5d9c3d-ab24-4607-88cd-5caf9ea9cbf1)
 
+Questions for Alberto:
+- FPGAs (Field Programmable Gate Arrays)??
 
 ## Questions that Alberto probably can answer
 - What is the time resolution inside a strip?
