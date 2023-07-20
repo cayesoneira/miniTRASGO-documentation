@@ -9,6 +9,7 @@ nav:
         - Publications: home/publications.md
     - Detector Setup:
         - setup/index.md
+        - Calibration: setup/calibration.md
         - Hardware and Design: setup/hardware.md
         - Software Environment: setup/environment.md
     - Operation:
