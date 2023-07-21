@@ -33,6 +33,8 @@ To see the information on HV and intensity in real time just type:
 
     watch -n 1 ./hv -b 0
 
+The `powercycle` (or something like that) is used to reboot: it is like going to the lab and turning off and then on the system (I just do not know if).
+
 ## DAQ Control
 
 In the 1.DAQControl window, we go to ~/trbsoft/userscripts/trb$ and execute `./startDAQ`.
