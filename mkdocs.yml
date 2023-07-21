@@ -22,6 +22,7 @@ nav:
         - Raw Data: data/rawData.md
         - Unpacker: data/unpacker.md
         - Pre-Analysis: data/pre-analysis.md
+        - Dataflow: data/dataflow.md
     - Tasks, objectives and notes:
         - tasks/index.md
 #        - Tasks: tasks/todo.md
