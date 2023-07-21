@@ -1,3 +1,8 @@
+## Report creation
+In ~/gate/bin the script `./sendReport.sh` can be executed to create a report in pdf. It is the only way right to force the creation of the merged .mat of Efficieny, Mean charge, etc. until we add a new one. And this merged datafiles accumulate the previous 10 days (this can be modified in the script).
+
+The data processing will only take place if there are enough .hld files in queue. We can then *push* the creation of .mat files just by executing 
+
 ## Plateau calibration
 It has to be performed at every location (and maybe several times a year or at the beginning of a measure campaign) since it depends on temperature, pressure, etc.
 
