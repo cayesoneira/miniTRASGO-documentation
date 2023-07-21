@@ -6,7 +6,8 @@ The data processing will only take place if there are enough .hld files in queue
 ## Plateau calibration
 It has to be performed at every location (and maybe several times a year or at the beginning of a measure campaign) since it depends on temperature, pressure, etc.
 
-
+## TDC
+They need calibration:they give three numbers, they need three strings.
 
 ## FEE Charge calibration curve
 Get the transformation from AU in time-charge to the proper units of charge (Coulombs).
