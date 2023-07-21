@@ -52,7 +52,7 @@ The mingo has a web board that allows the direct communication with the TRB even
     - Input: analog signal from the detector strips (MMCX connectors).
     - Output: square signal. Length proportional to charge deposited (32 pin connector).
     - Developed for the HADES detector (GSI).
-- TRB3sc board [Documentation](http://jspc29.x-matter.uni-frankfurt.de/docu/trb3docu.pdf):
+- TRB3sc board [(Documentation)](http://jspc29.x-matter.uni-frankfurt.de/docu/trb3docu.pdf):
     - Trigger selection and signal digitization.
     - 32 TDCs
     - Inputs: square LVDS (low voltage differential signal) from the DABC boards (2x 16 pin connectors).
