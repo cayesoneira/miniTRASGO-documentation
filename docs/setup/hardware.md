@@ -61,6 +61,7 @@ General diagram: see fig. 5.
     - Software controlled.
     - Positive and negative voltages.
     - I2C protocol.
+    - It has a low power consumption since it has only the basic control electronics and it gets the voltage from a fundamentally different way than usual sources (ask Alberto for more info).
 - Enviroment sensors:
     - One inside the electronics box, one outside.
     - Temperature, atmospheric pressure, humidity.
