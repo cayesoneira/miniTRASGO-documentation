@@ -4,3 +4,7 @@ The FEE can used to calculate the charge. Lets remember that the charge is relat
 - Integrated and derivated: the signal is integrated and at the same time it is derivated so it would be overall thicker than the original RPC signal but it is thick enough to allow the TOT to apply. The speed of the derivation (which lowers the signal) determines why it is called fast electronics; the faster the better, even though there is a handicap in lowering the signal to fast: THE same charge avalanche inside the RPC could be measured twice as two different, independent signals, and this is because the ions take microseconds to totally get to the strip: they are much slower than the electronics. This has to be solved if we want faster electronics, but some filters could work.
 
 From the TOT and knowing the method we apply to modify the signal we can eventually derive a value for the charge in AU. If we can get the *charge calibration curve* we can transform from charge in AU (arbitrary units) to those of proper charge: Coulombs. **And the transformation is non-linear, so it will slightly change the spectrum shape**.
+
+
+## Gas flow:
+**The camping blue valve, when closed, still lets some gas flow.** Also take into account that once closed the gas still has 6 bars of pressure, so it will take around 15-20 min to fully stop flowing. Then the detector will just work with the gas it has, but with no pressure, so it will start to leak and loose the purity of the R134A.
