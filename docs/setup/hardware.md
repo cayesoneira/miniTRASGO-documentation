@@ -86,3 +86,7 @@ _Figure 4_
 _Figure 5_
 
 ---
+
+- Also important: mobile phones can actually interfere with miniTRASGO.
+
+TRB only sends the information when its buffer is full. When the rate is very high this is not even noticeable, but when it is very low it could be that the buffer could take some seconds to be full: this will be relevant when setting the times, since the hlds will have times that are not very reliable. This can be seen in the DABC execution window (in the tmux), where the rate will be 0 for seconds, then suddenly get a slightly higer rate.
