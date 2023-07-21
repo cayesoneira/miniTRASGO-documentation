@@ -16,5 +16,5 @@
 
 ## Gas flow and HV
 
-There's a python script at `/home/rpcuser/pythonScripts/checkFlow.py` that checks the gas flow every hour, and if it reaches a certain lower threshold (currently set at 100), if turns off the HV.
+There's a python script at `/home/rpcuser/pythonScripts/checkFlow.py` that checks the gas flow every hour, and if it reaches a certain lower threshold (currently set at 100), if turns off the HV. WE HAVE TO ADD IT TO THE ALARM MATLAB SCRIPT SO IT SENDS AN EMAIL WHEN IT STOPS THE HV, ELSE WE WILL JUST SEE THE HV TURNED OFF AND WE WILL NOT NOW WHY.
 
