@@ -53,3 +53,8 @@ In the 2.DABC window, we do `cd ~/trbsoft/userscripts/trb` and execute `./startR
 Now the data is collected into binary `.hld` files, saved at `/media/externalDisk/hlds/`.
 
 Press `CTRL + C` to stop the run.
+
+## Data usage and control
+To check the number of events of a `.hld` file the line `daq_anal <.hld file>` can be executed; then it can just be stopped. This is mostly useful to know if a file is empty, because in that case the .hlds are ignored.
+
+Also check that the .hlds have enough events, because in other case some .mats can be loaded, such as Rate.mat, but for example Eff.mat will not.
