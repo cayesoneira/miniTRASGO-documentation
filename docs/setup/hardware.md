@@ -1,5 +1,6 @@
-![Strip numbers, front, back, etc.](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/b681842b-a5f3-4657-87b6-a3c864cac312)
+## Frame of reference and Nomenclature
 
+![mingo](https://github.com/cayesoneira/miniTRASGO-documentation/assets/21690353/f9801f0b-73a7-4bb7-98f7-d1948eaadc27)
 
 ## Geometry of the telescope
 
