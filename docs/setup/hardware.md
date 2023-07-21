@@ -1,3 +1,6 @@
+![Strip numbers, front, back, etc.](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/b681842b-a5f3-4657-87b6-a3c864cac312)
+
+
 ## Geometry of the telescope
 
 - 4 parallel square RPC detectors (fig. 1):
