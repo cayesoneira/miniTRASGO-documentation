@@ -13,6 +13,7 @@
 - In summary: back and forth charge and time correlation diagrams are useful to see if everything is fine.
 - The information from the self-trigger: the automatic measure of all the events from the detector. Counts per layer and strip and side. We should see how to turn this into an interesting graphic representation.
 - The current is the most important parameter to know if a RPC has a serious problem.
+- 1-2% of Streamers is tolerable. We should not be over 10%.
 
 ## Gas flow and HV
 
