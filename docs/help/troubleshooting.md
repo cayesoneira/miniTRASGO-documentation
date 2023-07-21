@@ -17,3 +17,6 @@ This could be explained in several ways:
 You will have to list all the processes, in particular those that use the `dabc_exe` with `ps -ef | grep dabc` (if you `cat startRun.sh` it will say `dabc_exe EventBuilder_TRB399.xml`), and then
 
     kill -9 <id_1> <id_2> <...>
+
+## The system is not measuring
+That is most probably an error on the `./startDAQ` execution. Just run it again.
