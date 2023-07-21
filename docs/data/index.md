@@ -52,7 +52,9 @@ In MATLAB, the date format you provided, 739077.6528125, represents a serial dat
 
 
 ## Detector Control System
-The slow control is controlling the flow-meters, the environment meter (bus 0 for the outside information, laboratory conditions, and bus 1 for that inside the DAQ, inside the box) and the HV through an I2C Hub that is connected to the minGO PC. This Hub allows the communication with the computer, back and forth. Actually the programs that retrieve data from these devices are called from the `crontab` periodically, so its name and path can be seen there. The operation is quite similar to that of the TRB: the devices drop a data file that is read and stored as a `.log` text file in `home/rpcuser/logs`. Every device has its own LookUp Table (LUT).
+The slow control is controlling the flow-meters, the environment meter (bus 0 for the outside information, laboratory conditions, and bus 1 for that inside the DAQ, inside the box) and the HV through an I2C Hub that is connected to the minGO PC. This Hub allows the communication with the computer, back and forth. Actually the programs that retrieve data from these devices are called from the `crontab` periodically, so its name and path can be seen there. The operation is quite similar to that of the TRB: the devices drop a data file that is read and stored as a `.log` text file in `home/rpcuser/logs`. A `.log` for that day is updated each time it is loaded; when the day passed that file is moved to the `done` directory where all the previous ones are stored.
+
+Every device has its own LookUp Table (LUT).
 
 ### The logs
 (...)
