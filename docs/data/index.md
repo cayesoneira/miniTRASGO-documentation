@@ -57,7 +57,7 @@ The slow control is controlling the flow-meters, the environment meter (bus 0 fo
 ### The logs
 (...)
 
-There is a `.log`, though, that does not come from the DCS but from the TRB: the Rate, whose information is configurated in a LUT.
+There is a `.log`, though, that does not come from the DCS but from the TRB: the Rate, whose information is configurated in a LUT. It is obtained thanks to `trbnetd`, a daemon.
 
 
 ## The LookUp Tables
