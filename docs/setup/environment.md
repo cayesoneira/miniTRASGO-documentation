@@ -1,3 +1,5 @@
+The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
+
 ## Terminal sessions
 
 The TRASGO team decided to build a `tmux` multiplexer to develop a series of operations in a multiple, permanently open shell. Everything could be done through the main terminal session, but one at a time, and our computer has to be connected. This way we separate visually diffetent executions, as well as we can execute in the background the measuring operations. Any activity on the multiplexer will be shown in real time to every user conncected to a `tmux` session. We can access it through the terminal inside the miniTRASGO computer. First we see the `tmux` sessions avaliable:
