@@ -16,6 +16,8 @@ So the line to enter any session is:
   
 To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside these sessions and how to operate with it.
 
+CHANGE THIS
+
 ---
 
 |   Session 0  |   Session 1   |
