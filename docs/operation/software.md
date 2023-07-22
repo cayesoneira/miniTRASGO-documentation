@@ -44,6 +44,8 @@ This starts the data adquisition system, but does not save any content into file
 ## Threshold information
 On the `Thresholds` window there is a script called `./setThresholds.sh` which puts the threshold to -40 mV; the `./startDAQ` includes this line, but we have to be sure that nothing changes the thresholds automatically, since we are usually executing `./startRun.sh` and not `./startDAQ`, which is started once per system reboot.
 
+To check the value of the thresholds, just tyoe: ?????
+
 ## Trigger Control
 
 To choose the trigger we want the system to consider we can go to the Central Trigger System, which is a web-based control center that can be accessed through `192.168.3.216:1234`.
