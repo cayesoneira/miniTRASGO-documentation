@@ -1,4 +1,4 @@
-`## Data retrieval
+## Data retrieval
 
 Raw data is located at `/media/externalDisk/hlds/`
 
