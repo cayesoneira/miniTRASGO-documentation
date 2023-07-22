@@ -1,4 +1,4 @@
-## Data retrieval
+`## Data retrieval
 
 Raw data is located at `/media/externalDisk/hlds/`
 
@@ -59,7 +59,7 @@ Every device has its own LookUp Table (LUT).
 ### The logs
 (...)
 
-There is a `.log`, though, that does not come from the DCS but from the TRB: the Rate, whose information is configurated in a LUT. It is obtained thanks to `trbnetd`, a daemon.
+There is a `.log`, though, that does not come from the DCS but from the TRB: the Rate, whose information is configurated in a python script `~/gate/python/log_CTSrates_multiProcessing.py` instead of in a LookUp Table in the `~/gate/system/lookUpTables`. It is obtained thanks to `trbnetd`, a daemon.
 
 
 ## The LookUp Tables
