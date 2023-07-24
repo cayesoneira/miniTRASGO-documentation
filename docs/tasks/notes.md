@@ -61,6 +61,8 @@ We will add here some notes that will eventually be included in a proper page of
 -  ![image](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/04e027f9-11ed-45c9-aaa5-54365ed7d67b)
 -  Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
 
+
+
 ## From Hans' presentation
 Algunos observables directos accesibles a un detector tipo MINGO:
 - Tasa de rayos cósmicos aislados
