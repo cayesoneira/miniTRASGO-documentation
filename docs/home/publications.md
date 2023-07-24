@@ -1,6 +1,6 @@
-## Publications about TRASGO or TRASGO-related.
+## Publications about TRASGO or TRASGO-related
 
-### Published papers
+### Published Papers
 
 1. Saraiva, J.P., Blanco, A., Garzón, J.A., Garcìa-Castro, D., Lopes, L., & Villasante-Marcos, V. (2020). **The TRISTAN detector—2018–2019 latitude survey of cosmic rays.** Journal of Instrumentation (JINST), 15, C09024.
 
@@ -18,13 +18,12 @@
 
 8. Blanco, A., Belver, D., Cabanelas, P., Díaz, J., Fonte, P., Garzon, J.A., Gil, A., Gonzalez-Díaz, D., Koenig, W., Kolb, B., Lopes, L., Palka, M., Pereira, A., Traxler, M., & Zumbruch, P. (2012). **RPC HADES-TOF wall cosmic ray test performance.** Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment (Nucl. Instrum. Methods Phys. Res. Sect. A-Accel. Spectrom. Dect. Assoc. Equip.), 661, S114 (2012), 2012-01-01.
 
-### Phd thesis
+### Ph.D. Theses
+
 1. García Castro, Damián. **Cosmic Rays' study with a TRASGO detector.** PhD thesis, Universidade de Santiago de Compostela. Escola de Doutoramento Internacional (EDIUS), Universidade de Santiago de Compostela. Programa de Doutoramento en Física Nuclear e de Partículas, 2022. Embargo: 2023-07-22. URI: [http://hdl.handle.net/10347/29288](http://hdl.handle.net/10347/29288). Rights: Attribution-NonCommercial-NoDerivatives 4.0 Internacional. Advisor: Juan Pablo Garzón Heydt.
 
 2. Fontenla Barba, Yanis. **Studies on the composition and energy of secondary cosmic rays with the Tragaldabas detector.** PhD thesis, Universidade de Santiago de Compostela. Centro Internacional de Estudos de Doutoramento e Avanzados (CIEDUS), Universidade de Santiago de Compostela. Escola de Doutoramento Internacional en Ciencias e Tecnoloxía, Universidade de Santiago de Compostela. Programa de Doutoramento en Física Nuclear e de Partículas, 2019. URI: [http://hdl.handle.net/10347/20655](http://hdl.handle.net/10347/20655). Rights: Attribution-NonCommercial-NoDerivatives 4.0 Internacional. Advisors: Juan Antonio Garzón Heydt, Pablo Cabanelas Eiras.
 
 3. Ajoor, Marwan Yassir Kamel. **Study of Cosmic Ray data with the TRISTAN and TRAGALDABAS detection systems.** PhD thesis, Universidade de Santiago de Compostela. Escola de Doutoramento Internacional (EDIUS), Universidade de Santiago de Compostela. Programa de Doutoramento en Física Nuclear e de Partículas, 2022. URI: [http://hdl.handle.net/10347/28824](http://hdl.handle.net/10347/28824). Rights: Attribution-NonCommercial-NoDerivatives 4.0 Internacional. Advisors: Juan Pablo Garzón Heydt, Pablo Cabanelas Eiras.
 
-4. Cuenca García, José Javier. **Simulation and reconstruction algorithms for a commercial muon tomography system.** PhD thesis, Universidade de Santiago de Compostela. Centro Internacional de Estudos de Doutoramento e Avanzados (CIEDUS), Universidade de Santiago de Compostela. Escola de Doutoramento Internacional en Ciencias e Tecnoloxía, Universidade de Santiago de Compostela. Programa de Doutoramento en Física Nuclear e de Partículas, 2018. Advisors: Juan Antonio Garzón Heydt, Pablo Cabanelas Eiras.
-
-5. Kornakov Van, Georgy. **New advances and developments on the RPC TOF wall of the HADES experiment at GSI.** PhD thesis, Universidade de Santiago de Compostela, 2013.
+4. Cuenca García, José Javier. **Simulation and reconstruction algorithms for a commercial muon tomography system.** PhD thesis, Universidade de Santiago de Compostela. Centro Internacional de Estudos de Doutoramento e Avanzados (CIEDUS), Universidade de Santiago de Compostela. Escola de Doutoramento Internacional en Ciencias e Tecnoloxía, Universidade de Santiago de Compostela.
