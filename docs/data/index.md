@@ -1,3 +1,8 @@
+
+![TRAGALDABAS data samples](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/365ad880-82b1-4c87-a38c-f331cca41d0f)
+
+
+
 ## Data retrieval
 
 Raw data is located at `/media/externalDisk/hlds/`
