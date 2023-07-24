@@ -41,8 +41,7 @@ theme:
     - navigation.expand
     - navigation.top
     - navigation.indexes
-  logo: assets/logo.png
-  favicon: images/favicon.png
+  logo: assets/trasgo_logo.png
   palette: 
 
     # Palette toggle for light mode
