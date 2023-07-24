@@ -1,5 +1,5 @@
 # Welcome to the miniTRASGO documentation
-Here everything necessary to use the miniTRASGO (miniature TRASGO: TRAck reconStructinG bOx), aka minGO, is found.
+Here everything necessary to use the miniTRASGO (miniature TRASGO: TRAck reconStructinG bOx), aka minGO, and its data is found.
 
 ## Logbook
 We encourage the miniTRASGO user to keep track of any activity they develop for any of the miniTRASGOs in the following logbook made in Google Sheets: [miniTRASGO logbook](https://docs.google.com/spreadsheets/d/12n6DfQ32oXcRKpHaolfAoO3pKVVrrWzk7TBOIZ0N6ro/edit?usp=sharing).
