@@ -1,8 +1,6 @@
-The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
-
 ## Terminal sessions
 
-The TRASGO team decided to build a `tmux` multiplexer to develop a series of operations in a multiple, permanently open shell. Everything could be done through the main terminal session, but one at a time, and our computer has to be connected. This way we separate visually diffetent executions, as well as we can execute in the background the measuring operations. Any activity on the multiplexer will be shown in real time to every user conncected to a `tmux` session. We can access it through the terminal inside the miniTRASGO computer. First we see the `tmux` sessions avaliable:
+The TRASGO team decided to build a `tmux` multiplexer to develop a series of operations in a multiple, permanently open shell. Everything could be done through the main terminal session, but one at a time, and our computer has to be connected. This way we separate visually diffetent executions, as well as we can execute in the background the measuring operations. Any activity on the multiplexer will be shown in real time to every user connected to a `tmux` session. We can access it through the terminal inside the miniTRASGO computer. First we see the `tmux` sessions avaliable:
 
     tmux ls
 It will give as output:
@@ -14,58 +12,25 @@ So the line to enter any session is:
 
     tmux attach -t <session name: 0, 1 or webserver>
   
-To leave the `tmux` session just press `CTRL + B, D`. Let's see what is inside these sessions and how to operate with it.
-
-CHANGE THIS
-
----
-
-|   Session 0  |   Session 1   |
-|:------------:|:-------------:|
-|   0:Main01   |    0:Main01   |
-| 1:DAQControl |     1:Dcs     |
-| 2:DABC       | 2:CopyFiles   |
-| 3:Thresholds | 3:Unpacker01  |
-| 4:HLDs       | 4:Unpacker02  |
-| 5:Control    | 5:Unpacker03  |
-| 6:Var        | 6:Ana         |
-|              | 7:Report      |
-|              | 8:Control     |
-|              | 9:LogCritical |
-|              | 10:LogNet     |
-|              | 11:LogSystem  |
-|              | 12:Var        |
-
----
+To leave the `tmux` session just press `CTRL + B, D`.
 
 ## Folder structure
 
-- bin  boot  dev  etc  mnt  opt  proc  resize.log  root  run  sbin  snap  srv  sys  tmp  usr  var lib  lost+found
-- /media
-    - /externalDisk
-        - /hlds: here the trigger data files are stored in a format that is non readeable by python, octave, etc.
-- /home: everything interesting is inside this directory except the trigger data files.
-    - /rpcuser
-        - /bin
-            - /HV
-                - hv: used to control the High Voltage.
-            - /flowmeter
-                - GetData
-                - GetFlow
-        - /gate
-            - /system
-                - /devices: includes all the data coming from every component of the mingo system.
-        - /hlds (empty???)
-        - /linux
-        - /logs: includes all the info taken by the high voltage and *climate* sensors. **What is that rates_ file??**. All the current data is here.
-            -/done: all the full log files will be put here. **Is this info then stores in the /gate/system/devices???**.
-        - /mnt: EMPTY
-        - /perl5: ???
-        - /pythonscripts: only has one .py and I do not think it is very important.
-        - /trbsoft: Trigger and Readout Board software
-     
-## Look Up Tables (LUTs)
-Every device involved in the system has a LUT designated in order to explain how to read the files and also some alarm configured. For example the LookUpTableTRB.m has an alarm system which is the following:
+PUT HERE THE INFORMATION SEEN WITH ALBERTO ABOUT THE DATASTREAM
+
+- `/home/rpcuser/logs`: all the data stored relative to environment and rates (a special log). It stores that of the day, then gets it into the `done/` directory.
+- `/media/externalDisk/gate`: all the tools and data but the logs.
+    - `bin`: scripts to copy files and do some stuff (it is used by other bigger routines).
+    - `python`: the special `.log`, since it defines a LUT in python that creates a log file communicating with the TRB (the rest of the logs come from the I2C hub).
+    - `software`: it has all the relevant information on the first processing of data (all the calculations from Alberto Blanco's Matlab/Octave scripts). It also has scripts to run alarms, initialize the DAQ, the DCS (Data Control System), etc.
+    - `system`: it has all the lookUp tables in `lookUpTables` (but the rate one), and also the most important directory: `devices`. We will review its content in the dataflow section.
+
+
+## Some relevant tools
+
+### Look Up Tables (LUTs)
+Stored in `/media/externalDisk/gate/system/lookUpTables`. Every device involved in the system has a LUT designated in order to explain how to read the files and also some alarm configured. For example the LookUpTableTRB.m has an alarm system which is the following:
 
     {<0 or 1 if it is on/off>, <minimum value to triger the alarm>, <how many times has to occur to trigger the alarm>}
     {<0 or 1 if it is on/off>, <maximum value to triger the alarm>, <how many times has to occur to trigger the alarm>}
+It is a pending objective to write them all in excel format.
