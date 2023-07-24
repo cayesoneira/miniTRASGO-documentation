@@ -7,11 +7,11 @@ nav:
         - Motivation: home/motivation.md
         - About: home/about.md
         - Publications: home/publications.md
-    - Detector Setup:
-        - setup/index.md
-        - Calibration: setup/calibration.md
-        - Hardware and Design: setup/hardware.md
-        - Software Environment: setup/environment.md
+    - Detector design:
+        - design/index.md
+        - Calibration: design/calibration.md
+        - Hardware and Design: design/hardware.md
+        - Software Environment: design/environment.md
     - Operation:
         - operation/index.md
         - Software: operation/software.md
