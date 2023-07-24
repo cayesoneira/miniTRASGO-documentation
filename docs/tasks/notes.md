@@ -1,5 +1,4 @@
 # Just a page to use as a notebook
-
 We will add here some notes that will eventually be included in a proper page of the documentation. This is essentialy a jumble of concepts and ideas.
 
 
