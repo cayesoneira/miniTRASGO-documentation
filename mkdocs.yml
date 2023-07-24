@@ -9,17 +9,17 @@ nav:
         - Publications: home/publications.md
     - Detector design:
         - design/index.md
-        - Calibration: design/calibration.md
         - Hardware and Design: design/hardware.md
         - Software Environment: design/environment.md
     - Operation:
         - operation/index.md
-        - Software: operation/software.md
+        - Calibration: operation/calibration.md
+        - Putting to measure: operation/software.md
         - Monitoring: operation/monitoring.md
-        - Variables and diagram: operation/variables.md
     - Data and Analysis:
         - data/index.md
         - Raw Data: data/rawData.md
+        - Variables and diagram: data/variables.md
         - Unpacker: data/unpacker.md
         - Pre-Analysis: data/pre-analysis.md
         - Dataflow: data/dataflow.md
