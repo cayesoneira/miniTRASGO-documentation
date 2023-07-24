@@ -1,3 +1,7 @@
+## General considerations
+
+- WHEN IN TRANSPORT REMOVE THE GAS PIPES IN ORDER TO GIVE IT A WAY OUT: changing preassure (e.g. Coimbra-Madrid) can change the shape of the RPCs if they are closed. Actually a spark chamber broke in the past because of this.
+
 To connect to minitrasgo:
 
     Host mingo01
