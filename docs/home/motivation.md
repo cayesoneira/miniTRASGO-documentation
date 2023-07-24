@@ -1,16 +1,2 @@
 # Motivation
-The fundamental question is the following: is it possible to measure high energy cosmic rays with only a few detectors?
-
-The TRASGO features:
-
-- High granularity tracking detector (granularity is measured in particles(event)
-- Sensitive to bundles of particles
-- Muon / Electron software PID
-- Rough estimation of the electron energy distribution
-
-TRAGALDABAS and TRISTAN are big, expensive, require a lot of power... but miniTRASGO is cheaper and smaller, and could allow developing new software and techniques that could be exported to the bigger TRASGOs.
-
-![TRAGALDABAS data samples](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/365ad880-82b1-4c87-a38c-f331cca41d0f)
-
-
-
+The fundamental question is the following: **is it possible to measure high energy cosmic rays with a few small detectors?** This is the originlaity and motivation behind the miniTRASGO, but also behind the TRASGO project. Cosmic ray observatories are usually spread in a wide area (Pierre Auger, HAWK...) trying to get the most total view of the cosmic ray shower, collecting it totally. It would be interesting if we could measure only a very narrow region of the shower and extrapolate from that data the characteristics of the complete cascade, as well as the energy of the incoming primary cosmic ray.
