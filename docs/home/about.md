@@ -17,6 +17,12 @@ The original concept of the TRASGO (TRAcK reconStructing bOx) is the use of RPC 
 ### The TRASGO family
 The concept of the telescope has been used to create a variety of telescopes that we call *the TRASGO family*. These cosmic ray detectors gave information in solar and Earth weather, as well as some insights on fundamental physics. It is essential, though, to set the path for future work, which requires getting more colleagues involved to take profit on these new datastream, developing new analysis techniques, but also new ideas to test more physical problems.
 
+The TRASGO features:
+- High granularity and tracking (granularity is measured in particles/event)
+- Sensitive to bundles of particles
+- Muon / Electron software PID
+- Rough estimation of the electron energy distribution
+
 ![The TRASGO family](https://github.com/cayesoneira/miniTRASGO-documentation/assets/93153458/f24e7f9d-92d5-482a-b9f9-9be5c0600c5f)
 
 To these jumble of detectors the miniTRASGO is added: a compact, cheap, version of the original concept that can be used to get results in both new physics and instrumental methods. The techniques developed for miniTRASGO could also be extrapolated to the rest of the TRASGO family.
