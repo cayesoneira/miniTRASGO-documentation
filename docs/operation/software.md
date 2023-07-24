@@ -1,3 +1,7 @@
+Data Acquisition Backbone Core (DABC) is a software framework designed for distributed data acquisition. It serves as a backbone for managing and processing data from various experiments. One of its key features is its plug-in mechanisms, allowing it to be easily extended to support different data formats and experiments. In the context of test set-ups using the trb3 frontend readout, specific plug-ins have been developed to receive and merge HADES trbnet data packets through UDP connections. This enables efficient handling and combination of data from different sources within the HADES experiment.
+
+Also important: mobile phones can actually interfere with miniTRASGO.
+
 ## SSH Connection:
 Connecting to the miniTRASGO PC is mandatory to execute some key operations such as starting the voltage, the DAQ (Data Adquisition System), etc. To do so, while in the same network, a ssh connection can be establisehd from the terminal:
     
