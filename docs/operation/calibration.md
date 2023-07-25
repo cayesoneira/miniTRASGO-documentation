@@ -1,7 +1,7 @@
 # Calibrating
 There are some calibration processes that must be done when using the mingo for the first time in a certain location, but also every once in a while, specially before observation campaigns.
 
-## Time to position on the strip
+## Time to position on the strip calibration
 To get the position we need the velocity of propagation of the signal through the strip (and most likely on its edges, but since the strips are small it should be negligible), but also to correct for a time offset created by the different length of the wires that come from the strip to the FEE. There are several ways to calibrate this effect for each strip:
 - **Quantile method**. The middle position between the quantiles .5 and .95 is taken as calibration offset.
 - **Regression method**. The intercept of the linear regression between the times in the front and in the back of the strip is taken as offset.
