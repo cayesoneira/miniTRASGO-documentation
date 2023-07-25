@@ -7,6 +7,7 @@ nav:
         - Motivation: home/motivation.md
         - About: home/about.md
         - Publications: home/publications.md
+        - Contact: home/contact.md
     - Detector design:
         - design/index.md
         - Hardware and Design: design/hardware.md
