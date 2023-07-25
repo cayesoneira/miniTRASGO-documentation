@@ -1,7 +1,7 @@
 # Just a page to use as a notebook
 We will add here some notes that will eventually be included in a proper page of the documentation. This is essentialy a jumble of concepts and ideas.
 
-
+The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
 
 ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/1238032e-7baf-4882-804f-d5526154e978)
 
@@ -90,3 +90,6 @@ mayores superficies
 ## Attention
 - The gas emptying test is not giving the expected results (July 22nd, 2023): the gas is leaking much more than expected, skyrockeing the rate in selftrigger. This indicates that we should revisit the method of polipropilene fusion, since the assembly is not as tight as believed. If the detector is not so tight we might not be able to reach the 1 cc/min gas flux nominal rate of performance, and maybe we will need more (and therefore it will be more expensive).
 - The current is not a good monitoring indicator in minGO (even though it usually is in RPCs): it is around 150 nA, when in Hades was in the order of 4 nA: this means that this current is not indicator of avalanches, but some residual currents flowing continously through the detector. Also, we can conclude this from the fact that the change in voltage does not change at all the current measured. Also it does not change when the gas starts to lower (in the gas emptying test).
+
+
+
