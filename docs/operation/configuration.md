@@ -12,3 +12,22 @@ In the directory `home/rpcuser/userscripts/trb399sc/` there are some essential s
 
     minitrasgo.fis.ucm.es:1234/cts/cts.htm
 There we can select the standard trigger we want to use, that will be saved as Trigger Type (TT) 1. The other triggers, that can be automatically selected from a script, are in the directory `home/rpcuser/userscripts/trb399sc/trigger`: those are called when automatically performing through the `crontab` the self trigger (which is considering a hit in any layer a trigger and it is stored with the category TT 2).
+
+## High Voltage control
+At any window, execute `home/rpcuser/bin/HV/hv` with the following arguments:
+
+- `-b <bus>` : Bus number
+- `-I <Ilim>` : Current limiter (μA)
+- `-V <Vset>`: High voltage value (kV)
+- `-on` : Turn HV ON
+- `-off` : Turn HV OFF
+
+Examples:
+
+    ./hv -b 0 -I 1 -V 5.5 -on 
+<!-- tsk -->
+    ./hv -b 0 -off
+
+To see the information on HV and intensity in real time just type:
+
+    watch -n 1 ./hv -b 0
