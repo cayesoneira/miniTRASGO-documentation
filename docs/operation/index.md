@@ -14,7 +14,7 @@ Connecting to the miniTRASGO PC is mandatory to execute some key operations such
         HostName minitrasgo.fis.ucm.es
         User rpcuser
     
-It will ask for a password, which is currently private (ask us) because it is the same for many devices at LIP Coimbra. Once we write it we will be inside the miniTRASGO computer. To leave the `ssh` connection just write `exit`.
+It will ask for a password, which is currently private (ask us). Once we write it we will be inside the miniTRASGO computer. To leave the `ssh` connection just write `exit`.
 
 
 ### Desktop connection
