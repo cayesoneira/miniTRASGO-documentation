@@ -14,6 +14,8 @@ So the line to enter any session is:
   
 To leave the `tmux` session just press `CTRL + B, D`.
 
+> To erase a `tmux` window just type `exit`, to create one just press `CTRL+B, C`. You can rename them with `tmux rename-window <new name>`.
+
 ## Folder structure
 
 - `/home/rpcuser/logs`: all the data stored relative to environment and rates (a special log). It stores that of the day, then gets it into the `done/` directory.
