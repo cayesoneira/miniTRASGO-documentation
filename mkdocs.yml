@@ -13,8 +13,9 @@ nav:
         - Software Environment: design/environment.md
     - Operation:
         - operation/index.md
+        - Start after reboot: operation/configuration.md
         - Calibration: operation/calibration.md
-        - Putting to measure: operation/software.md
+        - Getting the measure: operation/software.md
         - Monitoring: operation/monitoring.md
     - Data and Analysis:
         - data/index.md
