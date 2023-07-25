@@ -84,9 +84,9 @@ _Figure 5_
 
 ---
 
-## Non-electronical components: the gas flow
+## Non-electronical components: gas flow
 The gas flow is monitored only by the flow at the end, but not at the beginning.
 
-**The camping blue valve, when closed, still lets some gas flow.** Also take into account that once closed the gas still has 6 bars of pressure, so it will take around 15-20 min to fully stop flowing. Then the detector will just work with the gas it has, but with no pressure, so it will start to leak and loose the purity of the R134A.
+**The camping blue valve, when "closed", still lets some gas flow.** Also take into account that once closed the gas still has 6 bars of pressure, so it will take around 15-20 min to fully stop flowing. Then the detector will just work with the gas it has, but with no pressure, so it will start to leak and loose the purity of the R134A.
 
 When transporting the equipment, it is essential to remove the gas pipes to allow for a safe release of pressure, especially during changes in pressure due to transportation (e.g., Coimbra-Madrid route). Failure to do so could potentially alter the shape of the RPCs (Resistive Plate Chambers) if they remain closed under varying pressure conditions. In the past, a spark chamber was damaged because this precaution was not taken.
