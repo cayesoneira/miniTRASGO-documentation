@@ -1,25 +1,14 @@
+# Measuring
+
 Data Acquisition Backbone Core (DABC) is a software framework designed for distributed data acquisition. It serves as a backbone for managing and processing data from various experiments. One of its key features is its plug-in mechanisms, allowing it to be easily extended to support different data formats and experiments. In the context of test set-ups using the trb3 frontend readout, specific plug-ins have been developed to receive and merge HADES trbnet data packets through UDP connections. This enables efficient handling and combination of data from different sources within the HADES experiment.
 
 Also important: mobile phones can actually interfere with miniTRASGO.
 
-## SSH Connection:
-Connecting to the miniTRASGO PC is mandatory to execute some key operations such as starting the voltage, the DAQ (Data Adquisition System), etc. To do so, while in the same network, a ssh connection can be establisehd from the terminal:
-    
-    ssh -X rpcuser@192.168.3.216
-    
-It will ask for a password, which is currently private (ask us) because it is the same for many devices at LIP Coimbra. Once we write it we will be inside the miniTRASGO computer. To leave the ssh connection just write `exit`.
 
-While connected, we can enter one of the terminal sessions currently running with
 
-    tmux attach -t 0
-
-> To erase a `tmux` window just type `exit`, to create one just press `CTRL+B, C`. You can rename them with `tmux rename-window <new name>`.
-
-## Desktop connection
-To connect to the desktop of the miniTRASGO computer just write in your local terminal the following: `vncviewer 192.168.3.216:0`; the IP has to be replaced by the one the device has assigned. Then just write the password that it is the same for every mingo related stuff.
 
 ## High Voltage control
-At any window, do `cd ~/bin/HV` and execute `./hv` with the following arguments:
+At any window, execute `home/rpcuser/bin/HV/hv` with the following arguments:
 
 - `-b <bus>` : Bus number
 - `-I <Ilim>` : Current limiter (μA)
