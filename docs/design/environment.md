@@ -18,6 +18,7 @@ To leave the `tmux` session just press `CTRL + B, D`.
 
 ## Folder structure
 
+- `/home/rpcuser/bin`: includes software to set on, off and restart (named *powercycle*) the FEE and TRB and also the software to communicate with the HV and the gas flow meters.
 - `/home/rpcuser/logs`: all the data stored relative to environment and rates (a special log). It stores that of the day, then gets it into the `done/` directory.
 - `/media/externalDisk/gate`: all the tools and data but the logs.
     - `bin`: scripts to copy files and do some stuff (it is used by other bigger routines).
@@ -40,4 +41,4 @@ Stored in `/media/externalDisk/gate/system/lookUpTables`. Every device involved 
 It is a pending objective to write them all in excel format.
 
 ### Data Acquisition Backbone Core (DABC)
-Data Acquisition Backbone Core (DABC) is a software framework designed for distributed data acquisition. It serves as a backbone for managing and processing data from various experiments. One of its key features is its plug-in mechanisms, allowing it to be easily extended to support different data formats and experiments. In the context of test set-ups using the trb3 frontend readout, specific plug-ins have been developed to receive and merge HADES trbnet data packets through UDP connections. This enables efficient handling and combination of data from different sources within the HADES experiment. It is adapted for its use in miniTRASGO.
+The DABC is a software framework designed for distributed data acquisition. It serves as a backbone for managing and processing data from various experiments. One of its key features is its plug-in mechanisms, allowing it to be easily extended to support different data formats and experiments. In the context of test set-ups using the trb3 frontend readout, specific plug-ins have been developed to receive and merge HADES trbnet data packets through UDP connections. This enables efficient handling and combination of data from different sources within the HADES experiment. It is adapted for its use in miniTRASGO.
