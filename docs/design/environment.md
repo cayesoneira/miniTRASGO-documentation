@@ -28,6 +28,10 @@ To leave the `tmux` session just press `CTRL + B, D`.
 
 ## Some relevant tools
 
+### crontab
+
+`crontab -e` opens a crontab window where you can schedule certain operations on the linux terminal. To translate to the date and hour format used by crontab just enter [Contrab guru](https://crontab.guru/). Some processes can also be set to execute in the moment of reboot.
+
 ### Look Up Tables (LUTs)
 Stored in `/media/externalDisk/gate/system/lookUpTables`. Every device involved in the system has a LUT designated in order to explain how to read the files and also some alarm configured. For example the LookUpTableTRB.m has an alarm system which is the following:
 
