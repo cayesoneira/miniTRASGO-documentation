@@ -1,17 +1,22 @@
-## General considerations
+# General considerations
+This page section includes the different steps in the operation of minGO. In first place, the configuration, where how to turn on all minGO devices is explained. In second place, the calibration. In third place, the actual measure, when taken into account the calibrating procedure, and how to retrieve data. In forth place, the monitoring, and how to ensure it is measuring properly.
 
-- WHEN IN TRANSPORT REMOVE THE GAS PIPES IN ORDER TO GIVE IT A WAY OUT: changing preassure (e.g. Coimbra-Madrid) can change the shape of the RPCs if they are closed. Actually a spark chamber broke in the past because of this.
+Before all of that, a small explanation on how to connect to the device from an external computer.
 
-To connect to minitrasgo:
+## Connecting to miniTRASGO
+
+### SSH Connection
+
+Connecting to the miniTRASGO PC is mandatory to execute some key operations such as starting the voltage, the DAQ (Data Adquisition System), etc. To do so, while in the same network, a ssh connection can be establisehd from the terminal. To connect to minitrasgo, using the VPN of the Universidad Complutense de Madrid, just add to the config file (or use in the `ssh`) the following information:
 
     Host mingo01
         HostName minitrasgo.fis.ucm.es
         User rpcuser
+    
+It will ask for a password, which is currently private (ask us) because it is the same for many devices at LIP Coimbra. Once we write it we will be inside the miniTRASGO computer. To leave the `ssh` connection just write `exit`.
 
 
-The miniTRASGO sends a daily report in pdf format with several figures of interest. It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from the **last day**, as it was set on July 18th, 2023: it sends a report at 8:30, but with the information from 23:30 to 00:00 of the following day.
+### Desktop connection
+To connect to the desktop of the miniTRASGO computer just write in your local terminal the following, where the IP has to be replaced by the direction the device has assigned. Then just write the password that it is the same for every mingo related stuff.
 
-
-> `crontab -e` opens a crontab window where you can schedule certain operations on the linux terminal. To translate to the date and hour format used by crontab just enter [Contrab guru](https://crontab.guru/).
-
-Here you can find a [TRB book](http://jspc29.x-matter.uni-frankfurt.de/docu/trb3docu.pdf)
+    vncviewer 192.168.3.216:0
