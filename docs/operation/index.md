@@ -4,6 +4,7 @@ This page section includes the different steps in the operation of minGO. In fir
 Before all of that, a small explanation on how to connect to the device from an external computer.
 
 ## Connecting to miniTRASGO
+There are two ways to connect to miniTRASGO: pure terminal connection or showing its Desktop in an external computer.
 
 ### SSH Connection
 
