@@ -20,4 +20,4 @@ It will ask for a password, which is currently private (ask us) because it is th
 ### Desktop connection
 To connect to the desktop of the miniTRASGO computer just write in your local terminal the following, where the IP has to be replaced by the direction the device has assigned. Then just write the password that it is the same for every mingo related stuff.
 
-    vncviewer 192.168.3.216:0
+    vncviewer minitrasgo.fis.ucm.es:0
