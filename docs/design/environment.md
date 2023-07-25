@@ -16,8 +16,6 @@ To leave the `tmux` session just press `CTRL + B, D`.
 
 ## Folder structure
 
-PUT HERE THE INFORMATION SEEN WITH ALBERTO ABOUT THE DATASTREAM
-
 - `/home/rpcuser/logs`: all the data stored relative to environment and rates (a special log). It stores that of the day, then gets it into the `done/` directory.
 - `/media/externalDisk/gate`: all the tools and data but the logs.
     - `bin`: scripts to copy files and do some stuff (it is used by other bigger routines).
