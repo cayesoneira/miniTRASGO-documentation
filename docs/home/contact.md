@@ -1,3 +1,5 @@
+# How to contact us
+
 ### Idea, organization and assembly:
 - Juan Antonio Garzón (USC, Santiago): juanantonio.garzon@usc.es
 - Alberto Blanco (LIP, Coimbra): alberto@coimbra.lip.pt
