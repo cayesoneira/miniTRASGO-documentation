@@ -19,11 +19,10 @@ nav:
         - Monitoring: operation/monitoring.md
     - Data and Analysis:
         - data/index.md
-        - Raw Data: data/rawData.md
+        - Dataflow: data/dataflow.md
         - Variables and diagram: data/variables.md
         - Unpacker: data/unpacker.md
         - Pre-Analysis: data/pre-analysis.md
-        - Dataflow: data/dataflow.md
     - Tasks, objectives and notes:
         - tasks/index.md
 #        - Tasks: tasks/todo.md
