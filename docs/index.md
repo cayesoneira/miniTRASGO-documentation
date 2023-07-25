@@ -22,5 +22,5 @@ Write in the terminal the following:
 ### DAQ Control
 Just paste in your **browser** the following address to connect locally to the miniTRASGO control webserver via ethernet:
 
-    ministrasgo.fis.ucm.es:1234
+    minitrasgo.fis.ucm.es:1234
 
