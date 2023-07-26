@@ -1,6 +1,11 @@
 # Objectives
 Currently our objectives could be divided into realistic and more optimistic ones. We also include a more free, dreamy category.
 
+
+- Los detectores pueden disponerse fácilmente en red, sincronizados, para cubrir
+mayores superficies
+
+
 ## Realistic
 
 ### *Extract a cosmic ray rate*
@@ -12,14 +17,15 @@ Using the tracking information we can reconstruct a directional rate.
  
 ## Optimistic
 
-### General stuff
-Day-night modulation
+### Cosmic ray physics
+- **Particle identification and spectroscopy**. Calculate the incident energy with the multiplicity of the event using a lead plate above. The coupling function gives the probability that a certain bundle of particles was produced by a primary CR of a certain mass and energy. This means that detecting a bundle of two muos will mean that there is a certain probability that the primary CR was a proton with >10 GeV. This would mean, in other words, **that we could detect primary CR from the ground**.
+- Variations in the total cosmic ray background rate.
 
-### Cosmic ray particle identification and spectroscopy
-Calculate the incident energy with the multiplicity of the event using a lead plate above. The coupling function gives the probability that a certain bundle of particles was produced by a primary CR of a certain mass and energy. This means that detecting a bundle of two muos will mean that there is a certain probability that the primary CR was a proton with >10 GeV. This would mean, in other words, **that we could detect primary CR from the ground**.
+### Earth physics
+- **Earth weather**. Temperature of the strastosphere as a function of the muon rate at ground level.
+- Day-night modulation-
+- Variations in the earth's magnetic field.
 
-### Earth weather
-Temperature of the strastosphere as a function of the muon rate at ground level.
 
 ### Solar weather
 Detect Bartle's rotation (27 day long Sun cycle); AMS in ISS did detect this. It would be a success to do it from the ground.
