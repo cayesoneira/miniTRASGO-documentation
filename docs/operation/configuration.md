@@ -33,3 +33,6 @@ Examples:
 To see the information on HV and intensity in real time just type:
 
     watch -n 1 ./hv -b 0
+
+## TRB
+To check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
