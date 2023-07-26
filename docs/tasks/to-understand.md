@@ -8,3 +8,4 @@
 - What is the time resolution inside a strip?
 - How to measure the velocity of the signal inside a strip?
 - How long does it take for a muon to cross miniTRASGO?
+- What does `.hld` stand for?
