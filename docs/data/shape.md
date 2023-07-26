@@ -19,4 +19,4 @@ From this raw data there are some analysis we can perform: some of them are simp
 
 ### Advanced analysis
 - Tracking
-- ...
+- Multiplicity of the events (just how many particles are involved in each opened time window)
