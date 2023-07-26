@@ -18,5 +18,7 @@ From this raw data there are some analysis we can perform: some of them are simp
 - **Rate**. The total rate of events given a certain trigger.
 
 ### Advanced analysis
-- Tracking
-- Multiplicity of the events (just how many particles are involved in each opened time window)
+- Tracking: angular distribution of cosmic ray incident direction.
+- Multiplicity of the events (just how many particles are involved in each opened time window).
+- Particle discrimination or identification.
+- Time distribution between events, particles, bundles...
