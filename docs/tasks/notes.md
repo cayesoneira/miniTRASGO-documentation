@@ -1,4 +1,4 @@
-## Journal
+# Journal
 - July 22nd, 2023. The gas emptying test is not giving the expected results: the gas is leaking much more than expected, skyrocketing the rate in selftrigger. This indicates that we should revisit the method of polipropilene fusion, since the assembly is not as tight as believed. If the detector is not so tight we might not be able to reach the 1 cc/min gas flux nominal rate of performance, and maybe we will need more (and therefore it will be more expensive).
 
 # Jumble of notes
