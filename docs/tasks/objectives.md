@@ -4,7 +4,7 @@ Currently our objectives could be divided into realistic and more optimistic one
 ## Realistic
 
 ### *Extract a cosmic ray rate*
-We could try to see a Forbush Decrease (a rapid decrease in the observed galactic cosmic ray intensity following a coronal mass ejection (CME). It occurs due to the magnetic field of the plasma solar wind sweeping some of the galactic cosmic rays away from Earth. Wikipedia. Last FD was in June 2015. Solar maximum is estimated in 2025, so it is a good time to check for this stuff). Just like that. We would need to clean the data, etc. and also to account for changes in temperature and so on.
+A clean, general, non-directional rate of cosmic rays.
 
 ### *Extract a directional cosmic ray rate*.
 Using the tracking information we can reconstruct a directional rate.
