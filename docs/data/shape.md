@@ -1,4 +1,4 @@
-# Data extracted by mingo
+# Data shape
 In this page we explain, based on mingo design, what is the data about, from raw to some options for the possible derived variables.
 
 ## Raw data
