@@ -52,7 +52,7 @@ If there are areas that in different observations often display a lot of streame
 1-2% of Streamers is tolerable. We should not be over 10%. Areas of common streamer
 
 ### From the log files
-- The pure information on rates,specially in self trigger, can also give very direct clues on the different performance of the strips. And so we could see if there is an error in any of them.
+- The pure information on rates, specially in self trigger, can also give very direct clues on the different performance of the strips. And so we could see if there is an error in any of them.
 - The HV variation shold be checked to see if there is some error.
 - Environment values (temperature, pressure, hunidity) have to be in a reasonable interval.
 - The current is usually the most important parameter to know if a RPC has a serious problem. Not in miniTRASGO, since the residual currents are actually pretty high.
