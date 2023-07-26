@@ -14,12 +14,12 @@ Some of the analysis and monitoring software: [miniTRASGO software repository](h
 
 ## Device connection
 
-### To the mingo01 computer through an `ssh` connection
+### `ssh` connection
 Write in the terminal the following:
 
     ssh rpcuser@minitrasgo.fis.ucm.es
 
-### DAQ Control
+### Web based DAQ Control
 Just paste in your **browser** the following address to connect locally to the miniTRASGO control webserver via ethernet:
 
     minitrasgo.fis.ucm.es:1234
