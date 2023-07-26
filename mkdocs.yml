@@ -27,7 +27,7 @@ nav:
 #        - Tasks: tasks/todo.md
         - Objectives: tasks/objectives.md
         - To understand: tasks/to-understand.md
-        - Notes: tasks/notes.md
+        - Notebook: tasks/notes.md
     - Troubleshooting:
         - help/index.md
 theme:
