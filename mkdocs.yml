@@ -10,7 +10,7 @@ nav:
         - Contact: home/contact.md
     - Detector design:
         - design/index.md
-        - Hardware and Design: design/hardware.md
+        - Hardware: design/hardware.md
         - Software Environment: design/environment.md
     - Operation:
         - operation/index.md
