@@ -16,7 +16,7 @@ nav:
         - operation/index.md
         - Starting the mingo: operation/configuration.md
         - Calibration: operation/calibration.md
-        - Getting the measure: operation/software.md
+        - Getting the measure: operation/measuring.md
         - Monitoring: operation/monitoring.md
     - Data and Analysis:
         - data/index.md
