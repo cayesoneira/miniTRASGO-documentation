@@ -20,3 +20,6 @@ You will have to list all the processes, in particular those that use the `dabc_
 
 ## The system is not measuring
 That is most probably an error on the `./startDAQ` execution. Just run it again.
+
+## The TRB has been changed, so the PC does not find it
+If the TRB changes an IP has to be given to it from mingo PC, which is a process *that a computer engineer would do in 30 ms*. We will not take notes on how to do it since it only has to be done in very special ocasions.
