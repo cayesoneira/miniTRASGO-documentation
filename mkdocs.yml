@@ -28,10 +28,8 @@ nav:
         - Objectives: tasks/objectives.md
         - To understand: tasks/to-understand.md
         - Notes: tasks/notes.md
-    - Help:
-        - help/index.md
-        - Troubleshooting: help/troubleshooting.md
-        - FAQ: help/frequent.md
+    - Troubleshooting:
+        - help/troubleshooting.md
 theme:
   name: material
   features:
