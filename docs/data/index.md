@@ -1,5 +1,5 @@
 # Data: general considerations
-Im this section we discuss the fundamental parts of the preliminary data treatment until it is ready to extract and analyze.
+In this section we discuss the fundamental parts of the preliminary data treatment until it is ready to extract and analyze.
 
 ## Data retrieval
 
