@@ -20,8 +20,8 @@ nav:
         - Monitoring: operation/monitoring.md
     - Data and Analysis:
         - data/index.md
+        - Datashape: data/shape.md
         - Dataflow: data/dataflow.md
-        - Variables and diagram: data/variables.md
         - Unpacker: data/unpacker.md
     - Tasks, objectives and notes:
         - tasks/index.md
