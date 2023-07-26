@@ -23,7 +23,6 @@ nav:
         - Dataflow: data/dataflow.md
         - Variables and diagram: data/variables.md
         - Unpacker: data/unpacker.md
-        - Pre-Analysis: data/pre-analysis.md
     - Tasks, objectives and notes:
         - tasks/index.md
 #        - Tasks: tasks/todo.md
