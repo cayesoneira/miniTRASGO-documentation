@@ -1,4 +1,4 @@
-# Just a page to use as a notebook
+# Jumble of notes
 We will add here some notes that will eventually be included in a proper page of the documentation. This is essentialy a jumble of concepts and ideas.
 
 - The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
