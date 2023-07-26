@@ -25,8 +25,8 @@ nav:
     - Tasks, objectives and notes:
         - tasks/index.md
 #        - Tasks: tasks/todo.md
-        - To understand: tasks/to-understand.md
         - Objectives: tasks/objectives.md
+        - To understand: tasks/to-understand.md
         - Notes: tasks/notes.md
     - Help:
         - help/index.md
