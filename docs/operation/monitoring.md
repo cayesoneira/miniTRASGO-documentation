@@ -5,14 +5,19 @@ The miniTRASGO sends a daily report in pdf format with several figures of intere
 
 The data processing will only take place if there are enough .hld files in queue. We can then *push* the creation of .mat files just by executing the `./startRun` several times.
 
-The script `./createReport.sh` prepares the pdf creating the merged `.mat` of Efficiency, Mean charge... until we add a new one that are stored in `~/gate/system/devices/RPC0<n>/data/dcData/data` (where `<n>` is the RPC number, 1 to 4). And this merged datafiles accumulate the previous 4 days. This can be modified in
+The script `./createReport.sh` prepares the pdf creating the merged `.mat` of Efficiency, Mean charge... until we add a new one that are stored in `~/gate/system/devices/RPC0<n>/data/dcData/data` (where `<n>` is the RPC number, 1 to 4).
+
+Execute the script in
+
+    /home/rpcuser/gate/bin/createReport.sh
+In the Eff.mat files, the efficiency is calculated using one data point per .hld file. Therefore, it is possible that certain .hld files may contain data from two different High Voltages (HVs) if the DAQ (Data Acquisition) was not halted when changing the HV settings. While it may not be possible to prevent some .hld files from being smaller due to errors or early run termination, we can ensure that each .hld file is associated with only one HV value for accurate calculations.
+
+And this merged datafiles accumulate the previous 4 days. This can be modified in
 
     software/conf/loadconfiguration.m
 Modifying the variable
 
     time2Show   = <number_of_days>*24;
-
-    /home/rpcuser/gate/bin/createReport.sh
 The script `./sendReport.sh` sends it.
 
     /home/rpcuser/gate/bin/sendReport.sh
