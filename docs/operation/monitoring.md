@@ -1,11 +1,20 @@
 # Monitoring
 
 ## Daily report
-The miniTRASGO sends a daily report in pdf format with several figures of interest. It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from previous days (how previous?) processed into maps of counts and charge, as well as mean values of charge and streamers.
+The miniTRASGO sends a daily report in pdf format with several figures of interest (it is in the crontab). It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from previous days (how previous?) processed into maps of counts and charge, as well as mean values of charge and streamers.
 
-The data processing will only take place if there are enough .hld files in queue. We can then *push* the creation of .mat files just by executing the `./startRun` several times. The script `./createReport.sh` prepares the pdf. The script `./sendReport.sh` sends it. It is the only way right to force the creation of the merged .mat of Efficieny, Mean charge, etc. until we add a new one. And this merged datafiles accumulate the previous 10 days (this can be modified in the script).
+The data processing will only take place if there are enough .hld files in queue. We can then *push* the creation of .mat files just by executing the `./startRun` several times.
+
+The script `./createReport.sh` prepares the pdf creating the merged `.mat` of Efficiency, Mean charge... until we add a new one that are stored in `~/gate/system/devices/RPC0<n>/data/dcData/data` (where `<n>` is the RPC number, 1 to 4). And this merged datafiles accumulate the previous 4 days. This can be modified in
+
+    software/conf/loadconfiguration.m
+Modifying the variable
+
+    time2Show   = <number_of_days>*24;
 
     /home/rpcuser/gate/bin/createReport.sh
+The script `./sendReport.sh` sends it.
+
     /home/rpcuser/gate/bin/sendReport.sh
 
 ## Visual hardware monitoring
