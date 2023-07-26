@@ -17,10 +17,11 @@ This analysis has to be performed at every telescope location (and maybe several
 
 There is a script, `home/rpcuser/bin/HV/plateau.sh`, that performs the plateau analysis by scanning in a given range of HV values. This range can be modified, as well as its finesse and duration.
 
-## Time-to-Digital Converters (TDC)
-They need calibration: they give three numbers, they need three strings. Alberto Blanco knows more about this, but it requires more subtle work. Some very recognizable errors arise when this calibration is not well performed.
+## TRB
+To check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
 
-Also, to check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
+### Time-to-Digital Converters (TDC)
+They need calibration: they give three numbers, they need three strings. Alberto Blanco knows more about this, but it requires more subtle work. Some very recognizable errors arise when this calibration is not well performed.
 
 ## Charge calibration
 The calibration in charge has to be performed for two different components.
