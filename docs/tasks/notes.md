@@ -55,32 +55,6 @@ We will add here some notes that will eventually be included in a proper page of
 -  Everyday (July 18th, 2023 for the first time) the ST is running 300 s.
 
 
-
-## From Hans' presentation
-Algunos observables directos accesibles a un detector tipo MINGO:
-- Tasa de rayos cósmicos aislados
-- Tasas de distintas multiplicidades de rayos cósmicos
-- Tasa de muones
-- Tasa de electrones
-- Espectro de energía de electrones
-- Distribución angular de incidencia de muones
-- Distribución angular de incidencia de electrones
-- Distribución del tiempo de llegada entre rayos cósmicos
-- Distribución de tiempos entre eventos
-- Distribución de tiempos en grupos de partículas
-
-
-Observables indirectos:
-- Variaciones en la actividad solar y clima espacial
-- Variaciones atmosféricas
-- Variaciones en el campo magnético terrestre
-- Variaciones en la tasa total del fondo de rayos cósmicos
-
-
-Otras posibilidades:
-- Los detectores pueden disponerse fácilmente en red, sincronizados, para cubrir
-mayores superficies
-
 ## Attention
 - The gas emptying test is not giving the expected results (July 22nd, 2023): the gas is leaking much more than expected, skyrockeing the rate in selftrigger. This indicates that we should revisit the method of polipropilene fusion, since the assembly is not as tight as believed. If the detector is not so tight we might not be able to reach the 1 cc/min gas flux nominal rate of performance, and maybe we will need more (and therefore it will be more expensive).
 - The current is not a good monitoring indicator in minGO (even though it usually is in RPCs): it is around 150 nA, when in Hades was in the order of 4 nA: this means that this current is not indicator of avalanches, but some residual currents flowing continously through the detector. Also, we can conclude this from the fact that the change in voltage does not change at all the current measured. Also it does not change when the gas starts to lower (in the gas emptying test).
