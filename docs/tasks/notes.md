@@ -1,17 +1,11 @@
 # Just a page to use as a notebook
 We will add here some notes that will eventually be included in a proper page of the documentation. This is essentialy a jumble of concepts and ideas.
 
-The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
-
-![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/1238032e-7baf-4882-804f-d5526154e978)
-
+- The rates can be accepted or edges. Accepted means that it triggered and the detector had enough time to get the charge signal. Edges means that the trigger was done so close to other signal that the system, even if it can count as a rate since it is detected by the TRB, cannot actually store the information of time and charge. Hence, it will only contribute to the rate, but not to the other analysis.
 - To calculate the necessary HV one needs to know the temperature of the room. From it, the density of the gas can be calculated and these RPC detectors must work in a certain regime of the Townsend ratio: E/rho (electric field applied/gas density), in particular around 240 Towsends for miniTRASGO. This means that the HV is chosen accordingly with the density of the gas, and hence with the temperature. We have several options, anyway, we could also (and it is the option we are choosing) set the voltage constant around the plateau and later correcting the rates by the efficiency, which is a better option than changing everytime the potential: an error could be devastating for the detector and also we are changing constantly the regime of the electric field, which needs to stabilize inside the RPC.
 - The multiplication in charge in RPCs is usually 10^6.
 - One if the fundamental parameters of RPC detectors is the Townsend first parameter: alpha = 1/lambda.
 - There are two types of RPCs: those with 1-2 mm gaps, that are useful only for triggering and have around 1 ns of time resolution (minGO is one of those) and those called timing RPCs that have 50 ps of time resolution: these are more complicated because require gas mixing and very high electric fields, which make them delicate detectors.
-
-
-
 - Simulating the building is interesting (as we saw in the TRASGO meeting at USC).
 - The space-charge effect is something to take into account: 20 yr ago they ignored it and calculations were essentially wrong. This effect is just the electric field produced inside the gap by the ions themselves and its change on the nominal electric field introduced between the plates.
 - Some muon tomography could be done with mingo, since it has 4 planes. Study this.
@@ -92,4 +86,5 @@ mayores superficies
 - The current is not a good monitoring indicator in minGO (even though it usually is in RPCs): it is around 150 nA, when in Hades was in the order of 4 nA: this means that this current is not indicator of avalanches, but some residual currents flowing continously through the detector. Also, we can conclude this from the fact that the change in voltage does not change at all the current measured. Also it does not change when the gas starts to lower (in the gas emptying test).
 
 
+![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/1238032e-7baf-4882-804f-d5526154e978)
 
