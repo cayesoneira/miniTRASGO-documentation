@@ -20,6 +20,8 @@ There is a script, `home/rpcuser/bin/HV/plateau.sh`, that performs the plateau a
 ## Time-to-Digital Converters (TDC)
 They need calibration: they give three numbers, they need three strings. Alberto Blanco knows more about this, but it requires more subtle work. Some very recognizable errors arise when this calibration is not well performed.
 
+Also, to check the window in time of the trigger we can go to the TDC, write c001 in the search and then, once the page is loaded, see the c801 row. It says how wide the window is before and after the trigger: we could even shorten the window before, since we know that usually all the events are in -150 ns (we can see that in the Q1_F, etc files).
+
 ## Charge calibration
 The calibration in charge has to be performed for two different components.
 
