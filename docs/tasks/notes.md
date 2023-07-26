@@ -12,8 +12,6 @@ We will add here some notes that will eventually be included in a proper page of
 - Anger camera concept: a potential future branch for the TRASGO project.
 - PCA: Principal Component Analysis. Statistical technique based on taking a set of correlated data and determining new, uncorrelated, variables.
 - If the luminosity is high then the charge can be prop to the energy, but maybe at that range the mingo is blind (it saturates).
-- The showers: ![image](https://github.com/cayesoneira/miniTRASGO/assets/93153458/a801a4f0-d95d-4898-8f6f-9655292cbbe9)
-
 
 ## Attention
 - The gas emptying test is not giving the expected results (July 22nd, 2023): the gas is leaking much more than expected, skyrocketing the rate in selftrigger. This indicates that we should revisit the method of polipropilene fusion, since the assembly is not as tight as believed. If the detector is not so tight we might not be able to reach the 1 cc/min gas flux nominal rate of performance, and maybe we will need more (and therefore it will be more expensive).
