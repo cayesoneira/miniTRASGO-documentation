@@ -3,10 +3,10 @@ Currently our objectives could be divided into realistic and more optimistic one
 
 ## Realistic
 
-### *Extract a cosmic ray rate*
+### Extract a cosmic ray rate
 A clean, general, non-directional rate of cosmic rays.
 
-### *Extract a directional cosmic ray rate*.
+### Extract a directional cosmic ray rate
 Using the tracking information we can reconstruct a directional rate.
 
  
