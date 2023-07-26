@@ -12,7 +12,7 @@ The repository from which the webpage is built: [miniTRASGO documentation reposi
 ### Software repository
 Some of the analysis and monitoring software: [miniTRASGO software repository](https://github.com/cayesoneira/miniTRASGO-analysis/tree/main).
 
-## Device connection
+## Device communication
 
 ### `ssh` connection
 Write in the terminal the following:
