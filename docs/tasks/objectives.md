@@ -1,11 +1,6 @@
 # Objectives
 Currently our objectives could be divided into realistic and more optimistic ones. We also include a more free, dreamy category.
 
-
-- Los detectores pueden disponerse fácilmente en red, sincronizados, para cubrir
-mayores superficies
-
-
 ## Realistic
 
 ### *Extract a cosmic ray rate*
@@ -31,6 +26,9 @@ Using the tracking information we can reconstruct a directional rate.
 Detect Bartle's rotation (27 day long Sun cycle); AMS in ISS did detect this. It would be a success to do it from the ground.
 
 ## Ramble
+
+### Modularity
+Detectors can easily be networked, synchronized, to cover larger surfaces.
 
 ### High altitude analysis
 There could be a miniTRASGO in the cargo container that the IFIC is going to use for HENSA in Sierra Nevada, since they have some space there.
