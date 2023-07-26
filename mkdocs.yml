@@ -29,7 +29,7 @@ nav:
         - To understand: tasks/to-understand.md
         - Notes: tasks/notes.md
     - Troubleshooting:
-        - help/troubleshooting.md
+        - help/index.md
 theme:
   name: material
   features:
