@@ -16,6 +16,8 @@ This starts the data adquisition system, but does not save any time and width in
 There we can select the standard trigger we want to use, that will be saved as Trigger Type (TT) 1. The other triggers, that can be automatically selected from a script, are in the directory `home/rpcuser/userscripts/trb399sc/trigger`: those are called when automatically performing through the `crontab` the self trigger (which is considering a hit in any layer a trigger and it is stored with the category TT 2).
 
 ## High Voltage control
+To calculate the necessary HV one needs to know the temperature of the room. From it, the density of the gas can be calculated and these RPC detectors must work in a certain regime of the Townsend ratio: E/rho (electric field applied/gas density), in particular around 240 Towsends for miniTRASGO. This means that the HV is chosen accordingly with the density of the gas, and hence with the temperature. We have several options, anyway, we could also (and it is the option we are choosing) set the voltage constant around the plateau and later correcting the rates by the efficiency, which is a better option than changing everytime the potential: an error could be devastating for the detector and also we are changing constantly the regime of the electric field, which needs to stabilize inside the RPC.
+
 At any window, execute `home/rpcuser/bin/HV/hv` with the following arguments:
 
 - `-b <bus>` : Bus number
