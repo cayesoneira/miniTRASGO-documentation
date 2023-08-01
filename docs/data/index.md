@@ -23,31 +23,31 @@ Every device has its own LookUp Table (LUT).
 
 Information about general variables involving temperature, pressure, humidity... obtained from the I2C hub. There is a `.log`, though, that does not come from the DCS but from the TRB: the Rate, whose information is configurated in a python script `~/gate/python/log_CTSrates_multiProcessing.py` instead of in a LookUp Table in the `~/gate/system/lookUpTables`. It is obtained thanks to `trbnetd`, a daemon.
 
-### sensors_bus0_YYYY-MM-DD.log
+### `sensors_bus0_YYYY-MM-DD.log`
 Environment information as measured by the external (outside the box) climate detector. The row format is as follows:
 
     <YYYY-MM-DD>T<HH:mm:ss>; nan nan nan nan <T in ºC> <HR in %> <P in mbar>
 <!-- tsk -->
     2023-07-21T23:45:03; nan nan nan nan 24.7 54.5 1007.8
-### sensors_bus1_YYYY-MM-DD.log
+### `sensors_bus1_YYYY-MM-DD.log`
 Environment information as measured by the internal (inside the box) climate detector. The format is as follows:
 
     <YYYY-MM-DD>T<HH:mm:ss>; nan nan nan nan <T in ºC> <HR in %> <P in mbar>
 <!-- tsk --> 
     2023-07-21T23:45:03; nan nan nan nan 24.7 54.5 1007.8
-### Flow0_YYYY-MM-DD.log
+### `Flow0_YYYY-MM-DD.log`
 Flow coming out of the four RPCs. The format is as follows, all the flux is in AU. The zeroes are considered, in the same order as they appear in the `.log`, in 492, 513, 501 and 518.
 
     <YYYY-MM-DD> <HH:mm:ss> <T1 flux> <T2 flux> <T3 flux> <T4 flux>
 <!-- tsk -->
     2023-08-01 13:35:04 805 802 860 667
-### hv0_YYYY-MM-DD.log
+### `hv0_YYYY-MM-DD.log`
 Intensities in micro A, voltages in kV unless other unit is specified.
 
     <YYYY-MM-DD>T<HH:mm:ss> <MAC addres (6 values)> <IHVp> <IHVn> <VHVn> <VHVp> <VHVs> <Vpwr in V> <Vset> <Ilim> <Vset in DAC> <Ilim in DAC> <Some info about IO (6 values)>
 <!-- tsk -->
     2023-08-01T13:30:03 80 1F 12 59 F5 21 0.066 0.070 5.202 5.202 0.000 1.284 5.202 1.006 5.200 1.000 1 1 0 0 1 1 1
-### rates_YYYY-MM-DD.log
+### `rates_YYYY-MM-DD.log`
 This essentially contains the information from the CTS web based system.
 
     <YYYY-MM-DD>T<HH:mm:ss> <Trigger asserted> <Trigger rising edges> <Trigger accepted> <Trigger multiplexer (TM) 0> <TM 1> <TM 2> <TM 3> <Coincidence Module (CM) 0> <CM 1> <CM 2> <CM 3>
