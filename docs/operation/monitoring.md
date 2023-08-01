@@ -1,7 +1,7 @@
 # Monitoring
 
 ## Daily report
-The miniTRASGO sends a daily report in pdf format with several figures of interest (it is in the crontab). It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from previous days (how previous?) processed into maps of counts and charge, as well as mean values of charge and streamers.
+The miniTRASGO sends a daily report in pdf format with several figures of interest (it is in the crontab). It includes the logs from months (temperature, humidity, pressure, rate...) and also the trigger data from previous days (currently 4 days) processed into maps of counts and charge, as well as mean values of charge and streamers.
 
 The data processing will only take place if there are enough .hld files in queue. We can then *push* the creation of .mat files just by executing the `./startRun` several times.
 
