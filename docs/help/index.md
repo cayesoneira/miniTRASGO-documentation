@@ -19,7 +19,11 @@ You will have to list all the processes, in particular those that use the `dabc_
     kill -9 <id_1> <id_2> <...>
 
 ## The system is not measuring
+This could be due to several reasons.
+### Error on DAQ
 That is most probably an error on the `./startDAQ` execution. Just run it again.
+### DAQ is on, but startRun does not acquire
+Check the PC firewall is disabled, else it would appear as if there where no events.
 
 ## The TRB has been changed, so the PC does not find it
 If the TRB changes an IP has to be given to it from mingo PC, which is a process *that a computer engineer would do in 30 ms*. We will not take notes on how to do it since it only has to be done in very special ocasions.
