@@ -2,6 +2,8 @@
 
 The `crontab` is configured to automatically execute the needed software when rebooting the system. It is possible, though, that some execution needs to be stopped and then relaunched, so it is interesting to know what are the especific required programs to work with minGO.
 
+Currently the miniTRASGO is operating in a room with controlled 21ºC.
+
 ## The DCS (Data Control System)
 The connection through the I2C protocol from the mingo PC to the hub containing the environment, HV and gas flow sensors is established thanks to the script with path: 
 
