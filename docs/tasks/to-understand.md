@@ -9,3 +9,5 @@
 - How to measure the velocity of the signal inside a strip?
 - How long does it take for a muon to cross miniTRASGO?
 - What does `.hld` stand for?
+- How to differentiate between a low energy electron and a lack of efficiency?
+- ¿What function can fit the charge spectra?
