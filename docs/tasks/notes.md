@@ -15,4 +15,7 @@ We will add here some notes that will eventually be included in a proper page of
 - Anger camera concept: a potential future branch for the TRASGO project.
 - PCA: Principal Component Analysis. Statistical technique based on taking a set of correlated data and determining new, uncorrelated, variables.
 - If the luminosity is high then the charge can be prop to the energy, but maybe at that range the mingo is blind (it saturates).
+- 1 muon per million comes from below the detector: it is due to neutrinos interaction from the other side of the Earth. Right now the detector has a time resolution that is in the limit to allow diferentiation between above and below: if we separated just the layers a bit then we could achieve the needed resolution.
+- Also, in the line of the note on the muons that come from below, it could be interesting, if we had time resolution (we do not) to discriminate events from noise with a time-of-flight window: a muon flying through the detector would not be too fast, too slow: it should be in the window created by the shortest (perpendicular) and the longest path (corner to corner of mingo).
+- Mid-energy electrons can scatter.
 
