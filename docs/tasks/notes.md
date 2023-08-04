@@ -1,4 +1,9 @@
 # Journal
+- August 4th, 2023. Alberto and Cayetano have a Zoom meeting to discuss the plans for the summer break.
+  - Agree on sending a scientillator from Coimbra to study miniTRASGO efficiency.
+  - Also comment that the *homemade* motherboard power supply works well in a system tested in Coimbra, so the mingo offspring is guaranteed.
+  - Also discuss efficiency software and some possibilities on measuring between two strips thanks to the shared charge, if that total charge is 1.
+  - Also comment that an eye must be set on the miniTRASGO hard drive, since in Tristan campaign the HD broke two times and in the mine detector, which has an SSHD such as mingo, once.
 - July 22nd, 2023. The gas emptying test is not giving the expected results: the gas is leaking much more than expected, skyrocketing the rate in selftrigger. This indicates that we should revisit the method of polipropilene fusion, since the assembly is not as tight as believed. If the detector is not so tight we might not be able to reach the 1 cc/min gas flux nominal rate of performance, and maybe we will need more (and therefore it will be more expensive).
 
 # Jumble of notes
