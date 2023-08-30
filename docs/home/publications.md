@@ -18,6 +18,22 @@
 
 8. Blanco, A., Belver, D., Cabanelas, P., Díaz, J., Fonte, P., Garzon, J.A., Gil, A., Gonzalez-Díaz, D., Koenig, W., Kolb, B., Lopes, L., Palka, M., Pereira, A., Traxler, M., & Zumbruch, P. (2012). **RPC HADES-TOF wall cosmic ray test performance.** Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment (Nucl. Instrum. Methods Phys. Res. Sect. A-Accel. Spectrom. Dect. Assoc. Equip.), 661, S114 (2012), 2012-01-01.
 
+9. D. Belver, P. Cabanelas, D. Domínguez, Juan A. Garzón, G. Kornakov, M.F. Morales,
+TRASGO: A proposal for a timing RPCs based detector for analyzing cosmic ray air showers,
+Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,
+Volume 661, Supplement 1,
+2012,
+Pages S163-S167,
+ISSN 0168-9002,
+https://doi.org/10.1016/j.nima.2010.09.173.
+(https://www.sciencedirect.com/science/article/pii/S0168900210022084)
+Keywords: Timing RPCs; Cosmic rays; Extended air showers; Tracking detectors
+
+10. https://rdcu.be/dkJB9
+García-Castro, D., Ajoor, M., Alvarez-Pol, H. et al. The TRASGO Project. Present Status and Results. Phys. Atom. Nuclei 84, 1070–1079 (2021). https://doi.org/10.1134/S1063778821130093
+
+
+---
 ### Ph.D. Theses
 
 1. García Castro, Damián. **Cosmic Rays' study with a TRASGO detector.** PhD thesis, Universidade de Santiago de Compostela. Escola de Doutoramento Internacional (EDIUS), Universidade de Santiago de Compostela. Programa de Doutoramento en Física Nuclear e de Partículas, 2022. Embargo: 2023-07-22. URI: [http://hdl.handle.net/10347/29288](http://hdl.handle.net/10347/29288). Rights: Attribution-NonCommercial-NoDerivatives 4.0 Internacional. Advisor: Juan Pablo Garzón Heydt.
