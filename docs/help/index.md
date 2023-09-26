@@ -17,6 +17,9 @@ This could be explained in several ways:
 You will have to list all the processes, in particular those that use the `dabc_exe` with `ps -ef | grep dabc` (if you `cat startRun.sh` it will say `dabc_exe EventBuilder_TRB399.xml`), and then
 
     kill -9 <id_1> <id_2> <...>
+This can be done in one line with the following code. The "[]" are used to ignore the grep process, that will be also listed when searching:
+
+    kill $(ps -ef | grep '[d]abc' | awk '{print $2}')
 
 ## The system is not measuring
 This could be due to several reasons.
